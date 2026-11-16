@@ -130,3 +130,13 @@ footer{text-align:center}
   h1{font-size:31px} .qt{font-size:19px}
   li{grid-template-columns:1fr;gap:2px}
 }
+
+/* Onde fica no Catecismo (janela) */
+.monde{text-align:left;margin:14px 0 4px;padding:12px 14px;border-radius:12px;background:rgba(127,127,127,.08)}
+.monde h3{margin:0 0 6px;font-size:13px;letter-spacing:.06em;text-transform:uppercase;opacity:.75}
+.monde ol{margin:0;padding:0;list-style:none}
+.monde li{padding:3px 0 3px 12px;border-left:2px solid currentColor;margin-left:2px;font-size:14.5px;line-height:1.35}
+.monde li+li{margin-top:2px}
+.monde li:nth-child(2){margin-left:10px}.monde li:nth-child(3){margin-left:18px}.monde li:nth-child(4){margin-left:26px}
+.monde li:nth-child(5){margin-left:34px}.monde li:nth-child(6){margin-left:42px}
+.monde small{opacity:.65;white-space:nowrap}

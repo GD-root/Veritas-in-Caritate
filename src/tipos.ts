@@ -56,6 +56,8 @@ export interface DivisaoCatecismo {
   titulo: string;
   de: number;
   ate: number;
+  /** parte que está no índice, mas cujo texto não veio no arquivo do Drive */
+  semTexto?: boolean;
 }
 export interface EstruturaCatecismo {
   fonte: string;

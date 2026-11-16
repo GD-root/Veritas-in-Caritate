@@ -1,0 +1,4189 @@
+{
+ "fonte": "Títulos e numeração do Catecismo da Igreja Católica (tradução portuguesa). Só os títulos, sem o texto.",
+ "gerado": "2026-11-16",
+ "divisoes": [
+  {
+   "nivel": "parte",
+   "titulo": "Prólogo",
+   "de": 1,
+   "ate": 25
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. A vida do homem – conhecer e amar a Deus",
+   "de": 1,
+   "ate": 3
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. Transmitir a fé – a catequese",
+   "de": 4,
+   "ate": 10
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. Finalidade e destinatários deste catecismo",
+   "de": 11,
+   "ate": 12
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "IV. Estrutura deste catecismo",
+   "de": 13,
+   "ate": 17
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "V. Indicações práticas para o uso deste catecismo",
+   "de": 18,
+   "ate": 22
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "VI. Adaptações necessárias",
+   "de": 23,
+   "ate": 25
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Acima de tudo — a caridade",
+   "de": 25,
+   "ate": 25
+  },
+  {
+   "nivel": "parte",
+   "titulo": "Primeira parte: A profissão da fé",
+   "de": 26,
+   "ate": 1065
+  },
+  {
+   "nivel": "secao",
+   "titulo": "Primeira secção: «Eu creio» – «nós cremos»",
+   "de": 26,
+   "ate": 184
+  },
+  {
+   "nivel": "capitulo",
+   "titulo": "Capítulo primeiro: O homem é «capaz» de Deus",
+   "de": 27,
+   "ate": 49
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. O desejo de Deus",
+   "de": 27,
+   "ate": 30
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. Os caminhos de acesso ao conhecimento de Deus",
+   "de": 31,
+   "ate": 35
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. O conhecimento de Deus segundo a Igreja",
+   "de": 36,
+   "ate": 38
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "IV. Como falar de Deus?",
+   "de": 39,
+   "ate": 49
+  },
+  {
+   "nivel": "capitulo",
+   "titulo": "Capítulo segundo: Deus ao encontro do homem",
+   "de": 50,
+   "ate": 141
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 1: A revelação de Deus",
+   "de": 51,
+   "ate": 73
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. Deus revela o seu «desígnio benevolente»",
+   "de": 51,
+   "ate": 53
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. As etapas da Revelação",
+   "de": 54,
+   "ate": 64
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Desde a origem, Deus dá-se a conhecer",
+   "de": 54,
+   "ate": 55
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A aliança com Noé",
+   "de": 56,
+   "ate": 58
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Deus elege Abraão",
+   "de": 59,
+   "ate": 61
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Deus forma o seu povo Israel",
+   "de": 62,
+   "ate": 64
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. Jesus Cristo – «Mediador e plenitude de toda a Revelação» (32) NO SEU VERBO, DEUS DISSE TUDO",
+   "de": 65,
+   "ate": 73
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Já não haverá outra revelação",
+   "de": 66,
+   "ate": 73
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 2: A transmissão da revelação divina",
+   "de": 74,
+   "ate": 100
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. A Tradição apostólica",
+   "de": 75,
+   "ate": 79
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A pregação apostólica ...",
+   "de": 76,
+   "ate": 76
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "... Continuada na sucessão apostólica",
+   "de": 77,
+   "ate": 79
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. A relação entre a Tradição e a Sagrada Escritura",
+   "de": 80,
+   "ate": 83
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Uma fonte comum...",
+   "de": 80,
+   "ate": 80
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "... Duas formas de transmissão distintas",
+   "de": 81,
+   "ate": 82
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Tradição apostólica e tradições eclesiais",
+   "de": 83,
+   "ate": 83
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. A interpretação da herança da fé",
+   "de": 84,
+   "ate": 100
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A herança da fé confiada à totalidade da Igreja",
+   "de": 84,
+   "ate": 84
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O magistério da Igreja",
+   "de": 85,
+   "ate": 87
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Os dogmas da fé",
+   "de": 88,
+   "ate": 90
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O sentido sobrenatural da fé",
+   "de": 91,
+   "ate": 93
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O crescimento na inteligência da fé",
+   "de": 94,
+   "ate": 100
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 3: A sagrada escritura",
+   "de": 101,
+   "ate": 141
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. Cristo – Palavra única da Escritura santa",
+   "de": 101,
+   "ate": 104
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. Inspiração e verdade da Sagrada Escritura",
+   "de": 105,
+   "ate": 108
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. O Espírito Santo, intérprete da Escritura",
+   "de": 109,
+   "ate": 119
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Os sentidos da escritura",
+   "de": 115,
+   "ate": 119
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "IV. O Cânon das Escrituras",
+   "de": 120,
+   "ate": 130
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O antigo testamento",
+   "de": 121,
+   "ate": 123
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O novo testamento",
+   "de": 124,
+   "ate": 127
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A unidade do antigo e do novo testamento",
+   "de": 128,
+   "ate": 130
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "V. A Sagrada Escritura na vida da Igreja",
+   "de": 131,
+   "ate": 141
+  },
+  {
+   "nivel": "capitulo",
+   "titulo": "Capítulo terceiro: A resposta do homem a Deus",
+   "de": 142,
+   "ate": 184
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 1: Eu creio",
+   "de": 144,
+   "ate": 165
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. A «obediência da fé»",
+   "de": 144,
+   "ate": 149
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Abraão – «o Pai de todos os crentes»",
+   "de": 145,
+   "ate": 147
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Maria – «feliz aquela que acreditou»",
+   "de": 148,
+   "ate": 149
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. «Eu sei em quem pus a minha fé» (2 Tm 1, 12)",
+   "de": 150,
+   "ate": 152
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Crer só em Deus",
+   "de": 150,
+   "ate": 150
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Crer em Jesus Cristo, Filho de Deus",
+   "de": 151,
+   "ate": 151
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Crer no Espírito Santo",
+   "de": 152,
+   "ate": 152
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. As características da fé",
+   "de": 153,
+   "ate": 165
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A fé é uma graça",
+   "de": 153,
+   "ate": 153
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A fé é um acto humano",
+   "de": 154,
+   "ate": 155
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A fé e a inteligência",
+   "de": 156,
+   "ate": 159
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A liberdade da fé",
+   "de": 160,
+   "ate": 160
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A necessidade da fé",
+   "de": 161,
+   "ate": 161
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A perseverança na fé",
+   "de": 162,
+   "ate": 162
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A fé – vida eterna iniciada",
+   "de": 163,
+   "ate": 165
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 2: Nós cremos",
+   "de": 166,
+   "ate": 184
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. «Olhai, Senhor, para a fé da vossa Igreja»",
+   "de": 168,
+   "ate": 169
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. A linguagem da fé",
+   "de": 170,
+   "ate": 171
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. Uma só fé",
+   "de": 172,
+   "ate": 184
+  },
+  {
+   "nivel": "secao",
+   "titulo": "Segunda secção: A profissão da fé cristã",
+   "de": 185,
+   "ate": 1065
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Credo",
+   "de": 185,
+   "ate": 197
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Símbolo dos",
+   "de": 185,
+   "ate": 197
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Credo de n",
+   "de": 185,
+   "ate": 197
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Os símbolos da fé",
+   "de": 185,
+   "ate": 197
+  },
+  {
+   "nivel": "capitulo",
+   "titulo": "Capítulo primeiro: Creio em Deus Pai",
+   "de": 198,
+   "ate": 421
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 1: «Creio em Deus Pai todo-poderoso criador do céu e da terra»",
+   "de": 199,
+   "ate": 421
+  },
+  {
+   "nivel": "paragrafo",
+   "titulo": "Parágrafo 1: Creio em Deus",
+   "de": 199,
+   "ate": 231
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. «Creio em um só Deus»",
+   "de": 200,
+   "ate": 202
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. Deus revela o seu nome",
+   "de": 203,
+   "ate": 213
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O Deus vivo",
+   "de": 205,
+   "ate": 205
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "«Eu sou aquele que sou»",
+   "de": 206,
+   "ate": 209
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "«Deus de ternura e de piedade»",
+   "de": 210,
+   "ate": 211
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Só Deus é",
+   "de": 212,
+   "ate": 213
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. Deus, «Aquele que é», é verdade e amor",
+   "de": 214,
+   "ate": 221
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Deus é a verdade",
+   "de": 215,
+   "ate": 217
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Deus é amor",
+   "de": 218,
+   "ate": 221
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "IV. Consequências da fé no Deus Único",
+   "de": 222,
+   "ate": 231
+  },
+  {
+   "nivel": "paragrafo",
+   "titulo": "Parágrafo 2: O Pai",
+   "de": 232,
+   "ate": 267
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. «Em nome do Pai e do Filho e do Espírito Santo»",
+   "de": 232,
+   "ate": 237
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. A revelação de Deus como Trindade",
+   "de": 238,
+   "ate": 248
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O Pai revelado pelo Filho",
+   "de": 238,
+   "ate": 242
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O Pai e o Filho revelados pelo Espírito",
+   "de": 243,
+   "ate": 248
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. A Santíssima Trindade na doutrina da fé",
+   "de": 249,
+   "ate": 256
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A formação do dogma trinitário",
+   "de": 249,
+   "ate": 252
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O dogma da santíssima Trindade",
+   "de": 253,
+   "ate": 256
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "IV. As obras divinas e as missões trinitárias",
+   "de": 257,
+   "ate": 267
+  },
+  {
+   "nivel": "paragrafo",
+   "titulo": "Parágrafo 3: O todo-poderoso",
+   "de": 268,
+   "ate": 278
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O mistério da aparente impotência de Deus",
+   "de": 272,
+   "ate": 278
+  },
+  {
+   "nivel": "paragrafo",
+   "titulo": "Parágrafo 4: O criador",
+   "de": 279,
+   "ate": 324
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. A catequese sobre a criação",
+   "de": 282,
+   "ate": 289
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. A criação – obra da Santíssima Trindade",
+   "de": 290,
+   "ate": 292
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. «O mundo foi criado para glória de Deus»",
+   "de": 293,
+   "ate": 295
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "IV. O mistério da criação",
+   "de": 296,
+   "ate": 301
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Deus cria com sabedoria e por amor",
+   "de": 296,
+   "ate": 298
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Deus cria «do nada»",
+   "de": 296,
+   "ate": 298
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Deus cria um mundo ordenado e bom",
+   "de": 299,
+   "ate": 299
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Deus transcende a criação e está presente nela",
+   "de": 300,
+   "ate": 300
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Deus sustenta e conduz a criação",
+   "de": 301,
+   "ate": 301
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "V. Deus realiza o seu desígnio: a divina Providência",
+   "de": 302,
+   "ate": 324
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A providência e as causas segundas",
+   "de": 306,
+   "ate": 308
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A providência e o escândalo do mal",
+   "de": 309,
+   "ate": 324
+  },
+  {
+   "nivel": "paragrafo",
+   "titulo": "Parágrafo 5: Céu e a terra",
+   "de": 325,
+   "ate": 354
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. Os anjos",
+   "de": 328,
+   "ate": 336
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A existência dos anjos uma verdade de fé",
+   "de": 328,
+   "ate": 328
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Quem são os anjos?",
+   "de": 329,
+   "ate": 330
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Cristo «com todos os seus anjos»",
+   "de": 331,
+   "ate": 333
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Os anjos na vida da Igreja",
+   "de": 334,
+   "ate": 336
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. O mundo visível",
+   "de": 337,
+   "ate": 354
+  },
+  {
+   "nivel": "paragrafo",
+   "titulo": "Parágrafo 6: O homem",
+   "de": 355,
+   "ate": 384
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. «A imagem de Deus»",
+   "de": 356,
+   "ate": 361
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. «Corpore et anima unus» – Unidade de corpo e alma",
+   "de": 362,
+   "ate": 368
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. «Homem e mulher os criou»",
+   "de": 369,
+   "ate": 373
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Igualdade e diferença queridas por Deus",
+   "de": 369,
+   "ate": 370
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "«Um para o outro» – «uma unidade a dois»",
+   "de": 371,
+   "ate": 373
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "IV. O homem no paraíso",
+   "de": 374,
+   "ate": 384
+  },
+  {
+   "nivel": "paragrafo",
+   "titulo": "Parágrafo 7: A queda",
+   "de": 385,
+   "ate": 421
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. «Onde abundou o pecado, sobreabundou a graça»",
+   "de": 386,
+   "ate": 390
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A realidade do pecado",
+   "de": 386,
+   "ate": 387
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O pecado original – uma verdade fundamental da fé",
+   "de": 388,
+   "ate": 389
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Para ler a narrativa da queda",
+   "de": 390,
+   "ate": 390
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. A queda dos anjos",
+   "de": 391,
+   "ate": 395
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. O pecado original",
+   "de": 396,
+   "ate": 409
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A prova da liberdade",
+   "de": 396,
+   "ate": 396
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O primeiro pecado do homem",
+   "de": 397,
+   "ate": 401
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Consequências do pecado de Adão para a humanidade",
+   "de": 402,
+   "ate": 406
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Um duro combate",
+   "de": 407,
+   "ate": 409
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "IV. «Vós não o abandonastes ao poder da morte»",
+   "de": 410,
+   "ate": 421
+  },
+  {
+   "nivel": "capitulo",
+   "titulo": "Capítulo segundo: Creio em Jesus Cristo, Filho único de Deus",
+   "de": 422,
+   "ate": 682
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A boa-nova: Deus enviou o seu Filho",
+   "de": 422,
+   "ate": 425
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "No coração da catequese: Cristo",
+   "de": 426,
+   "ate": 429
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 2: «E em Jesus Cristo, seu único Filho, nosso Senhor»",
+   "de": 430,
+   "ate": 455
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. Jesus",
+   "de": 430,
+   "ate": 435
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. Cristo",
+   "de": 436,
+   "ate": 440
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. Filho único de Deus",
+   "de": 441,
+   "ate": 445
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "IV. Senhor",
+   "de": 446,
+   "ate": 455
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 3: «Jesus Cristo foi concebido pelo poder do Espírito Santo e nasceu da Virgem Maria»",
+   "de": 456,
+   "ate": 570
+  },
+  {
+   "nivel": "paragrafo",
+   "titulo": "Parágrafo 1: O Filho de Deus fez-se homem",
+   "de": 456,
+   "ate": 483
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. Porque é que o Verbo encarnou?",
+   "de": 456,
+   "ate": 460
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. A Encarnação",
+   "de": 461,
+   "ate": 463
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. Verdadeiro Deus e verdadeiro homem",
+   "de": 464,
+   "ate": 469
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "IV. Como é que o Filho de Deus é homem",
+   "de": 470,
+   "ate": 483
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A alma e o conhecimento humano de Cristo",
+   "de": 471,
+   "ate": 474
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A vontade humana de Cristo",
+   "de": 475,
+   "ate": 475
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O verdadeiro corpo de Cristo",
+   "de": 476,
+   "ate": 477
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O coração do Verbo encarnado",
+   "de": 478,
+   "ate": 483
+  },
+  {
+   "nivel": "paragrafo",
+   "titulo": "Parágrafo 2:«... concebido pelo poder do Espírito Santo, nascido da Virgem Maria»",
+   "de": 484,
+   "ate": 511
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. Concebido pelo poder do Espírito Santo...",
+   "de": 484,
+   "ate": 486
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. ...nascido da Virgem Maria",
+   "de": 487,
+   "ate": 511
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A predestinação de Maria",
+   "de": 488,
+   "ate": 489
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A imaculada conceição",
+   "de": 490,
+   "ate": 493
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "«Faça-se em mim segundo a tua palavra...»",
+   "de": 494,
+   "ate": 494
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A maternidade divina de Maria",
+   "de": 495,
+   "ate": 495
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A virgindade de Maria",
+   "de": 496,
+   "ate": 498
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Maria – «sempre Virgem»",
+   "de": 499,
+   "ate": 501
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A maternidade virginal de Maria no plano de Deus",
+   "de": 502,
+   "ate": 511
+  },
+  {
+   "nivel": "paragrafo",
+   "titulo": "Parágrafo 3: Os mistérios da vida de Cristo",
+   "de": 512,
+   "ate": 570
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. Toda a vida de Cristo é mistério",
+   "de": 514,
+   "ate": 521
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Os traços comuns dos mistérios de Jesus",
+   "de": 516,
+   "ate": 518
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A nossa comunhão nos mistérios de Jesus",
+   "de": 519,
+   "ate": 521
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. Os mistérios da infância e da vida oculta de Jesus",
+   "de": 522,
+   "ate": 535
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Os preparativos",
+   "de": 522,
+   "ate": 524
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O mistério do natal",
+   "de": 525,
+   "ate": 526
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Os mistérios da infância de Jesus",
+   "de": 527,
+   "ate": 530
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Os mistérios da vida oculta de Jesus",
+   "de": 531,
+   "ate": 535
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. Os mistérios da vida pública de Jesus",
+   "de": 536,
+   "ate": 570
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O baptismo de Jesus",
+   "de": 536,
+   "ate": 537
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A tentação de Jesus",
+   "de": 538,
+   "ate": 540
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "«O reino de Deus está próximo»",
+   "de": 541,
+   "ate": 542
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O anúncio do reino de Deus",
+   "de": 543,
+   "ate": 546
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Os sinais do reino de Deus",
+   "de": 547,
+   "ate": 550
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "«As chaves do reino»",
+   "de": 551,
+   "ate": 553
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Um antegozo do reino: A transfiguração",
+   "de": 554,
+   "ate": 556
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A subida de Jesus para jerusalém",
+   "de": 557,
+   "ate": 558
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A entrada messiânica de Jesus em jerusalém",
+   "de": 559,
+   "ate": 570
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 4: «Jesus Cristo padeceu sob Pôncio Pilatos foi crucificado, morto e sepultado»",
+   "de": 571,
+   "ate": 630
+  },
+  {
+   "nivel": "paragrafo",
+   "titulo": "Parágrafo 1: Jesus e Israel",
+   "de": 574,
+   "ate": 594
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. Jesus e a Lei",
+   "de": 577,
+   "ate": 582
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. Jesus e o templo",
+   "de": 583,
+   "ate": 586
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. Jesus e a fé de Israel no Deus único e salvador",
+   "de": 587,
+   "ate": 594
+  },
+  {
+   "nivel": "paragrafo",
+   "titulo": "Parágrafo 2: Jesus morreu crucificado",
+   "de": 595,
+   "ate": 623
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. O processo de Jesus",
+   "de": 595,
+   "ate": 598
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Divisões entre as autoridades judaicas a respeito de Jesus",
+   "de": 595,
+   "ate": 596
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Os judeus não são colectivamente responsáveis pela morte de Jesus",
+   "de": 597,
+   "ate": 597
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Todos os pecadores foram autores da paixão de Cristo",
+   "de": 598,
+   "ate": 598
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. A morte redentora de Cristo no desígnio divino de salvação",
+   "de": 599,
+   "ate": 605
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "«Jesus entregue, segundo o desígnio determinado de Deus»",
+   "de": 599,
+   "ate": 600
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "«Morto pelos nossos pecados, segundo as escrituras»",
+   "de": 601,
+   "ate": 601
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "«Por nós, Deus fê-lo pecado»",
+   "de": 602,
+   "ate": 603
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Deus toma a iniciativa do amor redentor universal",
+   "de": 604,
+   "ate": 605
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. Cristo ofereceu-Se a Si mesmo ao Pai pelos nossos pecados",
+   "de": 606,
+   "ate": 623
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Toda a vida de Cristo é oblação ao Pai",
+   "de": 606,
+   "ate": 607
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "«O cordeiro que tira o pecado do mundo»",
+   "de": 608,
+   "ate": 608
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Jesus partilha livremente o amor redentor do Pai",
+   "de": 609,
+   "ate": 609
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Na ceia, Jesus antecipou a oblação livre da sua vida",
+   "de": 610,
+   "ate": 611
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A agonia no getsémani",
+   "de": 612,
+   "ate": 612
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A morte de Cristo é o sacrifício único e definitivo",
+   "de": 613,
+   "ate": 614
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Jesus substitui a nossa desobediência pela sua obediência",
+   "de": 615,
+   "ate": 615
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Na cruz, Jesus consuma o seu sacrifício",
+   "de": 616,
+   "ate": 617
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A nossa participação no sacrifício de Cristo",
+   "de": 618,
+   "ate": 623
+  },
+  {
+   "nivel": "paragrafo",
+   "titulo": "Parágrafo 3: Jesus Cristo foi sepultado",
+   "de": 624,
+   "ate": 630
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O corpo de Cristo no sepulcro",
+   "de": 625,
+   "ate": 626
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "«Não deixareis o vosso Santo sofrer a corrupção»",
+   "de": 627,
+   "ate": 627
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "«Sepultados com Cristo...»",
+   "de": 628,
+   "ate": 630
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 5: «Jesus Cristo desceu à mansão dos mortos, ao terceiro dia ressuscitou dos mortos»",
+   "de": 631,
+   "ate": 658
+  },
+  {
+   "nivel": "paragrafo",
+   "titulo": "Parágrafo 1: Cristo desceu à mansão dos mortos",
+   "de": 632,
+   "ate": 637
+  },
+  {
+   "nivel": "paragrafo",
+   "titulo": "Parágrafo 2: Ao terceiro dia, ressuscitou dos mortos",
+   "de": 638,
+   "ate": 658
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. Acontecimento histórico e transcendente",
+   "de": 639,
+   "ate": 647
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O túmulo vazio",
+   "de": 640,
+   "ate": 640
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "As aparições do ressuscitado",
+   "de": 641,
+   "ate": 644
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O estado da humanidade ressuscitada de Cristo",
+   "de": 645,
+   "ate": 646
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A ressurreição como acontecimento transcendente",
+   "de": 647,
+   "ate": 647
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. A ressurreição – obra da Santíssima Trindade",
+   "de": 648,
+   "ate": 650
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. Sentido e alcance salvífico da ressurreição",
+   "de": 651,
+   "ate": 658
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 6: «Jesus subiu aos céus e está sentado à direita de Deus, Pai todo-poderoso»",
+   "de": 659,
+   "ate": 667
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 7: «De onde há-de vir a julgar os vivos e os mortos»",
+   "de": 668,
+   "ate": 682
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. «Voltará na sua glória»",
+   "de": 668,
+   "ate": 677
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Cristo reina, desde já, pela Igreja...",
+   "de": 668,
+   "ate": 670
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "... À espera de que tudo lhe seja submetido",
+   "de": 671,
+   "ate": 672
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A vinda gloriosa de Cristo, esperança de Israel",
+   "de": 673,
+   "ate": 674
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A última prova da Igreja",
+   "de": 675,
+   "ate": 677
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. «Para julgar os vivos e os mortos»",
+   "de": 678,
+   "ate": 682
+  },
+  {
+   "nivel": "capitulo",
+   "titulo": "Capítulo terceiro: Creio no Espírito Santo",
+   "de": 683,
+   "ate": 1065
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "V. 9 (Leiden 1967) p. 293- 294 (PG 46, 417B): cf. também Statuta Ecelesiae",
+   "de": 683,
+   "ate": 686
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 8: «Creio no Espírito Santo»",
+   "de": 687,
+   "ate": 747
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. A missão conjunta do Filho e do Espírito",
+   "de": 689,
+   "ate": 690
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. O nome, as designações e os símbolos do Espírito Santo",
+   "de": 691,
+   "ate": 701
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O nome próprio do Espírito Santo",
+   "de": 691,
+   "ate": 691
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "As designações do Espírito Santo",
+   "de": 692,
+   "ate": 693
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Os símbolos do Espírito Santo",
+   "de": 694,
+   "ate": 701
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. O Espírito e a Palavra de Deus, no tempo das promessas",
+   "de": 702,
+   "ate": 716
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Na criação",
+   "de": 703,
+   "ate": 704
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O Espírito da promessa",
+   "de": 705,
+   "ate": 706
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Nas teofanias e na lei",
+   "de": 707,
+   "ate": 708
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "No reino e no exílio",
+   "de": 709,
+   "ate": 710
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A expectativa do messias e do seu Espírito",
+   "de": 711,
+   "ate": 716
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "IV. O Espírito de Cristo na plenitude do tempo",
+   "de": 717,
+   "ate": 730
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "João, precursor, profeta e baptista",
+   "de": 717,
+   "ate": 720
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "«Alegra-te, ó cheia de graça»",
+   "de": 721,
+   "ate": 726
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Jesus Cristo",
+   "de": 727,
+   "ate": 730
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "V. O Espírito e a Igreja nos últimos tempos",
+   "de": 731,
+   "ate": 747
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O pentecostes",
+   "de": 731,
+   "ate": 732
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O Espírito Santo – dom de Deus",
+   "de": 733,
+   "ate": 736
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O Espírito Santo e a Igreja",
+   "de": 737,
+   "ate": 747
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 9: «Creio na santa Igreja Católica»",
+   "de": 748,
+   "ate": 975
+  },
+  {
+   "nivel": "paragrafo",
+   "titulo": "Parágrafo 1: A Igreja no desígnio de Deus",
+   "de": 751,
+   "ate": 780
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. Os nomes e as imagens da Igreja",
+   "de": 751,
+   "ate": 757
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Os símbolos da Igreja",
+   "de": 753,
+   "ate": 757
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. Origem, fundação e missão da Igreja",
+   "de": 758,
+   "ate": 769
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Um desígnio nascido no coração do Pai",
+   "de": 759,
+   "ate": 759
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A Igreja – prefigurada desde a origem do mundo",
+   "de": 760,
+   "ate": 760
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A Igreja – preparada na antiga aliança",
+   "de": 761,
+   "ate": 762
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A Igreja – instituída por Jesus Cristo",
+   "de": 763,
+   "ate": 766
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A Igreja – manifestada pelo Espírito Santo",
+   "de": 767,
+   "ate": 768
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A Igreja – consumada na glória",
+   "de": 769,
+   "ate": 769
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. O mistério da Igreja",
+   "de": 770,
+   "ate": 780
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A Igreja – ao mesmo tempo visível e espiritual",
+   "de": 771,
+   "ate": 771
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A Igreja – mistério da união dos homens com Deus",
+   "de": 772,
+   "ate": 773
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A Igreja – sacramento universal da salvação",
+   "de": 774,
+   "ate": 780
+  },
+  {
+   "nivel": "paragrafo",
+   "titulo": "Parágrafo 2: A Igreja – povo de Deus, corpo de Cristo, templo do",
+   "de": 781,
+   "ate": 810
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. A Igreja – Povo de Deus",
+   "de": 781,
+   "ate": 786
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Espírito Santo",
+   "de": 781,
+   "ate": 781
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "As características do povo de Deus",
+   "de": 782,
+   "ate": 782
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Um povo sacerdotal, profético e real",
+   "de": 783,
+   "ate": 786
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. A Igreja – Corpo de Cristo",
+   "de": 787,
+   "ate": 796
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A Igreja é comunhão com Jesus",
+   "de": 787,
+   "ate": 789
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "«Um só corpo»",
+   "de": 790,
+   "ate": 791
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "«A cabeça deste corpo é Cristo»",
+   "de": 792,
+   "ate": 795
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A Igreja é a esposa de Cristo",
+   "de": 796,
+   "ate": 796
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. A Igreja – Templo do Espírito Santo",
+   "de": 797,
+   "ate": 810
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Os carismas",
+   "de": 799,
+   "ate": 810
+  },
+  {
+   "nivel": "paragrafo",
+   "titulo": "Parágrafo 3: A Igreja é una, santa, Católica e apostólica",
+   "de": 811,
+   "ate": 870
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. A Igreja é una",
+   "de": 813,
+   "ate": 822
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A caminho da unidade",
+   "de": 820,
+   "ate": 822
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. A Igreja é santa",
+   "de": 823,
+   "ate": 829
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. A Igreja é católica",
+   "de": 830,
+   "ate": 856
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Que quer dizer «Católica»?",
+   "de": 830,
+   "ate": 831
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Cada uma das igrejas particulares é «Católica»",
+   "de": 832,
+   "ate": 835
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Quem pertence à Igreja Católica?",
+   "de": 836,
+   "ate": 838
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A Igreja e os não-cristãos",
+   "de": 839,
+   "ate": 845
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "«Fora da Igreja não há salvação»",
+   "de": 846,
+   "ate": 848
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A missão – uma exigência da catolicidade da Igreja",
+   "de": 849,
+   "ate": 856
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "IV. A Igreja é apostólica",
+   "de": 857,
+   "ate": 870
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A missão dos apóstolos",
+   "de": 858,
+   "ate": 860
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Os bispos, sucessores dos apóstolos",
+   "de": 861,
+   "ate": 862
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O apostolado",
+   "de": 863,
+   "ate": 870
+  },
+  {
+   "nivel": "paragrafo",
+   "titulo": "Parágrafo 4: Os fiéis de Cristo: Hierarquia, leigos, vida consagrada",
+   "de": 871,
+   "ate": 945
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. A constituição hierárquica da Igreja",
+   "de": 874,
+   "ate": 896
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Porquê o ministério eclesial?",
+   "de": 874,
+   "ate": 879
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O colégio episcopal e o seu chefe, o papa",
+   "de": 880,
+   "ate": 887
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O ofício de ensinar",
+   "de": 888,
+   "ate": 892
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O ofício de santificar",
+   "de": 893,
+   "ate": 893
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O ofício de governar",
+   "de": 894,
+   "ate": 896
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. Os fiéis leigos",
+   "de": 897,
+   "ate": 913
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A vocação dos leigos",
+   "de": 898,
+   "ate": 900
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A participação dos leigos na função sacerdotal de Cristo",
+   "de": 901,
+   "ate": 903
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A sua participação na função profética de Cristo",
+   "de": 904,
+   "ate": 907
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A sua participação na função real de Cristo",
+   "de": 908,
+   "ate": 913
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. A vida consagrada",
+   "de": 914,
+   "ate": 945
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Conselhos evangélicos, vida consagrada",
+   "de": 915,
+   "ate": 916
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Uma grande árvore, de frondosa ramagem",
+   "de": 917,
+   "ate": 919
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A vida eremítica",
+   "de": 920,
+   "ate": 921
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "As virgens e as viúvas consagradas",
+   "de": 922,
+   "ate": 924
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A vida religiosa",
+   "de": 925,
+   "ate": 927
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Os institutos seculares",
+   "de": 928,
+   "ate": 929
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "As sociedades de vida apostólica",
+   "de": 930,
+   "ate": 930
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Consagração e missão: Anunciar o rei que vem",
+   "de": 931,
+   "ate": 945
+  },
+  {
+   "nivel": "paragrafo",
+   "titulo": "Parágrafo 5: A comunhão dos santos",
+   "de": 946,
+   "ate": 962
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. A comunhão dos bens espirituais",
+   "de": 949,
+   "ate": 953
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. A comunhão entre a Igreja do céu e a da terra",
+   "de": 954,
+   "ate": 962
+  },
+  {
+   "nivel": "paragrafo",
+   "titulo": "Parágrafo 6: Maria – mãe de Cristo mãe da Igreja",
+   "de": 963,
+   "ate": 975
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. A maternidade de Maria em relação à Igreja",
+   "de": 964,
+   "ate": 970
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Inteiramente unida a seu Filho...",
+   "de": 964,
+   "ate": 965
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "... Também na sua assunção...",
+   "de": 966,
+   "ate": 966
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "... Ela é nossa mãe na ordem da graça",
+   "de": 967,
+   "ate": 970
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. O culto à Santíssima Virgem",
+   "de": 971,
+   "ate": 971
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. Maria - ícone escatológico da Igreja",
+   "de": 972,
+   "ate": 975
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 10: «Creio na remissão dos pecados»",
+   "de": 976,
+   "ate": 987
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. Um só Baptismo para a remissão dos pecados",
+   "de": 977,
+   "ate": 980
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. O poder das chaves",
+   "de": 981,
+   "ate": 987
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 11: «Creio na ressurreição da carne»",
+   "de": 988,
+   "ate": 1019
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. A ressurreição de Cristo e a nossa ressurreição",
+   "de": 992,
+   "ate": 1004
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Revelação progressiva da ressurreição",
+   "de": 992,
+   "ate": 996
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Como é que os mortos ressuscitam?",
+   "de": 997,
+   "ate": 1001
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Ressuscitados com Cristo",
+   "de": 1002,
+   "ate": 1004
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. Morrer em Cristo Jesus",
+   "de": 1005,
+   "ate": 1019
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A morte",
+   "de": 1006,
+   "ate": 1009
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O sentido da morte cristã",
+   "de": 1010,
+   "ate": 1019
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 12: «Creio na vida eterna»",
+   "de": 1020,
+   "ate": 1065
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. O juízo particular",
+   "de": 1021,
+   "ate": 1022
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. O céu",
+   "de": 1023,
+   "ate": 1029
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. A purificação final ou Purgatório",
+   "de": 1030,
+   "ate": 1032
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "IV. O Inferno",
+   "de": 1033,
+   "ate": 1037
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "V. O Juízo final",
+   "de": 1038,
+   "ate": 1041
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "VI. A esperança dos novos céus e da nova terra",
+   "de": 1042,
+   "ate": 1065
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "«Amen»",
+   "de": 1061,
+   "ate": 1065
+  },
+  {
+   "nivel": "parte",
+   "titulo": "Segunda parte: A celebração do mistério cristão",
+   "de": 1066,
+   "ate": 1690
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Introdução",
+   "de": 1066,
+   "ate": 1068
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Porquê a liturgia?",
+   "de": 1066,
+   "ate": 1068
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Qual o significado da palavra liturgia?",
+   "de": 1069,
+   "ate": 1070
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A liturgia como fonte de vida",
+   "de": 1071,
+   "ate": 1072
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Oração e liturgia",
+   "de": 1073,
+   "ate": 1073
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Catequese e liturgia",
+   "de": 1074,
+   "ate": 1075
+  },
+  {
+   "nivel": "secao",
+   "titulo": "Primeira secção: A «economia» sacramental",
+   "de": 1076,
+   "ate": 1209
+  },
+  {
+   "nivel": "capitulo",
+   "titulo": "Capítulo primeiro: O mistério pascal no tempo da Igreja",
+   "de": 1077,
+   "ate": 1134
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 1: A liturgia – obra da santíssima Trindade",
+   "de": 1077,
+   "ate": 1112
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. O Pai, fonte e fim da liturgia",
+   "de": 1077,
+   "ate": 1083
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. A acção de Cristo na liturgia",
+   "de": 1084,
+   "ate": 1090
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Cristo glorificado...",
+   "de": 1084,
+   "ate": 1085
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "... Desde a Igreja dos apóstolos...",
+   "de": 1086,
+   "ate": 1087
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "... Está presente na liturgia terrestre...",
+   "de": 1088,
+   "ate": 1089
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "... Que participa na liturgia celeste",
+   "de": 1090,
+   "ate": 1090
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. O Espírito Santo e a Igreja na liturgia",
+   "de": 1091,
+   "ate": 1112
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O Espírito Santo prepara para acolher Cristo",
+   "de": 1093,
+   "ate": 1098
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O Espírito Santo recorda o mistério de Cristo",
+   "de": 1099,
+   "ate": 1103
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O Espírito Santo actualiza o mistério de Cristo",
+   "de": 1104,
+   "ate": 1107
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A comunhão do Espírito Santo",
+   "de": 1108,
+   "ate": 1112
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 2: O mistério pascal nos sacramentos da Igreja",
+   "de": 1113,
+   "ate": 1134
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. Os sacramentos de Cristo",
+   "de": 1114,
+   "ate": 1116
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. Os sacramentos da Igreja",
+   "de": 1117,
+   "ate": 1121
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. Os sacramentos da fé",
+   "de": 1122,
+   "ate": 1126
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "IV. Os sacramentos da salvação",
+   "de": 1127,
+   "ate": 1129
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "V. Os sacramentos da vida eterna",
+   "de": 1130,
+   "ate": 1134
+  },
+  {
+   "nivel": "capitulo",
+   "titulo": "Capítulo segundo: A celebração sacramental do mistério pascal",
+   "de": 1135,
+   "ate": 1209
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 1: Celebrar a liturgia da Igreja",
+   "de": 1136,
+   "ate": 1199
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. Quem celebra?",
+   "de": 1136,
+   "ate": 1144
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Os celebrantes da liturgia celeste",
+   "de": 1137,
+   "ate": 1139
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Os celebrantes da liturgia sacramental",
+   "de": 1140,
+   "ate": 1144
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. Como celebrar?",
+   "de": 1145,
+   "ate": 1162
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Sinais e símbolos",
+   "de": 1145,
+   "ate": 1152
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Palavras e acções",
+   "de": 1153,
+   "ate": 1155
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Canto e música",
+   "de": 1156,
+   "ate": 1159
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "As santas imagens",
+   "de": 1160,
+   "ate": 1162
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. Quando celebrar?",
+   "de": 1163,
+   "ate": 1178
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O tempo litúrgico",
+   "de": 1163,
+   "ate": 1165
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O dia do Senhor",
+   "de": 1166,
+   "ate": 1167
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O ano litúrgico",
+   "de": 1168,
+   "ate": 1171
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O santoral no ano litúrgico",
+   "de": 1172,
+   "ate": 1173
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A liturgia das horas",
+   "de": 1174,
+   "ate": 1178
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "IV. Onde celebrar?",
+   "de": 1179,
+   "ate": 1199
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 2: Diversidade litúrgica e unidade do mistério",
+   "de": 1200,
+   "ate": 1209
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Tradições litúrgicas e catolicidade da Igreja",
+   "de": 1200,
+   "ate": 1203
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Liturgia e culturas",
+   "de": 1204,
+   "ate": 1209
+  },
+  {
+   "nivel": "secao",
+   "titulo": "Segunda secção: Os sete sacramentos da Igreja",
+   "de": 1210,
+   "ate": 1690
+  },
+  {
+   "nivel": "capitulo",
+   "titulo": "Capítulo primeiro: Os sacramentos da iniciação cristã",
+   "de": 1212,
+   "ate": 1419
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 1: O sacramento do baptismo",
+   "de": 1213,
+   "ate": 1284
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. Como se chama este sacramento?",
+   "de": 1214,
+   "ate": 1216
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. O Baptismo na economia da salvação",
+   "de": 1217,
+   "ate": 1228
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "As prefigurações do baptismo na antiga aliança",
+   "de": 1217,
+   "ate": 1222
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O baptismo de Cristo",
+   "de": 1223,
+   "ate": 1225
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O baptismo na Igreja",
+   "de": 1226,
+   "ate": 1228
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. Como se celebra o sacramento do Baptismo?",
+   "de": 1229,
+   "ate": 1245
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A iniciação cristã",
+   "de": 1229,
+   "ate": 1233
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A mistagogia da celebração",
+   "de": 1234,
+   "ate": 1245
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "IV. Quem pode receber o Baptismo?",
+   "de": 1246,
+   "ate": 1255
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O baptismo dos adultos",
+   "de": 1247,
+   "ate": 1249
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O baptismo das crianças",
+   "de": 1250,
+   "ate": 1252
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Fé e baptismo",
+   "de": 1253,
+   "ate": 1255
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "V. Quem pode baptizar?",
+   "de": 1256,
+   "ate": 1256
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "VI. A necessidade do Baptismo",
+   "de": 1257,
+   "ate": 1261
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "VII. A graça do Baptismo",
+   "de": 1262,
+   "ate": 1284
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Para a remissão dos pecados",
+   "de": 1263,
+   "ate": 1265
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "«Uma nova criatura»",
+   "de": 1266,
+   "ate": 1266
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Incorporados na Igreja, corpo de Cristo",
+   "de": 1267,
+   "ate": 1270
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O vínculo sacramental da unidade dos cristãos",
+   "de": 1271,
+   "ate": 1271
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Uma marca espiritual indelével...",
+   "de": 1272,
+   "ate": 1284
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 2: O sacramento da confirmação",
+   "de": 1285,
+   "ate": 1321
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. A Confirmação na economia da salvação",
+   "de": 1286,
+   "ate": 1292
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Duas tradições: O oriente e o ocidente",
+   "de": 1290,
+   "ate": 1292
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. Os sinais e o rito da Confirmação",
+   "de": 1293,
+   "ate": 1301
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A celebração da confirmação",
+   "de": 1297,
+   "ate": 1301
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. Os efeitos da Confirmação",
+   "de": 1302,
+   "ate": 1305
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "IV. Quem pode receber este sacramento?",
+   "de": 1306,
+   "ate": 1311
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "V. O ministro da Confirmação",
+   "de": 1312,
+   "ate": 1321
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 3: O sacramento da Eucaristia",
+   "de": 1322,
+   "ate": 1419
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. A Eucaristia – fonte e cume da vida eclesial",
+   "de": 1324,
+   "ate": 1327
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. Como se chama este sacramento?",
+   "de": 1328,
+   "ate": 1332
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. A Eucaristia na economia da salvação",
+   "de": 1333,
+   "ate": 1344
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Os sinais do pão e do vinho",
+   "de": 1333,
+   "ate": 1336
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A instituição da Eucaristia",
+   "de": 1337,
+   "ate": 1340
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "«Fazei isto em memória de mim»",
+   "de": 1341,
+   "ate": 1344
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "IV. A celebração litúrgica da Eucaristia",
+   "de": 1345,
+   "ate": 1355
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A missa de todos os séculos",
+   "de": 1345,
+   "ate": 1347
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O desenrolar da celebração",
+   "de": 1348,
+   "ate": 1355
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "V. O sacrifício sacramental: acção de graças, memorial, presença",
+   "de": 1356,
+   "ate": 1381
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A acção de graças e o louvor ao Pai",
+   "de": 1359,
+   "ate": 1361
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O memorial sacrificial de Cristo e do seu corpo, a Igreja",
+   "de": 1362,
+   "ate": 1372
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A presença de Cristo pelo poder da sua palavra e do Espírito Santo",
+   "de": 1373,
+   "ate": 1381
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "VI. O banquete pascal",
+   "de": 1382,
+   "ate": 1401
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "«Tomai todos e comei»: A comunhão",
+   "de": 1384,
+   "ate": 1390
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Os frutos da comunhão",
+   "de": 1391,
+   "ate": 1401
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "VII. A Eucaristia – «Penhor da futura glória»",
+   "de": 1402,
+   "ate": 1419
+  },
+  {
+   "nivel": "capitulo",
+   "titulo": "Capítulo segundo: Os sacramentos de cura",
+   "de": 1420,
+   "ate": 1532
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 4: O sacramento da penitência e da reconciliação",
+   "de": 1422,
+   "ate": 1498
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. Como se chama este sacramento?",
+   "de": 1423,
+   "ate": 1424
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. Porquê, um sacramento de Reconciliação depois do Baptismo?",
+   "de": 1425,
+   "ate": 1426
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. A conversão dos baptizados",
+   "de": 1427,
+   "ate": 1429
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "IV. A penitência interior",
+   "de": 1430,
+   "ate": 1433
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "V. As múltiplas formas da penitência na vida cristã",
+   "de": 1434,
+   "ate": 1439
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "VI. O sacramento da Penitência e da Reconciliação",
+   "de": 1440,
+   "ate": 1449
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Só Deus perdoa o pecado",
+   "de": 1441,
+   "ate": 1442
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Reconciliação com a Igreja",
+   "de": 1443,
+   "ate": 1445
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O sacramento do perdão",
+   "de": 1446,
+   "ate": 1449
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "VII. Os actos do penitente",
+   "de": 1450,
+   "ate": 1460
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A contrição",
+   "de": 1451,
+   "ate": 1454
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A confissão dos pecados",
+   "de": 1455,
+   "ate": 1458
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A satisfação",
+   "de": 1459,
+   "ate": 1460
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "VIII. O ministro deste sacramento",
+   "de": 1461,
+   "ate": 1467
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "IX. Os efeitos deste sacramento",
+   "de": 1468,
+   "ate": 1470
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "X. As indulgências",
+   "de": 1471,
+   "ate": 1479
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O que é a indulgência?",
+   "de": 1472,
+   "ate": 1473
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "As penas do pecado",
+   "de": 1472,
+   "ate": 1473
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Na comunhão dos santos",
+   "de": 1474,
+   "ate": 1477
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Obter a indulgência de Deus mediante a Igreja",
+   "de": 1478,
+   "ate": 1479
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "XI. A celebração do sacramento da Penitência",
+   "de": 1480,
+   "ate": 1498
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 5: A unção dos enfermos",
+   "de": 1499,
+   "ate": 1532
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. Os seus fundamentos na economia da salvação",
+   "de": 1500,
+   "ate": 1513
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A doença na vida humana",
+   "de": 1500,
+   "ate": 1501
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O doente perante Deus",
+   "de": 1502,
+   "ate": 1502
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Cristo-médico",
+   "de": 1503,
+   "ate": 1505
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "«Curai os enfermos...»",
+   "de": 1506,
+   "ate": 1510
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Um sacramento dos enfermos",
+   "de": 1511,
+   "ate": 1513
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. Quem recebe e quem administra este sacramento? EM CASO DE GRAVE ENFERMIDADE...",
+   "de": 1514,
+   "ate": 1516
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "«... Chame os presbíteros da Igreja»",
+   "de": 1516,
+   "ate": 1516
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. Como se celebra este sacramento?",
+   "de": 1517,
+   "ate": 1519
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "IV. Os efeitos da celebração deste sacramento",
+   "de": 1520,
+   "ate": 1523
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "V. O Viático, último sacramento do cristão",
+   "de": 1524,
+   "ate": 1532
+  },
+  {
+   "nivel": "capitulo",
+   "titulo": "Capítulo terceiro: Os sacramentos ao serviço da comunhão",
+   "de": 1533,
+   "ate": 1666
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 6: O sacramento da ordem",
+   "de": 1536,
+   "ate": 1600
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. Porquê este nome de sacramento da Ordem?",
+   "de": 1537,
+   "ate": 1538
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. O sacramento da Ordem na economia da salvação",
+   "de": 1539,
+   "ate": 1553
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O sacerdócio da antiga aliança",
+   "de": 1539,
+   "ate": 1543
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O sacerdócio único de Cristo",
+   "de": 1544,
+   "ate": 1545
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Duas participações no sacerdócio único de Cristo",
+   "de": 1546,
+   "ate": 1547
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Na pessoa de Cristo cabeça...",
+   "de": 1548,
+   "ate": 1551
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "...«Em nome de toda a Igreja»",
+   "de": 1552,
+   "ate": 1553
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. Os três graus do sacramento da Ordem",
+   "de": 1554,
+   "ate": 1571
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A ordenação episcopal – plenitude do sacramento da ordem",
+   "de": 1555,
+   "ate": 1561
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A ordenação dos presbíteros – cooperadores dos bispos",
+   "de": 1562,
+   "ate": 1568
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A ordenação do diáconos – «em vista do serviço»",
+   "de": 1569,
+   "ate": 1571
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "IV. A celebração deste sacramento",
+   "de": 1572,
+   "ate": 1574
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "V. Quem pode conferir este sacramento?",
+   "de": 1575,
+   "ate": 1576
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "VI. Quem pode receber este sacramento?",
+   "de": 1577,
+   "ate": 1580
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "VII. Os efeitos do sacramento da Ordem",
+   "de": 1581,
+   "ate": 1600
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O carácter indelével",
+   "de": 1581,
+   "ate": 1584
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A graça do Espírito Santo",
+   "de": 1585,
+   "ate": 1600
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 7: O sacramento do matrimónio",
+   "de": 1601,
+   "ate": 1666
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. O matrimónio no desígnio de Deus",
+   "de": 1602,
+   "ate": 1620
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O matrimónio na ordem da criação",
+   "de": 1603,
+   "ate": 1605
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O matrimónio sob o regime do pecado",
+   "de": 1606,
+   "ate": 1608
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O matrimónio sob a pedagogia da lei",
+   "de": 1609,
+   "ate": 1611
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O matrimónio no Senhor",
+   "de": 1612,
+   "ate": 1617
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A virgindade por amor do reino",
+   "de": 1618,
+   "ate": 1620
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. A celebração do Matrimónio",
+   "de": 1621,
+   "ate": 1624
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. O consentimento matrimonial",
+   "de": 1625,
+   "ate": 1637
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Casamentos mistos e disparidade de cultos",
+   "de": 1633,
+   "ate": 1637
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "IV. Os efeitos do sacramento do Matrimónio",
+   "de": 1638,
+   "ate": 1642
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O vínculo matrimonial",
+   "de": 1639,
+   "ate": 1640
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A graça do sacramento do matrimónio",
+   "de": 1641,
+   "ate": 1642
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "V. Os bens e as exigências do amor conjugal",
+   "de": 1643,
+   "ate": 1654
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A unidade e a indissolubilidade do matrimónio",
+   "de": 1644,
+   "ate": 1645
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A fidelidade do amor conjugal",
+   "de": 1646,
+   "ate": 1651
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A abertura à fecundidade",
+   "de": 1652,
+   "ate": 1654
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "VI. A Igreja doméstica",
+   "de": 1655,
+   "ate": 1666
+  },
+  {
+   "nivel": "capitulo",
+   "titulo": "Capítulo quarto: As outras celebrações litúrgicas",
+   "de": 1667,
+   "ate": 1690
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 1: Os sacramentais",
+   "de": 1667,
+   "ate": 1679
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. 152);Ibid., 44. 3: SC 167, 172 (Funk 1, 156).",
+   "de": 1667,
+   "ate": 1679
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Traços característicos dos sacramentais",
+   "de": 1668,
+   "ate": 1670
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Formas variadas dos sacramentais",
+   "de": 1671,
+   "ate": 1673
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A religiosidade popular",
+   "de": 1674,
+   "ate": 1679
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 2: As exéquias cristãs",
+   "de": 1680,
+   "ate": 1690
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. A última Páscoa do cristão",
+   "de": 1681,
+   "ate": 1683
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. A celebração das exéquias",
+   "de": 1684,
+   "ate": 1690
+  },
+  {
+   "nivel": "parte",
+   "titulo": "Terceira parte: A vida em Cristo",
+   "de": 1691,
+   "ate": 2557
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Introdução",
+   "de": 1691,
+   "ate": 1698
+  },
+  {
+   "nivel": "secao",
+   "titulo": "Primeira secção: A vocação do homem: A vida no Espírito",
+   "de": 1699,
+   "ate": 2051
+  },
+  {
+   "nivel": "capitulo",
+   "titulo": "Capítulo primeiro: A dignidade da pessoa humana",
+   "de": 1700,
+   "ate": 1876
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 1: O homem, imagem de Deus",
+   "de": 1701,
+   "ate": 1715
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 2: A nossa vocação para a bem-aventurança",
+   "de": 1716,
+   "ate": 1729
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. As bem-aventuranças",
+   "de": 1716,
+   "ate": 1717
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. O desejo de felicidade",
+   "de": 1718,
+   "ate": 1719
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. A bem-aventurança cristã",
+   "de": 1720,
+   "ate": 1729
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 3: A liberdade do homem",
+   "de": 1730,
+   "ate": 1748
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. Liberdade e responsabilidade",
+   "de": 1731,
+   "ate": 1738
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. A liberdade humana na economia da salvação",
+   "de": 1739,
+   "ate": 1748
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 4: A moralidade dos actos humanos",
+   "de": 1749,
+   "ate": 1761
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. As fontes da moralidade",
+   "de": 1750,
+   "ate": 1754
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. Os actos bons e os actos maus",
+   "de": 1755,
+   "ate": 1761
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 5: A moralidade das paixões",
+   "de": 1762,
+   "ate": 1776
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. As paixões",
+   "de": 1763,
+   "ate": 1766
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. Paixões e vida moral",
+   "de": 1767,
+   "ate": 1776
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 6: A consciência moral",
+   "de": 1777,
+   "ate": 1802
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. O juízo da consciência",
+   "de": 1777,
+   "ate": 1782
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. A formação da consciência",
+   "de": 1783,
+   "ate": 1785
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. Decidir em consciência",
+   "de": 1786,
+   "ate": 1789
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "IV. O juízo erróneo",
+   "de": 1790,
+   "ate": 1802
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 7: As virtudes",
+   "de": 1803,
+   "ate": 1845
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. As virtudes humanas",
+   "de": 1804,
+   "ate": 1811
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Distinção das virtudes cardeais",
+   "de": 1805,
+   "ate": 1809
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "As virtudes e a graça",
+   "de": 1810,
+   "ate": 1811
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. As virtudes teologais",
+   "de": 1812,
+   "ate": 1829
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A esperança",
+   "de": 1817,
+   "ate": 1821
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A caridade",
+   "de": 1822,
+   "ate": 1829
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. Os dons e os frutos do Espírito Santo",
+   "de": 1830,
+   "ate": 1845
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 8: O pecado",
+   "de": 1846,
+   "ate": 1876
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. A misericórdia e o pecado",
+   "de": 1846,
+   "ate": 1848
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. Definição de pecado",
+   "de": 1849,
+   "ate": 1851
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. A diversidade dos pecados",
+   "de": 1852,
+   "ate": 1853
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "IV. A gravidade do pecado: pecado mortal e pecado venial",
+   "de": 1854,
+   "ate": 1864
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "V. A proliferação do pecado",
+   "de": 1865,
+   "ate": 1876
+  },
+  {
+   "nivel": "capitulo",
+   "titulo": "Capítulo segundo: A comunidade humana",
+   "de": 1877,
+   "ate": 1948
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 1: A pessoa e a sociedade",
+   "de": 1878,
+   "ate": 1896
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. O carácter comunitário da vocação humana",
+   "de": 1878,
+   "ate": 1885
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. Conversão e sociedade",
+   "de": 1886,
+   "ate": 1896
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 2: A participação na vida social",
+   "de": 1897,
+   "ate": 1927
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. A autoridade",
+   "de": 1897,
+   "ate": 1904
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. O bem comum",
+   "de": 1905,
+   "ate": 1912
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. Responsabilidade e participação",
+   "de": 1913,
+   "ate": 1927
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 3: A justiça social",
+   "de": 1928,
+   "ate": 1948
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. O respeito pela pessoa humana",
+   "de": 1929,
+   "ate": 1933
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. Igualdade e diferença entre os homens",
+   "de": 1934,
+   "ate": 1938
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. A solidariedade humana",
+   "de": 1939,
+   "ate": 1948
+  },
+  {
+   "nivel": "capitulo",
+   "titulo": "Capítulo terceiro: A salvação de Deus: A lei e a graça",
+   "de": 1949,
+   "ate": 2051
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 1: A lei moral",
+   "de": 1950,
+   "ate": 1986
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. A lei moral natural",
+   "de": 1954,
+   "ate": 1960
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. A Lei antiga",
+   "de": 1961,
+   "ate": 1964
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. A nova Lei ou Lei evangélica",
+   "de": 1965,
+   "ate": 1986
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 2: Graça e justificação",
+   "de": 1987,
+   "ate": 2029
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. A justificação",
+   "de": 1987,
+   "ate": 1995
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. A graça",
+   "de": 1996,
+   "ate": 2005
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. O mérito",
+   "de": 2006,
+   "ate": 2011
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "IV. A santidade cristã",
+   "de": 2012,
+   "ate": 2029
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 3: A Igreja, mãe e educadora",
+   "de": 2030,
+   "ate": 2051
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. Vida moral e Magistério da Igreja",
+   "de": 2032,
+   "ate": 2040
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. Os preceitos da Igreja",
+   "de": 2041,
+   "ate": 2043
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. Vida moral e testemunho missionário",
+   "de": 2044,
+   "ate": 2051
+  },
+  {
+   "nivel": "secao",
+   "titulo": "Segunda secção: Os dez mandamentos",
+   "de": 2052,
+   "ate": 2557
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Os dez mandamentos",
+   "de": 2052,
+   "ate": 2055
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "«Mestre, que hei-de fazer...?»",
+   "de": 2052,
+   "ate": 2055
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O Decálogo na sagrada escritura",
+   "de": 2056,
+   "ate": 2063
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O Decálogo na tradição da Igreja",
+   "de": 2064,
+   "ate": 2068
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A unidade do Decálogo",
+   "de": 2069,
+   "ate": 2069
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O Decálogo e a lei natural",
+   "de": 2070,
+   "ate": 2071
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A obrigação do Decálogo",
+   "de": 2072,
+   "ate": 2073
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "«Sem mim, nada podeis fazer»",
+   "de": 2074,
+   "ate": 2082
+  },
+  {
+   "nivel": "capitulo",
+   "titulo": "Capítulo primeiro: «Amarás o Senhor teu Deus com todo o teu coração, com toda a tua alma e com todas as tuas forças»",
+   "de": 2083,
+   "ate": 2195
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 1: O primeiro mandamento",
+   "de": 2084,
+   "ate": 2141
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. «Ao Senhor teu Deus adorarás, a Ele servirás»",
+   "de": 2084,
+   "ate": 2094
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A esperança",
+   "de": 2090,
+   "ate": 2092
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A caridade",
+   "de": 2093,
+   "ate": 2094
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. «Só a Ele prestarás culto»",
+   "de": 2095,
+   "ate": 2109
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A adoração",
+   "de": 2096,
+   "ate": 2097
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A oração",
+   "de": 2098,
+   "ate": 2098
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O sacrifício",
+   "de": 2099,
+   "ate": 2100
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Promessas e votos",
+   "de": 2101,
+   "ate": 2103
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O dever social de religião e o direito à liberdade religiosa",
+   "de": 2104,
+   "ate": 2109
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. «Não terás outros deuses perante Mim»",
+   "de": 2110,
+   "ate": 2128
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A superstição",
+   "de": 2111,
+   "ate": 2111
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A idolatria",
+   "de": 2112,
+   "ate": 2114
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Adivinhação e magia",
+   "de": 2115,
+   "ate": 2117
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A irreligião",
+   "de": 2118,
+   "ate": 2122
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O ateísmo",
+   "de": 2123,
+   "ate": 2126
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O agnosticismo",
+   "de": 2127,
+   "ate": 2128
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "IV. «Não farás para ti nenhuma imagem esculpida...»",
+   "de": 2129,
+   "ate": 2141
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 2: O segundo mandamento",
+   "de": 2142,
+   "ate": 2167
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. O nome do Senhor é Santo",
+   "de": 2142,
+   "ate": 2149
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. O nome do Senhor invocado em vão",
+   "de": 2150,
+   "ate": 2155
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. O nome cristão",
+   "de": 2156,
+   "ate": 2167
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 3: O terceiro mandamento",
+   "de": 2168,
+   "ate": 2195
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. O dia do sábado",
+   "de": 2168,
+   "ate": 2173
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. O dia do Senhor",
+   "de": 2174,
+   "ate": 2195
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O dia da ressurreição: A nova criação",
+   "de": 2174,
+   "ate": 2174
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O domingo – realização do sábado",
+   "de": 2175,
+   "ate": 2176
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A Eucaristia dominical",
+   "de": 2177,
+   "ate": 2179
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A obrigação do domingo",
+   "de": 2180,
+   "ate": 2183
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Dia de graça e de cessação do trabalho",
+   "de": 2184,
+   "ate": 2195
+  },
+  {
+   "nivel": "capitulo",
+   "titulo": "Capítulo segundo: «Amarás o teu próximo como a ti mesmo»",
+   "de": 2196,
+   "ate": 2557
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 4: O quarto mandamento",
+   "de": 2197,
+   "ate": 2257
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. A família no plano de Deus",
+   "de": 2201,
+   "ate": 2206
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Natureza da família",
+   "de": 2201,
+   "ate": 2203
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A família cristã",
+   "de": 2204,
+   "ate": 2206
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. A família e a sociedade",
+   "de": 2207,
+   "ate": 2213
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. Deveres dos membros da família",
+   "de": 2214,
+   "ate": 2231
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Deveres dos filhos",
+   "de": 2214,
+   "ate": 2220
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Deveres dos pais",
+   "de": 2221,
+   "ate": 2231
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "IV. A família e o Reino",
+   "de": 2232,
+   "ate": 2233
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "V. As autoridades na sociedade civil",
+   "de": 2234,
+   "ate": 2257
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Deveres das autoridades civis",
+   "de": 2235,
+   "ate": 2237
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Deveres dos cidadãos",
+   "de": 2238,
+   "ate": 2243
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A comunidade política e a Igreja",
+   "de": 2244,
+   "ate": 2257
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 5: O quinto mandamento",
+   "de": 2258,
+   "ate": 2330
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. O respeito pela vida humana",
+   "de": 2259,
+   "ate": 2283
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Testemunho da história sagrada",
+   "de": 2259,
+   "ate": 2262
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A legítima defesa",
+   "de": 2263,
+   "ate": 2267
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O homicídio voluntário",
+   "de": 2268,
+   "ate": 2269
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O aborto",
+   "de": 2270,
+   "ate": 2275
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A eutanásia",
+   "de": 2276,
+   "ate": 2279
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O suicídio",
+   "de": 2280,
+   "ate": 2283
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. O respeito pela dignidade das pessoas",
+   "de": 2284,
+   "ate": 2301
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O respeito pela alma do próximo: O escândalo",
+   "de": 2284,
+   "ate": 2287
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O respeito pela saúde",
+   "de": 2288,
+   "ate": 2291
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O respeito pela pessoa e a investigação científica",
+   "de": 2292,
+   "ate": 2296
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O respeito pela integridade corporal",
+   "de": 2297,
+   "ate": 2298
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O respeito pelos mortos",
+   "de": 2299,
+   "ate": 2301
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. A salvaguarda da paz",
+   "de": 2302,
+   "ate": 2330
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A paz",
+   "de": 2302,
+   "ate": 2306
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Evitar a guerra",
+   "de": 2307,
+   "ate": 2330
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 6: O sexto mandamento",
+   "de": 2331,
+   "ate": 2400
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. «Homem e mulher os criou»...",
+   "de": 2331,
+   "ate": 2336
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. A vocação à castidade",
+   "de": 2337,
+   "ate": 2359
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A integridade da pessoa",
+   "de": 2338,
+   "ate": 2345
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A integralidade do dom de si",
+   "de": 2346,
+   "ate": 2347
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Os diversos regimes da castidade",
+   "de": 2348,
+   "ate": 2350
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "As ofensas à castidade",
+   "de": 2351,
+   "ate": 2357
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Castidade e homossexualidade",
+   "de": 2358,
+   "ate": 2359
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. O amor dos esposos",
+   "de": 2360,
+   "ate": 2379
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A fidelidade conjugal",
+   "de": 2364,
+   "ate": 2365
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "A fecundidade do matrimónio",
+   "de": 2366,
+   "ate": 2372
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O dom do Filho",
+   "de": 2373,
+   "ate": 2379
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "IV. As ofensas à dignidade do matrimónio",
+   "de": 2380,
+   "ate": 2400
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O divórcio",
+   "de": 2382,
+   "ate": 2386
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "Outras ofensas à dignidade do matrimónio",
+   "de": 2387,
+   "ate": 2400
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 7: O sétimo mandamento",
+   "de": 2401,
+   "ate": 2463
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. O destino universal e a propriedade privada dos bens",
+   "de": 2402,
+   "ate": 2406
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. O respeito pelas pessoas e seus bens",
+   "de": 2407,
+   "ate": 2418
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O respeito pelos bens alheios",
+   "de": 2408,
+   "ate": 2414
+  },
+  {
+   "nivel": "assunto",
+   "titulo": "O respeito pela integridade da criação",
+   "de": 2415,
+   "ate": 2418
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. A doutrina social da Igreja",
+   "de": 2419,
+   "ate": 2425
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "IV. A actividade económica e a justiça social",
+   "de": 2426,
+   "ate": 2436
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "V. Justiça e solidariedade entre as nações",
+   "de": 2437,
+   "ate": 2442
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "VI. O amor dos pobres",
+   "de": 2443,
+   "ate": 2463
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 8: O oitavo mandamento",
+   "de": 2464,
+   "ate": 2513
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. Viver na verdade",
+   "de": 2465,
+   "ate": 2470
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. «Dar testemunho da verdade»",
+   "de": 2471,
+   "ate": 2474
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. As ofensas à verdade",
+   "de": 2475,
+   "ate": 2487
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "IV. O respeito pela verdade",
+   "de": 2488,
+   "ate": 2492
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "V. O uso dos meios de comunicação social",
+   "de": 2493,
+   "ate": 2499
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "VI. Verdade, beleza e arte sacra",
+   "de": 2500,
+   "ate": 2513
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 9: O nono mandamento",
+   "de": 2514,
+   "ate": 2533
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. A purificação do coração",
+   "de": 2517,
+   "ate": 2519
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. O combate pela pureza",
+   "de": 2520,
+   "ate": 2533
+  },
+  {
+   "nivel": "artigo",
+   "titulo": "Artigo 10: O décimo mandamento",
+   "de": 2534,
+   "ate": 2557
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "I. A desordem das cobiças",
+   "de": 2535,
+   "ate": 2540
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "II. Os desejos do Espírito",
+   "de": 2541,
+   "ate": 2543
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "III. A pobreza de coração",
+   "de": 2544,
+   "ate": 2547
+  },
+  {
+   "nivel": "subtitulo",
+   "titulo": "IV. «Quero ver a Deus»",
+   "de": 2548,
+   "ate": 2557
+  },
+  {
+   "nivel": "parte",
+   "titulo": "Quarta parte: A oração na vida da fé",
+   "de": 2558,
+   "ate": 2865,
+   "semTexto": true
+  }
+ ]
+}
