@@ -1,0 +1,360 @@
+[
+ {
+  "pergunta": "O purgatório é invenção romana",
+  "resposta": "Purgatório é a purificação final de quem morre na amizade de Deus e ainda precisa ser purificado. Não é segunda chance nem terceiro destino: quem passa por ela já está salvo. A palavra é posterior, mas rezar pelos mortos vem do Antigo Testamento e dos primeiros cristãos.",
+  "biblia": [
+   {
+    "ref": "2Mc 12,43-46",
+    "texto": "Judas Macabeu manda oferecer um sacrifício pelos soldados mortos, para que sejam livres do pecado."
+   },
+   {
+    "ref": "1Cor 3,12-15",
+    "texto": "A obra de cada um será provada pelo fogo; há quem se salve como que através do fogo."
+   },
+   {
+    "ref": "Mt 12,32",
+    "texto": "Jesus fala de um pecado que não é perdoado nem neste mundo nem no futuro."
+   },
+   {
+    "ref": "Mt 5,25-26",
+    "texto": "Não sair até pagar o último centavo."
+   },
+   {
+    "ref": "Ap 21,27",
+    "texto": "Nada de impuro entra na cidade santa."
+   },
+   {
+    "ref": "2Tm 1,16-18",
+    "texto": "Paulo pede misericórdia “naquele Dia” para Onesíforo, que ao que tudo indica já tinha morrido."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 1030-1032",
+    "texto": "A purificação final dos eleitos, distinta do castigo dos condenados, e a oração pelos defuntos."
+   },
+   {
+    "ref": "CIC 1472",
+    "texto": "A diferença entre a culpa, que é perdoada, e a pena temporal, que pede purificação."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "Séc. II",
+    "texto": "O epitáfio de Abércio pede que quem o ler reze por ele."
+   },
+   {
+    "ref": "c. 211",
+    "texto": "Tertuliano, A coroa 3: ofertas pelos falecidos no aniversário da morte."
+   },
+   {
+    "ref": "c. 400",
+    "texto": "Santo Agostinho, Confissões IX: Mônica pede que se lembrem dela no altar do Senhor."
+   },
+   {
+    "ref": "1439",
+    "texto": "O Concílio de Florença define a doutrina; Trento a confirma."
+   }
+  ],
+  "conversa": "Explique como misericórdia: Deus termina em nós a obra que começou. Quem reza por um falecido já crê, na prática, no que a Igreja ensina."
+ },
+ {
+  "pergunta": "A Eucaristia é só um pedaço de pão",
+  "resposta": "Jesus disse “isto é o meu corpo”. Em João 6, quando muitos acham a palavra dura e vão embora, Ele não os chama de volta dizendo que era símbolo. Paulo afirma que comungar indignamente é pecar contra o corpo e o sangue do Senhor.",
+  "biblia": [
+   {
+    "ref": "Jo 6,51-58",
+    "texto": "Jesus afirma que sua carne é verdadeira comida e seu sangue verdadeira bebida."
+   },
+   {
+    "ref": "Jo 6,60.66",
+    "texto": "Muitos discípulos se escandalizam e o abandonam; Ele não retira o que disse."
+   },
+   {
+    "ref": "Mt 26,26-28",
+    "texto": "Na ceia, toma o pão e o cálice e os dá como seu corpo e seu sangue."
+   },
+   {
+    "ref": "1Cor 10,16",
+    "texto": "O cálice e o pão são comunhão com o sangue e o corpo de Cristo."
+   },
+   {
+    "ref": "1Cor 11,27-29",
+    "texto": "Quem come sem discernir o Corpo come a própria condenação."
+   },
+   {
+    "ref": "Lc 24,30-35",
+    "texto": "Os discípulos de Emaús o reconhecem ao partir o pão."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 1374-1376",
+    "texto": "Cristo está presente verdadeira, real e substancialmente; a Igreja chama essa mudança de transubstanciação."
+   },
+   {
+    "ref": "CIC 1324",
+    "texto": "A Eucaristia é fonte e ápice de toda a vida cristã."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "c. 107",
+    "texto": "Santo Inácio de Antioquia, Carta aos Esmirnenses 7: a Eucaristia é a carne de nosso Salvador Jesus Cristo."
+   },
+   {
+    "ref": "c. 155",
+    "texto": "São Justino, I Apologia 66: não a recebemos como pão comum nem bebida comum."
+   },
+   {
+    "ref": "c. 350",
+    "texto": "São Cirilo de Jerusalém, Catequeses Mistagógicas 4: não julgar pelo gosto, mas pela fé."
+   },
+   {
+    "ref": "1551",
+    "texto": "O Concílio de Trento, sessão 13."
+   }
+  ],
+  "conversa": "Leia João 6 inteiro com a pessoa e pergunte por que os discípulos foram embora, se era só uma comparação."
+ },
+ {
+  "pergunta": "Não devemos nos confessar a um homem",
+  "resposta": "Só Deus perdoa pecados, e Cristo quis fazer isso por meio dos apóstolos, a quem deu o poder de perdoar e de reter. Para discernir entre uma coisa e outra é preciso ouvir. O padre age em nome de Cristo.",
+  "biblia": [
+   {
+    "ref": "Jo 20,21-23",
+    "texto": "O Ressuscitado sopra sobre os apóstolos e lhes dá o poder de perdoar e reter os pecados."
+   },
+   {
+    "ref": "Mt 16,19",
+    "texto": "A Pedro, as chaves e o poder de ligar e desligar."
+   },
+   {
+    "ref": "Mt 18,18",
+    "texto": "O mesmo poder é dado ao conjunto dos apóstolos."
+   },
+   {
+    "ref": "2Cor 5,18-20",
+    "texto": "Deus confiou aos apóstolos o ministério da reconciliação."
+   },
+   {
+    "ref": "Mt 9,6-8",
+    "texto": "A multidão glorifica a Deus por ter dado tal poder aos homens."
+   },
+   {
+    "ref": "Tg 5,14-16",
+    "texto": "Chamar os presbíteros da Igreja para a unção; confessar os pecados uns aos outros."
+   },
+   {
+    "ref": "At 19,18",
+    "texto": "Muitos fiéis vinham confessar o que tinham feito."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 1441-1445",
+    "texto": "Só Deus perdoa; Cristo confiou esse ministério aos apóstolos."
+   },
+   {
+    "ref": "CIC 1461-1467",
+    "texto": "O ministro do sacramento e o sigilo absoluto da confissão."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "Séc. I",
+    "texto": "Didaqué 4,14: confessar os pecados na assembleia."
+   },
+   {
+    "ref": "251",
+    "texto": "São Cipriano, Os lapsos 28-29: confessar enquanto a absolvição dada pelos sacerdotes é aceita por Deus."
+   },
+   {
+    "ref": "c. 387",
+    "texto": "São João Crisóstomo, O sacerdócio III,5: os sacerdotes receberam um poder que Deus não deu aos anjos."
+   }
+  ],
+  "conversa": "A confissão não substitui falar com Deus: é o modo que Jesus deixou para ouvirmos dele, com certeza, que fomos perdoados."
+ },
+ {
+  "pergunta": "Crianças não podem ser batizadas",
+  "resposta": "O Batismo é dom de Deus antes de ser decisão nossa. Jesus manda deixar vir as crianças, os apóstolos batizam casas inteiras, e Paulo compara o Batismo à circuncisão, dada ao oitavo dia. A criança é batizada na fé da Igreja e dos pais, e mais tarde a assume.",
+  "biblia": [
+   {
+    "ref": "Jo 3,5",
+    "texto": "Nascer da água e do Espírito é necessário para entrar no Reino."
+   },
+   {
+    "ref": "Lc 18,15-16",
+    "texto": "Trazem a Jesus até os bebês, e Ele manda que os deixem vir."
+   },
+   {
+    "ref": "At 2,38-39",
+    "texto": "A promessa do Batismo é para os ouvintes e para os filhos deles."
+   },
+   {
+    "ref": "At 16,15.33",
+    "texto": "Lídia e o carcereiro são batizados com toda a sua casa."
+   },
+   {
+    "ref": "1Cor 1,16",
+    "texto": "Paulo batizou a família de Estéfanas."
+   },
+   {
+    "ref": "Cl 2,11-12",
+    "texto": "O Batismo é a circuncisão de Cristo."
+   },
+   {
+    "ref": "Mc 2,5",
+    "texto": "Jesus perdoa o paralítico ao ver a fé dos que o carregavam."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 1250-1252",
+    "texto": "O Batismo das crianças é tradição imemorial da Igreja e mostra a gratuidade da graça."
+   },
+   {
+    "ref": "CIC 403",
+    "texto": "O pecado original atinge todos, o que explica o Batismo dos pequenos."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "c. 215",
+    "texto": "Santo Hipólito, Tradição Apostólica 21: batizar primeiro as crianças; os pais respondem por elas."
+   },
+   {
+    "ref": "c. 248",
+    "texto": "Orígenes, Comentário a Romanos 5,9: a Igreja recebeu dos apóstolos o costume de batizar também os pequenos."
+   },
+   {
+    "ref": "253",
+    "texto": "São Cipriano, Carta 64: não é preciso esperar o oitavo dia."
+   }
+  ],
+  "conversa": "Os pais escolhem o melhor para o filho antes que ele possa escolher: o nome, o alimento, a língua. A fé é o maior desses presentes."
+ },
+ {
+  "pergunta": "O que salva é a fé, não os ritos",
+  "resposta": "A salvação é graça de Cristo, acolhida pela fé. O mesmo Cristo quis dar essa graça por sinais concretos: água, pão, óleo, imposição das mãos. Os sacramentos são os gestos de Cristo que a fé acolhe, e a fé que salva age pela caridade.",
+  "biblia": [
+   {
+    "ref": "Ef 2,8-10",
+    "texto": "Salvos pela graça, mediante a fé, e criados para as boas obras."
+   },
+   {
+    "ref": "Mc 16,16",
+    "texto": "Crer e ser batizado aparecem juntos."
+   },
+   {
+    "ref": "Tt 3,5",
+    "texto": "Deus nos salvou pelo banho do novo nascimento."
+   },
+   {
+    "ref": "1Pd 3,21",
+    "texto": "Pedro diz que o Batismo agora salva."
+   },
+   {
+    "ref": "At 8,14-17",
+    "texto": "O Espírito é dado pela imposição das mãos dos apóstolos."
+   },
+   {
+    "ref": "Tg 2,24.26",
+    "texto": "A fé sem obras é morta."
+   },
+   {
+    "ref": "Gl 5,6",
+    "texto": "O que vale é a fé que age pelo amor."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 1127-1129",
+    "texto": "Os sacramentos conferem a graça que significam, porque é Cristo quem age neles."
+   },
+   {
+    "ref": "CIC 1987-1996",
+    "texto": "A justificação é obra da graça, que ninguém pode merecer."
+   },
+   {
+    "ref": "CIC 161-162",
+    "texto": "A fé é necessária para a salvação e precisa ser guardada."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "c. 416",
+    "texto": "Santo Agostinho, Tratado sobre João 80,3: a palavra se une ao elemento, e faz-se o sacramento."
+   },
+   {
+    "ref": "1547",
+    "texto": "O Concílio de Trento, sessão 6, sobre a justificação."
+   },
+   {
+    "ref": "1999",
+    "texto": "A Declaração Conjunta católico-luterana afirma que somos aceitos por Deus só pela graça."
+   }
+  ],
+  "conversa": "Comece concordando: ninguém se salva por mérito próprio. Depois mostre que foi Jesus quem escolheu a água e o pão."
+ },
+ {
+  "pergunta": "Não existe penitência na Bíblia, Cristo já pagou tudo",
+  "resposta": "Cristo pagou o que nenhum de nós podia pagar. A penitência não acrescenta nada à cruz: é a resposta de quem foi perdoado, que se converte, repara o mal feito e se une a Cristo. O próprio Jesus disse que seus discípulos jejuariam.",
+  "biblia": [
+   {
+    "ref": "Mt 4,17",
+    "texto": "A primeira palavra da pregação de Jesus é o chamado à conversão."
+   },
+   {
+    "ref": "Mt 6,16-18",
+    "texto": "Jesus diz “quando jejuardes”: dá o jejum como certo."
+   },
+   {
+    "ref": "Mt 9,15",
+    "texto": "Virão dias em que os discípulos jejuarão."
+   },
+   {
+    "ref": "Lc 19,8-9",
+    "texto": "Zaqueu repara o que roubou, e Jesus declara que a salvação entrou naquela casa."
+   },
+   {
+    "ref": "At 26,20",
+    "texto": "Paulo prega obras dignas de conversão."
+   },
+   {
+    "ref": "2Sm 12,13-14",
+    "texto": "Davi é perdoado, e ainda assim carrega as consequências do pecado."
+   },
+   {
+    "ref": "Cl 1,24",
+    "texto": "Paulo se alegra em unir seus sofrimentos aos de Cristo pela Igreja."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 1430-1439",
+    "texto": "A penitência interior e suas formas: jejum, oração e esmola."
+   },
+   {
+    "ref": "CIC 1459-1460",
+    "texto": "A satisfação repara o dano e nos configura a Cristo, que expiou os pecados de uma vez por todas."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "Séc. I",
+    "texto": "Didaqué 8: os cristãos jejuam na quarta e na sexta-feira."
+   },
+   {
+    "ref": "c. 203",
+    "texto": "Tertuliano escreve o tratado A penitência."
+   },
+   {
+    "ref": "Séc. V",
+    "texto": "São Leão Magno prega a Quaresma como tempo de jejum, oração e esmola."
+   }
+  ],
+  "conversa": "Use o exemplo da vidraça quebrada: o pai perdoa o filho na hora, e o filho, por amor, ajuda a consertar."
+ }
+]

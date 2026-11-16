@@ -1,0 +1,67 @@
+[
+ {
+  "nome": "Defesa da fé",
+  "blocos": [
+   {
+    "id": "maria",
+    "nome": "Santíssima Virgem Maria",
+    "cor": "tema-mariana"
+   },
+   {
+    "id": "igreja",
+    "nome": "Igreja, Pedro e o Papa",
+    "cor": ""
+   },
+   {
+    "id": "escritura",
+    "nome": "Bíblia e Tradição",
+    "cor": "tema-branca"
+   },
+   {
+    "id": "sacramentos",
+    "nome": "Sacramentos e salvação",
+    "cor": "tema-liturgica"
+   },
+   {
+    "id": "cristo",
+    "nome": "Cristo, mandamentos e domingo",
+    "cor": "tema-roxa"
+   },
+   {
+    "id": "imagens",
+    "nome": "Imagens, santos e relíquias",
+    "cor": "tema-vermelha"
+   }
+  ]
+ },
+ {
+  "nome": "Resposta à Reforma",
+  "blocos": [
+   {
+    "id": "solas",
+    "nome": "As cinco solas",
+    "cor": ""
+   }
+  ]
+ },
+ {
+  "nome": "Valores católicos",
+  "blocos": [
+   {
+    "id": "teologais",
+    "nome": "Virtudes teologais",
+    "cor": "tema-branca"
+   },
+   {
+    "id": "cardeais",
+    "nome": "Virtudes cardeais",
+    "cor": "tema-roxa"
+   },
+   {
+    "id": "vida",
+    "nome": "Vida, matrimônio e família",
+    "cor": "tema-liturgica"
+   }
+  ]
+ }
+]

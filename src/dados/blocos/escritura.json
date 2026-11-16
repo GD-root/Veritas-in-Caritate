@@ -1,0 +1,246 @@
+[
+ {
+  "pergunta": "Só acredito no que está escrito na Bíblia",
+  "resposta": "A Bíblia não diz que só ela basta. Ela manda guardar também o que foi transmitido de viva voz, e foi a Igreja que reconheceu quais livros são Escritura. Escritura e Tradição vêm da mesma fonte.",
+  "biblia": [
+   {
+    "ref": "2Ts 2,15",
+    "texto": "Guardar as tradições recebidas, por palavra ou por carta."
+   },
+   {
+    "ref": "1Cor 11,2",
+    "texto": "Paulo elogia quem conserva as tradições como ele as transmitiu."
+   },
+   {
+    "ref": "Jo 21,25",
+    "texto": "Nem tudo o que Jesus fez foi escrito."
+   },
+   {
+    "ref": "2Tm 3,16-17",
+    "texto": "Toda Escritura é inspirada e útil. O texto diz “útil”, não “única”."
+   },
+   {
+    "ref": "2Pd 3,15-16",
+    "texto": "Há passagens difíceis nas cartas de Paulo, que alguns distorcem."
+   },
+   {
+    "ref": "At 8,30-31",
+    "texto": "O etíope pergunta como entender sem alguém que o oriente."
+   },
+   {
+    "ref": "1Tm 3,15",
+    "texto": "A coluna e o sustentáculo da verdade é a Igreja."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 80-82",
+    "texto": "Tradição e Escritura brotam da mesma fonte divina e formam um só depósito."
+   },
+   {
+    "ref": "CIC 85-86",
+    "texto": "O Magistério não está acima da Palavra de Deus: está a seu serviço."
+   },
+   {
+    "ref": "CIC 120",
+    "texto": "Foi a Tradição apostólica que levou a Igreja a discernir a lista dos livros sagrados."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "c. 180",
+    "texto": "Santo Irineu, Contra as Heresias III,4,1: os apóstolos depositaram na Igreja toda a verdade."
+   },
+   {
+    "ref": "393-397",
+    "texto": "Os Concílios de Hipona e Cartago listam os livros da Bíblia."
+   },
+   {
+    "ref": "c. 397",
+    "texto": "Santo Agostinho, Contra a carta de Mani 5: não creria no Evangelho se a autoridade da Igreja católica não o movesse."
+   },
+   {
+    "ref": "1965",
+    "texto": "Concílio Vaticano II, Dei Verbum 9-10."
+   }
+  ],
+  "conversa": "Pergunte com respeito: onde a Bíblia traz a lista dos livros da Bíblia? A resposta leva naturalmente à Igreja que a reconheceu."
+ },
+ {
+  "pergunta": "Os 7 livros a mais não são inspirados",
+  "resposta": "Tobias, Judite, Sabedoria, Eclesiástico, Baruc e 1 e 2 Macabeus estavam na Bíblia grega usada pelos primeiros cristãos e nas listas dos concílios do século IV. Em Tobias, o anjo cumpre uma missão oculta sob um nome simbólico e no fim se revela.",
+  "biblia": [
+   {
+    "ref": "Tb 12,11-15",
+    "texto": "Rafael revela quem é e explica a missão que recebeu de Deus."
+   },
+   {
+    "ref": "Gn 18,1-2",
+    "texto": "Os mensageiros de Deus aparecem a Abraão como homens."
+   },
+   {
+    "ref": "Hb 11,35",
+    "texto": "A carta alude aos mártires de 2Mc 7, que aceitaram a morte esperando a ressurreição."
+   },
+   {
+    "ref": "Jo 10,22-23",
+    "texto": "Jesus está no Templo na festa da Dedicação, instituída em 1Mc 4,36-59."
+   },
+   {
+    "ref": "Sb 2,12-20",
+    "texto": "O justo perseguido que se diz filho de Deus; compare com Mt 27,41-43."
+   },
+   {
+    "ref": "Lc 2,25-38",
+    "texto": "Simeão e Ana mostram que o Espírito não ficou mudo antes de Cristo."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 120",
+    "texto": "A lista completa: 46 livros do Antigo Testamento e 27 do Novo."
+   },
+   {
+    "ref": "CIC 138",
+    "texto": "A Igreja recebe e venera como inspirados todos eles."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "Séc. III-II a.C.",
+    "texto": "A Septuaginta, tradução grega das Escrituras, inclui esses livros."
+   },
+   {
+    "ref": "393-397",
+    "texto": "Os Concílios de Hipona e Cartago os listam como canônicos."
+   },
+   {
+    "ref": "c. 397",
+    "texto": "Santo Agostinho, A Doutrina Cristã II,8, traz a mesma lista."
+   },
+   {
+    "ref": "Séc. IV",
+    "texto": "São Jerônimo teve reservas sobre eles, mas os traduziu e seguiu o uso da Igreja."
+   },
+   {
+    "ref": "1546",
+    "texto": "O Concílio de Trento define o cânon diante da retirada desses livros."
+   }
+  ],
+  "conversa": "Dê o nome certo: deuterocanônicos. E convide a ler Sabedoria 2 antes de qualquer discussão."
+ },
+ {
+  "pergunta": "Os fiéis de Bereia conferiam tudo nas Escrituras",
+  "resposta": "Os bereanos são elogiados por acolherem com avidez a pregação de Paulo e conferirem no Antigo Testamento se Jesus cumpria as promessas. Eles creram na palavra oral do apóstolo, e o Novo Testamento ainda não existia. O texto mostra Escritura e pregação apostólica juntas.",
+  "biblia": [
+   {
+    "ref": "At 17,10-12",
+    "texto": "Acolhem a palavra e examinam as Escrituras todos os dias; muitos creem."
+   },
+   {
+    "ref": "At 17,2-3",
+    "texto": "Paulo partia das Escrituras para mostrar que o Cristo devia sofrer e ressuscitar."
+   },
+   {
+    "ref": "1Ts 2,13",
+    "texto": "Os tessalonicenses receberam a pregação como palavra de Deus."
+   },
+   {
+    "ref": "Lc 24,25-27.45",
+    "texto": "O Ressuscitado abre a inteligência dos discípulos para entenderem as Escrituras."
+   },
+   {
+    "ref": "At 8,30-35",
+    "texto": "Filipe explica Isaías ao etíope."
+   },
+   {
+    "ref": "At 15,28",
+    "texto": "Uma questão difícil é resolvida pela Igreja reunida, com o Espírito Santo."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 109-114",
+    "texto": "Ler a Escritura na Tradição viva de toda a Igreja."
+   },
+   {
+    "ref": "CIC 131-133",
+    "texto": "A Igreja exorta todos os fiéis à leitura frequente da Bíblia."
+   },
+   {
+    "ref": "CIC 85",
+    "texto": "A interpretação autêntica foi confiada ao Magistério."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "Séc. V",
+    "texto": "São Jerônimo, prólogo ao Comentário a Isaías: ignorar as Escrituras é ignorar Cristo."
+   },
+   {
+    "ref": "434",
+    "texto": "São Vicente de Lérins, Commonitório 2: ler segundo o que foi crido em toda parte, sempre e por todos."
+   }
+  ],
+  "conversa": "O católico também é chamado a ser bereano. Elogie o amor da pessoa pela Bíblia e proponha lerem um trecho juntos."
+ },
+ {
+  "pergunta": "Jesus criticou os fariseus por seguirem tradições",
+  "resposta": "Jesus condena tradições humanas que anulam o mandamento de Deus. Não condena toda tradição: os apóstolos mandam guardar as que eles transmitiram. É preciso distinguir a Tradição apostólica dos costumes humanos.",
+  "biblia": [
+   {
+    "ref": "Mc 7,8-13",
+    "texto": "O exemplo do corbã: um costume usado para fugir do dever com os pais."
+   },
+   {
+    "ref": "Mt 15,3-6",
+    "texto": "A crítica é a tradições que violam o mandamento."
+   },
+   {
+    "ref": "2Ts 2,15",
+    "texto": "Guardar as tradições ensinadas pelos apóstolos."
+   },
+   {
+    "ref": "2Ts 3,6",
+    "texto": "Afastar-se de quem não vive segundo a tradição recebida."
+   },
+   {
+    "ref": "1Cor 11,23",
+    "texto": "Paulo transmite o que recebeu do Senhor sobre a Eucaristia."
+   },
+   {
+    "ref": "1Cor 15,3",
+    "texto": "Transmite o que recebeu sobre a morte e a ressurreição de Cristo."
+   },
+   {
+    "ref": "Cl 2,8",
+    "texto": "O alerta é contra a tradição “dos homens”."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 75-79",
+    "texto": "A transmissão da Revelação pelos apóstolos e seus sucessores."
+   },
+   {
+    "ref": "CIC 83",
+    "texto": "A Tradição apostólica é diferente das tradições locais, que podem mudar."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "c. 180",
+    "texto": "Santo Irineu, Contra as Heresias III,2-3: a Tradição dos apóstolos é guardada pela sucessão dos bispos."
+   },
+   {
+    "ref": "Séc. IV",
+    "texto": "São Basílio, Sobre o Espírito Santo 27: há ensinamentos recebidos por escrito e outros pela tradição, como o sinal da cruz."
+   },
+   {
+    "ref": "1965",
+    "texto": "Concílio Vaticano II, Dei Verbum 8."
+   }
+  ],
+  "conversa": "Concorde com a crítica de Jesus: tradição que contraria a Palavra de Deus deve cair. Depois mostre que 2Ts 2,15 usa a mesma palavra em sentido positivo."
+ }
+]

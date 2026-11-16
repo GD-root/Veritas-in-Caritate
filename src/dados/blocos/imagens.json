@@ -1,0 +1,336 @@
+[
+ {
+  "pergunta": "Católicos adoram imagens",
+  "resposta": "Adoração é só para Deus. A imagem é um sinal que lembra quem ela representa, como a foto de alguém que se ama. O que a Bíblia proíbe é o ídolo, a imagem tratada como um deus. O mesmo Deus mandou fazer imagens para o seu culto.",
+  "biblia": [
+   {
+    "ref": "Ex 20,4-5",
+    "texto": "A proibição fala de imagens feitas para serem adoradas e servidas, no contexto dos outros deuses."
+   },
+   {
+    "ref": "Ex 25,18-22",
+    "texto": "Deus manda fazer dois querubins de ouro sobre a Arca da Aliança."
+   },
+   {
+    "ref": "Nm 21,8-9",
+    "texto": "Deus manda fazer a serpente de bronze, e quem foi mordido e olha para ela é curado."
+   },
+   {
+    "ref": "1Rs 6,23-29",
+    "texto": "O templo de Salomão tem querubins, palmeiras e flores entalhados."
+   },
+   {
+    "ref": "2Rs 18,4",
+    "texto": "Ezequias destrói a serpente de bronze quando o povo passa a queimar incenso a ela. O erro era a idolatria, não a imagem."
+   },
+   {
+    "ref": "Cl 1,15",
+    "texto": "Cristo é a imagem do Deus invisível: na Encarnação, Deus se deixou ver."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 2129-2132",
+    "texto": "O culto das imagens não contraria o primeiro mandamento: a honra prestada à imagem vai a quem ela representa."
+   },
+   {
+    "ref": "CIC 1159-1162",
+    "texto": "A imagem sagrada anuncia o mesmo Evangelho que a Escritura transmite pela palavra."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "Séc. IV",
+    "texto": "São Basílio, Sobre o Espírito Santo 18: a honra dada à imagem passa ao modelo."
+   },
+   {
+    "ref": "Séc. VIII",
+    "texto": "São João Damasceno defende as imagens: o Invisível se fez visível ao assumir a carne."
+   },
+   {
+    "ref": "787",
+    "texto": "O II Concílio de Niceia distingue a veneração das imagens da adoração devida só a Deus."
+   }
+  ],
+  "conversa": "Pergunte se a pessoa guarda fotos da família. Ninguém confunde a foto com a pessoa, e ninguém acha que é desrespeito a Deus beijar o retrato da mãe."
+ },
+ {
+  "pergunta": "A Bíblia proíbe prostrar-se diante de imagem",
+  "resposta": "O gesto sozinho não define adoração. Na Bíblia, pessoas se prostram diante de reis, de irmãos e da Arca sem pecar. O que Deus proíbe é prostrar-se para prestar a uma criatura o culto que é só dele.",
+  "biblia": [
+   {
+    "ref": "Ex 20,5",
+    "texto": "A proibição une dois verbos: prostrar-se e servir, isto é, prestar culto."
+   },
+   {
+    "ref": "Js 7,6",
+    "texto": "Josué se prostra diante da Arca, que trazia os querubins."
+   },
+   {
+    "ref": "Gn 33,3",
+    "texto": "Jacó se prostra sete vezes diante do irmão Esaú."
+   },
+   {
+    "ref": "1Rs 1,16",
+    "texto": "Betsabeia se inclina e se prostra diante do rei Davi."
+   },
+   {
+    "ref": "Ap 3,9",
+    "texto": "Jesus promete à igreja de Filadélfia que outros virão prostrar-se a seus pés."
+   },
+   {
+    "ref": "Ap 22,8-9",
+    "texto": "Quando o gesto é de adoração, o anjo o recusa: adoração só a Deus."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 2096-2097",
+    "texto": "Adorar é reconhecer Deus como Criador e Senhor. Só a Ele."
+   },
+   {
+    "ref": "CIC 2132",
+    "texto": "A veneração das imagens é respeitosa, não adoração."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "787",
+    "texto": "O II Concílio de Niceia: quem venera a imagem venera a pessoa nela representada."
+   },
+   {
+    "ref": "1563",
+    "texto": "O Concílio de Trento, sessão 25: nas imagens não há divindade nem poder; a honra se refere a quem representam."
+   }
+  ],
+  "conversa": "A diferença está na intenção. Ajoelhar para pedir alguém em casamento não é adorar a noiva."
+ },
+ {
+  "pergunta": "Não se pode pedir a intercessão dos santos, Cristo é o único mediador",
+  "resposta": "Cristo é o único mediador da salvação. Pedir a oração de alguém não disputa esse lugar: fazemos isso com os amigos na terra, e os santos estão ainda mais unidos a Cristo.",
+  "biblia": [
+   {
+    "ref": "1Tm 2,1-5",
+    "texto": "Paulo pede intercessões por todos no mesmo trecho em que chama Cristo de único mediador."
+   },
+   {
+    "ref": "Rm 15,30",
+    "texto": "O próprio Paulo pede que rezem por ele."
+   },
+   {
+    "ref": "Tg 5,16",
+    "texto": "A oração do justo tem grande força."
+   },
+   {
+    "ref": "Ex 32,11-14",
+    "texto": "Moisés intercede pelo povo, e Deus atende."
+   },
+   {
+    "ref": "2Mc 15,12-14",
+    "texto": "Onias e Jeremias, já falecidos, são vistos rezando pelo povo."
+   },
+   {
+    "ref": "Ap 5,8",
+    "texto": "No céu, as orações dos fiéis são apresentadas a Deus."
+   },
+   {
+    "ref": "Ap 8,3-4",
+    "texto": "O anjo oferece as orações dos santos diante do trono."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 956",
+    "texto": "Os santos intercedem por nós junto do Pai, apresentando os méritos que alcançaram na terra por meio de Cristo."
+   },
+   {
+    "ref": "CIC 2683",
+    "texto": "As testemunhas que nos precederam participam da tradição viva da oração."
+   },
+   {
+    "ref": "CIC 2634-2636",
+    "texto": "Interceder é próprio de um coração em sintonia com a misericórdia de Deus."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "Séc. III",
+    "texto": "Orígenes, Sobre a oração 11: os santos que já partiram rezam conosco."
+   },
+   {
+    "ref": "c. 350",
+    "texto": "São Cirilo de Jerusalém, Catequeses Mistagógicas 5,9: na liturgia recordam-se os santos, para que por suas preces Deus acolha a nossa."
+   },
+   {
+    "ref": "c. 400",
+    "texto": "Santo Agostinho, Contra Fausto 20,21: honramos os mártires para nos unirmos às suas orações."
+   }
+  ],
+  "conversa": "Pergunte se a pessoa já pediu oração a um amigo. É a mesma coisa, pedida a quem já está com Deus."
+ },
+ {
+  "pergunta": "Não existe santo, só Deus é santo",
+  "resposta": "Só Deus é santo por natureza, e toda santidade vem dele. Mas a Bíblia chama de santos os que Ele santifica e manda que todos o sejam. A Igreja reconhece como santos aqueles em quem a graça de Deus venceu.",
+  "biblia": [
+   {
+    "ref": "Ap 15,4",
+    "texto": "Só Deus é santo: é a fonte de toda santidade."
+   },
+   {
+    "ref": "Lv 19,2",
+    "texto": "Deus ordena ao povo que seja santo, porque Ele é santo."
+   },
+   {
+    "ref": "1Pd 1,15-16",
+    "texto": "Pedro repete a ordem aos cristãos."
+   },
+   {
+    "ref": "Ef 1,1",
+    "texto": "Paulo escreve aos santos que estão em Éfeso."
+   },
+   {
+    "ref": "Mt 27,52",
+    "texto": "Na morte de Jesus, corpos de muitos santos ressuscitam."
+   },
+   {
+    "ref": "Hb 12,14",
+    "texto": "Sem santidade ninguém verá o Senhor."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 823-825",
+    "texto": "A Igreja é santa porque Cristo a santifica; seus membros ainda caminham para a santidade."
+   },
+   {
+    "ref": "CIC 828",
+    "texto": "Ao canonizar, a Igreja reconhece o poder do Espírito de santidade que está nela."
+   },
+   {
+    "ref": "CIC 2013",
+    "texto": "Todos os fiéis são chamados à santidade."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "c. 155",
+    "texto": "Martírio de São Policarpo 17: a Cristo adoramos; aos mártires amamos como discípulos e imitadores do Senhor."
+   },
+   {
+    "ref": "1964",
+    "texto": "Concílio Vaticano II, Lumen Gentium, capítulo V: a vocação universal à santidade."
+   }
+  ],
+  "conversa": "Santo não é quem nunca pecou. É quem deixou Deus terminar a obra nele, e isso é chamado para todos."
+ },
+ {
+  "pergunta": "Beijar relíquia é idolatria",
+  "resposta": "Relíquia não é amuleto e não é adorada. É a lembrança concreta de alguém em quem Deus agiu. A própria Bíblia mostra Deus fazendo milagres por meio do corpo e dos objetos de seus servos.",
+  "biblia": [
+   {
+    "ref": "2Rs 13,20-21",
+    "texto": "Um morto volta à vida ao tocar os ossos do profeta Eliseu."
+   },
+   {
+    "ref": "At 19,11-12",
+    "texto": "Lenços e aventais que tocaram Paulo curam doentes."
+   },
+   {
+    "ref": "At 5,15",
+    "texto": "Colocam os doentes onde a sombra de Pedro passasse."
+   },
+   {
+    "ref": "Mc 5,27-29",
+    "texto": "A mulher é curada ao tocar o manto de Jesus."
+   },
+   {
+    "ref": "2Rs 2,13-14",
+    "texto": "Eliseu recolhe o manto de Elias e com ele abre as águas."
+   },
+   {
+    "ref": "Ex 13,19",
+    "texto": "Moisés leva consigo os ossos de José."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 1674",
+    "texto": "A veneração das relíquias está entre as formas de piedade do povo cristão."
+   },
+   {
+    "ref": "CIC 2132",
+    "texto": "Como nas imagens, a honra vai à pessoa, e por ela a Deus."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "c. 155",
+    "texto": "Martírio de São Policarpo 18: os fiéis recolhem seus ossos, mais preciosos que joias."
+   },
+   {
+    "ref": "404",
+    "texto": "São Jerônimo, Carta 109 a Ripário: honramos as relíquias dos mártires para adorar Aquele de quem eles são mártires."
+   },
+   {
+    "ref": "1563",
+    "texto": "O Concílio de Trento, sessão 25, confirma a veneração e condena os abusos."
+   }
+  ],
+  "conversa": "Quem guarda a aliança da avó ou visita um túmulo entende o gesto. O poder é de Deus, não do objeto."
+ },
+ {
+  "pergunta": "Deve-se rezar apenas a Deus",
+  "resposta": "Rezar tem dois sentidos: adorar e pedir. Adoração é só para Deus. Aos santos pedimos que rezem conosco e por nós, e toda oração termina em Deus.",
+  "biblia": [
+   {
+    "ref": "Mt 4,10",
+    "texto": "Adorar e prestar culto, só a Deus."
+   },
+   {
+    "ref": "1Ts 5,25",
+    "texto": "Paulo pede aos irmãos que rezem por ele."
+   },
+   {
+    "ref": "Ef 6,18",
+    "texto": "Súplicas por todos os santos, uns pelos outros."
+   },
+   {
+    "ref": "Tb 12,12",
+    "texto": "O anjo Rafael apresentava a Deus as orações de Tobit e de Sara."
+   },
+   {
+    "ref": "Ap 8,3-4",
+    "texto": "As orações sobem a Deus pelas mãos do anjo."
+   },
+   {
+    "ref": "Sl 103(102),20-21",
+    "texto": "O salmista se dirige aos anjos e os convida a bendizer o Senhor."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 2096",
+    "texto": "A adoração é o primeiro ato da virtude da religião, devida só a Deus."
+   },
+   {
+    "ref": "CIC 2679",
+    "texto": "Rezamos com Maria e a ela, e a oração da Igreja é sustentada pela dela."
+   },
+   {
+    "ref": "CIC 2683-2684",
+    "texto": "Os santos são companheiros e mestres de oração."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "c. 400",
+    "texto": "Santo Agostinho, Contra Fausto 20,21: aos mártires damos o culto de amor e comunhão; o culto de adoração, só a Deus."
+   },
+   {
+    "ref": "Séc. XIII",
+    "texto": "São Tomás de Aquino, Suma Teológica II-II, q. 83, a. 4: a Deus pedimos que conceda; aos santos, que intercedam."
+   }
+  ],
+  "conversa": "Mostre uma ladainha: a Deus dizemos “tende piedade de nós”; aos santos, “rogai por nós”. A diferença está nas próprias palavras."
+ }
+]
