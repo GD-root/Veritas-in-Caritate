@@ -1,0 +1,191 @@
+[
+ {
+  "pergunta": "Jesus é uma criatura elevada",
+  "resposta": "O Novo Testamento chama Jesus de Deus, atribui a Ele a criação de todas as coisas e mostra que Ele recebe adoração. O Filho é gerado, não criado, da mesma substância do Pai.",
+  "biblia": [
+   {
+    "ref": "Jo 1,1-3.14",
+    "texto": "O Verbo era Deus, tudo foi feito por Ele, e Ele se fez carne."
+   },
+   {
+    "ref": "Jo 8,58",
+    "texto": "Jesus aplica a si o “Eu Sou” de Ex 3,14."
+   },
+   {
+    "ref": "Jo 10,30-33",
+    "texto": "Querem apedrejá-lo porque entendem que Ele se faz Deus."
+   },
+   {
+    "ref": "Jo 20,28",
+    "texto": "Tomé o chama de seu Senhor e seu Deus, e Jesus aceita."
+   },
+   {
+    "ref": "Cl 1,15-17",
+    "texto": "“Primogênito” é título de primazia: nele e para Ele tudo foi criado."
+   },
+   {
+    "ref": "Cl 2,9",
+    "texto": "Nele habita corporalmente toda a plenitude da divindade."
+   },
+   {
+    "ref": "Fl 2,5-11",
+    "texto": "Sendo de condição divina, fez-se servo; diante dele todo joelho se dobra."
+   },
+   {
+    "ref": "Hb 1,6.8",
+    "texto": "Os anjos o adoram, e o Pai lhe diz: “o teu trono, ó Deus”."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 464-469",
+    "texto": "Jesus Cristo é verdadeiro Deus e verdadeiro homem."
+   },
+   {
+    "ref": "CIC 465",
+    "texto": "O Concílio de Niceia confessa o Filho gerado, não criado, consubstancial ao Pai."
+   },
+   {
+    "ref": "CIC 242",
+    "texto": "O Filho é um só Deus com o Pai."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "c. 107",
+    "texto": "Santo Inácio de Antioquia, Carta aos Efésios 18 e Carta aos Romanos 3, chama Jesus Cristo de “nosso Deus”."
+   },
+   {
+    "ref": "325",
+    "texto": "O Concílio de Niceia define a fé contra Ário."
+   },
+   {
+    "ref": "Séc. IV",
+    "texto": "Santo Atanásio, Contra os Arianos: se o Filho fosse criatura, não poderia nos unir a Deus."
+   }
+  ],
+  "conversa": "Sobre Jo 14,28, “o Pai é maior do que eu”: Jesus fala como homem, na condição de servo que assumiu. Leia junto com Fl 2,5-11."
+ },
+ {
+  "pergunta": "A Igreja mudou os 10 mandamentos",
+  "resposta": "Os mandamentos são os de Êxodo 20 e Deuteronômio 5. A Bíblia diz que são dez, mas não os numera, e há mais de uma divisão tradicional. A Igreja segue a de Santo Agostinho, que une a proibição dos ídolos ao primeiro mandamento. A fórmula da catequese é um resumo para decorar.",
+  "biblia": [
+   {
+    "ref": "Ex 20,2-17",
+    "texto": "A primeira lista."
+   },
+   {
+    "ref": "Dt 5,6-21",
+    "texto": "A segunda lista, com pequenas diferenças."
+   },
+   {
+    "ref": "Ex 34,28",
+    "texto": "A Escritura fala em “dez palavras”, sem indicar onde cada uma começa."
+   },
+   {
+    "ref": "Dt 5,21",
+    "texto": "A cobiça da mulher do próximo vem separada da cobiça dos bens."
+   },
+   {
+    "ref": "Mt 19,17-19",
+    "texto": "Jesus cita os mandamentos de forma resumida."
+   },
+   {
+    "ref": "Mt 22,37-40",
+    "texto": "E os reúne em dois: amar a Deus e ao próximo."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 2066",
+    "texto": "A divisão e a numeração variaram na história; o Catecismo segue a de Santo Agostinho."
+   },
+   {
+    "ref": "CIC 2052-2082",
+    "texto": "Os Dez Mandamentos na Escritura e na Tradição, com o texto completo das duas listas."
+   },
+   {
+    "ref": "CIC 2129-2132",
+    "texto": "A proibição dos ídolos é tratada dentro do primeiro mandamento."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "c. 419",
+    "texto": "Santo Agostinho, Questões sobre o Êxodo 71, propõe a divisão seguida por católicos e luteranos."
+   },
+   {
+    "ref": "Séc. III",
+    "texto": "Orígenes, Homilias sobre o Êxodo 8, segue outra divisão, hoje usada por ortodoxos e reformados."
+   },
+   {
+    "ref": "1566",
+    "texto": "O Catecismo Romano explica os mandamentos um a um."
+   }
+  ],
+  "conversa": "Abra o Catecismo na tabela dos mandamentos: o texto completo do Êxodo e do Deuteronômio está impresso ao lado da fórmula da catequese."
+ },
+ {
+  "pergunta": "Deve-se guardar o sábado, não o domingo",
+  "resposta": "O sábado celebrava a criação e a libertação do Egito. Desde o tempo dos apóstolos, os cristãos se reúnem no primeiro dia da semana, o da Ressurreição, início da nova criação. O mandamento de consagrar um dia a Deus permanece, vivido no dia do Senhor ressuscitado.",
+  "biblia": [
+   {
+    "ref": "Mt 28,1",
+    "texto": "Jesus ressuscita depois do sábado, ao amanhecer do primeiro dia."
+   },
+   {
+    "ref": "Jo 20,19.26",
+    "texto": "O Ressuscitado aparece aos discípulos reunidos no primeiro dia e de novo oito dias depois."
+   },
+   {
+    "ref": "At 20,7",
+    "texto": "A comunidade se reúne no primeiro dia da semana para partir o pão."
+   },
+   {
+    "ref": "1Cor 16,2",
+    "texto": "A coleta é feita no primeiro dia da semana."
+   },
+   {
+    "ref": "Ap 1,10",
+    "texto": "João fala do “dia do Senhor”."
+   },
+   {
+    "ref": "Cl 2,16-17",
+    "texto": "Ninguém deve julgar os cristãos por causa de sábados, que eram sombra do que viria."
+   },
+   {
+    "ref": "Mc 2,27-28",
+    "texto": "O Filho do Homem é senhor também do sábado."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 2174-2176",
+    "texto": "O domingo, dia da Ressurreição, leva à plenitude a verdade espiritual do sábado."
+   },
+   {
+    "ref": "CIC 2177-2178",
+    "texto": "A Eucaristia dominical está no centro da vida da Igreja desde os apóstolos."
+   },
+   {
+    "ref": "CIC 1166",
+    "texto": "A Igreja celebra o mistério pascal a cada oito dias."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "Séc. I",
+    "texto": "Didaqué 14: reunir-se no dia do Senhor."
+   },
+   {
+    "ref": "c. 107",
+    "texto": "Santo Inácio de Antioquia, Carta aos Magnésios 9: viver segundo o dia do Senhor."
+   },
+   {
+    "ref": "c. 155",
+    "texto": "São Justino, I Apologia 67: a assembleia acontece no dia do sol, o da criação e da ressurreição."
+   }
+  ],
+  "conversa": "Esses textos são de dois séculos antes de Constantino. O domingo nasceu da Páscoa, não de um decreto imperial."
+ }
+]

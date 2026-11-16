@@ -1,0 +1,321 @@
+[
+ {
+  "pergunta": "Sola Scriptura: só a Escritura é regra de fé",
+  "resposta": "A Igreja venera a Escritura como Palavra de Deus inspirada. O que ela não aceita é o “só”. A própria Bíblia manda guardar o que foi transmitido de viva voz, não traz a lista dos seus livros e mostra que é preciso quem a explique. Escritura, Tradição e Magistério caminham juntos.",
+  "biblia": [
+   {
+    "ref": "2Ts 2,15",
+    "texto": "Guardar as tradições recebidas, por palavra ou por carta."
+   },
+   {
+    "ref": "1Cor 11,2",
+    "texto": "Paulo elogia quem conserva as tradições como ele as transmitiu."
+   },
+   {
+    "ref": "2Tm 3,16-17",
+    "texto": "Toda Escritura é inspirada e útil. O texto diz “útil”, não “única”."
+   },
+   {
+    "ref": "Jo 21,25",
+    "texto": "Nem tudo o que Jesus fez foi escrito."
+   },
+   {
+    "ref": "2Pd 3,15-16",
+    "texto": "Há passagens difíceis nas cartas de Paulo, que alguns distorcem."
+   },
+   {
+    "ref": "At 8,30-31",
+    "texto": "O etíope pergunta como entender sem alguém que o oriente."
+   },
+   {
+    "ref": "1Tm 3,15",
+    "texto": "A coluna e o sustentáculo da verdade é a Igreja."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 80-82",
+    "texto": "Tradição e Escritura brotam da mesma fonte divina e formam um só depósito."
+   },
+   {
+    "ref": "CIC 85-86",
+    "texto": "O Magistério não está acima da Palavra de Deus: está a seu serviço."
+   },
+   {
+    "ref": "CIC 120",
+    "texto": "Foi a Tradição apostólica que levou a Igreja a discernir a lista dos livros sagrados."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "c. 180",
+    "texto": "Santo Irineu, Contra as Heresias III,4,1: os apóstolos depositaram na Igreja toda a verdade."
+   },
+   {
+    "ref": "393-397",
+    "texto": "Os Concílios de Hipona e Cartago listam os livros da Bíblia."
+   },
+   {
+    "ref": "c. 397",
+    "texto": "Santo Agostinho, Contra a carta de Mani 5: não creria no Evangelho se a autoridade da Igreja católica não o movesse."
+   },
+   {
+    "ref": "1965",
+    "texto": "Concílio Vaticano II, Dei Verbum 9-10."
+   }
+  ],
+  "conversa": "Reconheça primeiro o amor do irmão pela Bíblia, que é verdadeiro. Depois pergunte onde a Bíblia ensina que só ela basta."
+ },
+ {
+  "pergunta": "Sola Fide: só a fé justifica",
+  "resposta": "A Igreja ensina que ninguém merece a justificação: ela é graça, acolhida pela fé. Mas a fé que justifica não fica sozinha, age pela caridade. Quando Paulo fala em fé “sem as obras da Lei”, refere-se à Lei de Moisés. A única vez em que a Bíblia traz a expressão “só pela fé” é para negá-la, em Tiago.",
+  "biblia": [
+   {
+    "ref": "Rm 3,28",
+    "texto": "O homem é justificado pela fé, sem as obras da Lei."
+   },
+   {
+    "ref": "Tg 2,24.26",
+    "texto": "O homem é justificado pelas obras e não só pela fé; a fé sem obras é morta."
+   },
+   {
+    "ref": "Gl 5,6",
+    "texto": "O que vale é a fé que age pela caridade."
+   },
+   {
+    "ref": "Ef 2,8-10",
+    "texto": "Salvos pela graça, mediante a fé, e criados para as boas obras."
+   },
+   {
+    "ref": "Rm 2,6-7",
+    "texto": "Deus retribuirá a cada um segundo as suas obras."
+   },
+   {
+    "ref": "Mt 19,17-19",
+    "texto": "A quem pergunta pela vida eterna, Jesus manda guardar os mandamentos."
+   },
+   {
+    "ref": "1Cor 13,13",
+    "texto": "Permanecem a fé, a esperança e a caridade, e a maior é a caridade."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 1987-1996",
+    "texto": "A justificação é obra da graça, acolhida pela fé em Cristo e dada no Batismo."
+   },
+   {
+    "ref": "CIC 1815",
+    "texto": "A fé sem obras está morta; unida à esperança e à caridade, une plenamente a Cristo."
+   },
+   {
+    "ref": "CIC 2006-2011",
+    "texto": "O mérito humano vem de Deus, que associa o homem à sua obra; ninguém merece a primeira graça."
+   },
+   {
+    "ref": "CIC 161-162",
+    "texto": "Crer é necessário para a salvação, e a fé precisa ser guardada."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "Séc. V",
+    "texto": "Santo Agostinho, Sermão 169: Aquele que te criou sem ti não te justifica sem ti."
+   },
+   {
+    "ref": "1547",
+    "texto": "O Concílio de Trento, sessão 6, sobre a justificação."
+   },
+   {
+    "ref": "1999",
+    "texto": "A Declaração Conjunta católico-luterana afirma que somos aceitos por Deus só pela graça, na fé."
+   }
+  ],
+  "conversa": "Comece pelo que une: ninguém se salva por mérito próprio. Depois leia Tiago 2,24 junto com Romanos 3,28 e mostre que os dois precisam ser lidos em conjunto."
+ },
+ {
+  "pergunta": "Sola Gratia: só a graça salva",
+  "resposta": "Aqui católicos e luteranos estão mais perto do que se costuma pensar. A Igreja ensina que a salvação é graça do começo ao fim, e que até a preparação para recebê-la já é obra da graça. A diferença está em que a graça não dispensa a liberdade: ela a cura e a move a cooperar.",
+  "biblia": [
+   {
+    "ref": "Ef 2,8-10",
+    "texto": "Salvos pela graça, mediante a fé; isso não vem de nós, é dom de Deus."
+   },
+   {
+    "ref": "Tt 3,5",
+    "texto": "Deus nos salvou por misericórdia, pelo banho do novo nascimento."
+   },
+   {
+    "ref": "Jo 15,5",
+    "texto": "Sem Cristo nada podemos fazer."
+   },
+   {
+    "ref": "1Cor 15,10",
+    "texto": "Pela graça de Deus sou o que sou; trabalhei, mas foi a graça de Deus comigo."
+   },
+   {
+    "ref": "Fl 2,12-13",
+    "texto": "Trabalhai na vossa salvação, pois é Deus quem opera em vós o querer e o fazer."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 1996",
+    "texto": "A justificação vem da graça, favor gratuito de Deus."
+   },
+   {
+    "ref": "CIC 2001-2002",
+    "texto": "Deus começa e completa a obra, e pede a resposta livre do homem."
+   },
+   {
+    "ref": "CIC 2008",
+    "texto": "A ação de Deus é primeira; a cooperação humana vem depois e depende dela."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "529",
+    "texto": "O II Concílio de Orange ensina que até o início da fé é dom da graça."
+   },
+   {
+    "ref": "Séc. V",
+    "texto": "Santo Agostinho, A graça e o livre-arbítrio: a graça não anula a liberdade, mas a restaura."
+   },
+   {
+    "ref": "1547",
+    "texto": "O Concílio de Trento, sessão 6, reafirma a primazia da graça e a cooperação livre."
+   }
+  ],
+  "conversa": "Diga com clareza que a Igreja também crê que tudo é graça. A conversa, então, deixa de ser sobre graça contra obras e passa a ser sobre o que a graça faz em nós."
+ },
+ {
+  "pergunta": "Solus Christus: só Cristo é mediador",
+  "resposta": "A Igreja professa que Cristo é o único Salvador e o único Mediador. Os sacramentos, os sacerdotes, Maria e os santos não são mediadores ao lado dele: participam da sua única mediação, porque Ele mesmo quis agir por meio do seu Corpo, que é a Igreja.",
+  "biblia": [
+   {
+    "ref": "1Tm 2,1-5",
+    "texto": "Há um só mediador, Cristo Jesus; no mesmo trecho Paulo pede intercessões por todos."
+   },
+   {
+    "ref": "At 4,12",
+    "texto": "Não há salvação em nenhum outro nome."
+   },
+   {
+    "ref": "2Cor 5,18-20",
+    "texto": "Deus confiou aos apóstolos o ministério da reconciliação; eles são embaixadores de Cristo."
+   },
+   {
+    "ref": "Jo 20,21-23",
+    "texto": "O Ressuscitado dá aos apóstolos o poder de perdoar os pecados."
+   },
+   {
+    "ref": "Cl 1,24",
+    "texto": "Paulo une os seus sofrimentos aos de Cristo, em favor da Igreja."
+   },
+   {
+    "ref": "1Pd 2,9",
+    "texto": "Todos os batizados formam um sacerdócio real."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 480",
+    "texto": "Jesus Cristo, verdadeiro Deus e verdadeiro homem, é o único mediador."
+   },
+   {
+    "ref": "CIC 1544-1545",
+    "texto": "O único sacerdócio de Cristo se torna presente pelo sacerdócio ministerial, sem perder a sua unicidade."
+   },
+   {
+    "ref": "CIC 970",
+    "texto": "A função materna de Maria não diminui a mediação única de Cristo: depende dela e a manifesta."
+   },
+   {
+    "ref": "CIC 956",
+    "texto": "Os santos intercedem por nós junto do Pai, apresentando os méritos que alcançaram na terra por meio de Cristo."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "Séc. XIII",
+    "texto": "São Tomás de Aquino, Suma Teológica III, q. 26, a. 1: outros podem ser chamados mediadores de modo secundário, enquanto cooperam com Cristo."
+   },
+   {
+    "ref": "1964",
+    "texto": "Concílio Vaticano II, Lumen Gentium 60-62."
+   },
+   {
+    "ref": "2000",
+    "texto": "Declaração Dominus Iesus, sobre a unicidade de Cristo como Salvador."
+   }
+  ],
+  "conversa": "Use o exemplo do pedido de oração: quando um irmão reza por você, ele não toma o lugar de Cristo. Reza porque está unido a Ele."
+ },
+ {
+  "pergunta": "Soli Deo Gloria: só a Deus a glória",
+  "resposta": "A Igreja concorda por inteiro: toda glória é de Deus. Honrar os santos não tira nada dele, porque é louvar a obra que Ele mesmo fez. A glória de Deus aparece justamente nas criaturas que a sua graça santificou.",
+  "biblia": [
+   {
+    "ref": "Ap 15,4",
+    "texto": "Só Deus é santo."
+   },
+   {
+    "ref": "1Cor 10,31",
+    "texto": "Fazer tudo para a glória de Deus."
+   },
+   {
+    "ref": "Mt 5,16",
+    "texto": "Que vejam as vossas boas obras e glorifiquem o Pai."
+   },
+   {
+    "ref": "Jo 17,22",
+    "texto": "Jesus dá aos discípulos a glória que recebeu do Pai."
+   },
+   {
+    "ref": "Rm 8,30",
+    "texto": "Aos que justificou, Deus também glorificou."
+   },
+   {
+    "ref": "Lc 1,48-49",
+    "texto": "Todas as gerações chamarão Maria de bem-aventurada, pelo que o Poderoso fez nela."
+   },
+   {
+    "ref": "Ap 22,8-9",
+    "texto": "Adoração, só a Deus: o anjo recusa a de João."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 293-294",
+    "texto": "O mundo foi criado para manifestar e comunicar a glória de Deus."
+   },
+   {
+    "ref": "CIC 2096-2097",
+    "texto": "Adorar é reconhecer Deus como Criador e Senhor. Só a Ele."
+   },
+   {
+    "ref": "CIC 971",
+    "texto": "O culto a Maria é singular, mas difere essencialmente da adoração devida só a Deus."
+   },
+   {
+    "ref": "CIC 828",
+    "texto": "Ao canonizar, a Igreja reconhece o poder do Espírito de santidade que está nela."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "c. 180",
+    "texto": "Santo Irineu, Contra as Heresias IV,20,7: a glória de Deus é o homem vivo."
+   },
+   {
+    "ref": "Séc. V",
+    "texto": "Santo Agostinho, A graça e o livre-arbítrio 6,15: quando coroa os nossos méritos, Deus coroa os seus próprios dons."
+   },
+   {
+    "ref": "Séc. XVI",
+    "texto": "Santo Inácio de Loyola toma como lema “para a maior glória de Deus”."
+   }
+  ],
+  "conversa": "Lembre o final da Oração Eucarística: “por Cristo, com Cristo e em Cristo, toda honra e toda glória”. É o que a Igreja reza em toda Missa."
+ }
+]

@@ -1,0 +1,403 @@
+[
+ {
+  "pergunta": "Jesus não fundou Igreja",
+  "resposta": "Jesus fala da “minha Igreja”, escolhe Doze, dá a eles autoridade e promete estar com eles até o fim dos tempos. A Igreja é a comunidade visível que Ele mesmo quis.",
+  "biblia": [
+   {
+    "ref": "Mt 16,18",
+    "texto": "Jesus promete edificar a sua Igreja, e que o mal não prevalecerá contra ela."
+   },
+   {
+    "ref": "Lc 6,12-16",
+    "texto": "Depois de uma noite em oração, escolhe os Doze e os chama apóstolos."
+   },
+   {
+    "ref": "Mt 18,17-18",
+    "texto": "A Igreja tem a palavra final nas questões entre irmãos, com poder de ligar e desligar."
+   },
+   {
+    "ref": "Lc 10,16",
+    "texto": "Quem ouve os enviados ouve o próprio Cristo."
+   },
+   {
+    "ref": "Mt 28,18-20",
+    "texto": "Envia-os a batizar e ensinar todos os povos e promete sua presença todos os dias."
+   },
+   {
+    "ref": "1Tm 3,15",
+    "texto": "Paulo chama a Igreja de coluna e sustentáculo da verdade."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 763-766",
+    "texto": "Cristo inaugura a Igreja com sua pregação, a escolha dos Doze e o dom total na cruz."
+   },
+   {
+    "ref": "CIC 771",
+    "texto": "A Igreja é ao mesmo tempo visível e espiritual."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "c. 96",
+    "texto": "São Clemente Romano, Carta aos Coríntios 42-44: os apóstolos estabeleceram bispos e previram sua sucessão."
+   },
+   {
+    "ref": "c. 107",
+    "texto": "Santo Inácio de Antioquia, Carta aos Esmirnenses 8: onde está Cristo Jesus, aí está a Igreja católica."
+   }
+  ],
+  "conversa": "Comece pelo que une: Jesus quis os seus reunidos. A conversa é sobre como Ele organizou essa reunião."
+ },
+ {
+  "pergunta": "Todos somos sucessores dos apóstolos",
+  "resposta": "Todo batizado participa da missão de Cristo. Mas os apóstolos transmitiram o seu ministério a pessoas determinadas, pela imposição das mãos, e é daí que vêm os bispos.",
+  "biblia": [
+   {
+    "ref": "At 1,20-26",
+    "texto": "Antes de Pentecostes, os apóstolos escolhem Matias para ocupar o lugar de Judas."
+   },
+   {
+    "ref": "At 14,23",
+    "texto": "Paulo e Barnabé instituem anciãos em cada igreja."
+   },
+   {
+    "ref": "Tt 1,5",
+    "texto": "Paulo deixa Tito em Creta para estabelecer presbíteros em cada cidade."
+   },
+   {
+    "ref": "1Tm 4,14",
+    "texto": "Timóteo recebeu o dom pela imposição das mãos."
+   },
+   {
+    "ref": "2Tm 2,2",
+    "texto": "Quatro elos de transmissão: Paulo, Timóteo, homens fiéis e os que estes ensinarão."
+   },
+   {
+    "ref": "At 15,24",
+    "texto": "Os apóstolos desautorizam quem ensinava sem mandato deles."
+   },
+   {
+    "ref": "1Pd 2,9",
+    "texto": "Todos os batizados formam um sacerdócio real: é o sacerdócio comum dos fiéis."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 861-862",
+    "texto": "Os bispos sucedem aos apóstolos por instituição divina."
+   },
+   {
+    "ref": "CIC 1546-1547",
+    "texto": "O sacerdócio comum dos fiéis e o ministerial se ordenam um ao outro."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "c. 96",
+    "texto": "São Clemente Romano 44: os apóstolos deram a regra de que outros homens provados sucedessem aos primeiros."
+   },
+   {
+    "ref": "c. 180",
+    "texto": "Santo Irineu, Contra as Heresias III,3: a lista dos bispos de Roma desde Pedro e Paulo."
+   },
+   {
+    "ref": "c. 200",
+    "texto": "Tertuliano, A prescrição dos hereges 32: desafia cada grupo a mostrar a origem de seus bispos nos apóstolos."
+   }
+  ],
+  "conversa": "Valorize primeiro o sacerdócio de todo batizado, que é verdadeiro. Depois mostre que a Bíblia também fala de um ministério recebido pela imposição das mãos."
+ },
+ {
+  "pergunta": "O caminho é Jerusalém, não Roma",
+  "resposta": "A salvação vem dos judeus e se cumpre em Cristo, que abre a Aliança a todos os povos. O centro deixa de ser um lugar e passa a ser uma Pessoa. Roma importa porque ali Pedro e Paulo deram o último testemunho, e Deus não retirou o seu amor do povo da primeira Aliança.",
+  "biblia": [
+   {
+    "ref": "Jo 4,21-24",
+    "texto": "Jesus anuncia a hora em que o Pai será adorado em espírito e verdade, e afirma que a salvação vem dos judeus."
+   },
+   {
+    "ref": "Hb 8,6-13",
+    "texto": "Cristo é mediador da nova Aliança anunciada por Jeremias."
+   },
+   {
+    "ref": "At 15,1-29",
+    "texto": "Os apóstolos decidem não impor a Lei de Moisés aos convertidos do paganismo."
+   },
+   {
+    "ref": "At 1,8",
+    "texto": "O testemunho parte de Jerusalém para chegar aos confins da terra."
+   },
+   {
+    "ref": "At 23,11",
+    "texto": "O Senhor diz a Paulo que ele deve dar testemunho também em Roma."
+   },
+   {
+    "ref": "Rm 11,17-29",
+    "texto": "Os pagãos são ramos enxertados na oliveira de Israel; os dons e o chamado de Deus são irrevogáveis."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 839-840",
+    "texto": "A Igreja reconhece seu vínculo com o povo judeu, o primeiro a receber a Palavra de Deus."
+   },
+   {
+    "ref": "CIC 121-123",
+    "texto": "O Antigo Testamento conserva valor permanente."
+   },
+   {
+    "ref": "CIC 834",
+    "texto": "As Igrejas particulares estão em comunhão com a Igreja de Roma, que preside na caridade."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "c. 107",
+    "texto": "Santo Inácio de Antioquia, Carta aos Romanos: a Igreja de Roma preside na caridade."
+   },
+   {
+    "ref": "c. 180",
+    "texto": "Santo Irineu, Contra as Heresias III,3,2: com essa Igreja devem estar de acordo todas as outras."
+   },
+   {
+    "ref": "1965",
+    "texto": "Concílio Vaticano II, Nostra Aetate 4: o patrimônio espiritual comum a cristãos e judeus."
+   }
+  ],
+  "conversa": "Fale das raízes judaicas da fé com gratidão. O cristão não rejeita Jerusalém: crê que a promessa feita a ela se cumpriu em Jesus."
+ },
+ {
+  "pergunta": "Não se pode chamar o Papa de pai",
+  "resposta": "Em Mateus 23, Jesus condena a vaidade dos títulos e quem toma o lugar de Deus. Lido ao pé da letra, o texto proibiria chamar o próprio pai de pai e qualquer professor de mestre. Os apóstolos se dizem pais espirituais dos fiéis.",
+  "biblia": [
+   {
+    "ref": "Mt 23,8-12",
+    "texto": "O contexto: Jesus fala também de “rabi” e “mestre”, e conclui pedindo humildade."
+   },
+   {
+    "ref": "1Cor 4,14-15",
+    "texto": "Paulo diz que gerou os coríntios em Cristo pelo Evangelho."
+   },
+   {
+    "ref": "1Ts 2,11",
+    "texto": "Ele os tratou como um pai trata os filhos."
+   },
+   {
+    "ref": "Fm 10",
+    "texto": "Chama Onésimo de filho que gerou na prisão."
+   },
+   {
+    "ref": "1Jo 2,13-14",
+    "texto": "João se dirige a “pais” e a “filhinhos” na comunidade."
+   },
+   {
+    "ref": "At 7,2",
+    "texto": "Estêvão, cheio do Espírito Santo, chama os anciãos de “pais”."
+   },
+   {
+    "ref": "Ef 3,14-15",
+    "texto": "Toda paternidade, no céu e na terra, recebe o nome do Pai."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 239",
+    "texto": "A paternidade humana reflete a de Deus, que a supera."
+   },
+   {
+    "ref": "CIC 882",
+    "texto": "O Papa, sucessor de Pedro, é princípio visível de unidade."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "Séc. III",
+    "texto": "“Papa” vem do grego páppas, forma carinhosa de “pai”, usada para bispos."
+   },
+   {
+    "ref": "Séc. IV",
+    "texto": "Os monges do deserto chamam seus mestres espirituais de abba, pai."
+   }
+  ],
+  "conversa": "Pergunte como a pessoa chama o próprio pai e o professor da escola. Jesus fala contra a vaidade, não contra a palavra."
+ },
+ {
+  "pergunta": "Onde estão “papa”, “missa” e “Igreja Católica” na Bíblia?",
+  "resposta": "A palavra pode faltar e a realidade estar presente. “Trindade” e “Bíblia” também não aparecem na Bíblia. A pergunta que importa é se a coisa está lá.",
+  "biblia": [
+   {
+    "ref": "Mt 16,18-19",
+    "texto": "Pedro recebe as chaves: é a realidade que depois se chamou papado."
+   },
+   {
+    "ref": "Jo 21,15-17",
+    "texto": "Jesus confia a Pedro o cuidado de todo o rebanho."
+   },
+   {
+    "ref": "At 2,42",
+    "texto": "Os primeiros cristãos perseveram na fração do pão."
+   },
+   {
+    "ref": "1Cor 11,23-26",
+    "texto": "A ceia do Senhor, celebrada como Ele mandou: é a Missa."
+   },
+   {
+    "ref": "Mt 28,19",
+    "texto": "A missão é para todas as nações. “Católica” quer dizer universal."
+   },
+   {
+    "ref": "At 9,31",
+    "texto": "Lucas fala da Igreja “por toda” a região; em grego, a expressão que deu origem à palavra católica."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 830-831",
+    "texto": "A Igreja é católica porque Cristo está nela e porque é enviada a todos."
+   },
+   {
+    "ref": "CIC 1328-1332",
+    "texto": "Os nomes da Eucaristia: ceia do Senhor, fração do pão, Santa Missa."
+   },
+   {
+    "ref": "CIC 881-882",
+    "texto": "O ministério de Pedro continua no bispo de Roma."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "Séc. I",
+    "texto": "Didaqué 14: reunir-se no dia do Senhor para partir o pão e dar graças."
+   },
+   {
+    "ref": "c. 107",
+    "texto": "Santo Inácio de Antioquia, Carta aos Esmirnenses 8: primeiro registro de “Igreja católica”."
+   },
+   {
+    "ref": "c. 155",
+    "texto": "São Justino, I Apologia 65-67, descreve a celebração dominical com leituras, homilia e Eucaristia."
+   }
+  ],
+  "conversa": "Pergunte se a pessoa crê na Trindade. A palavra não está na Bíblia, mas a realidade está. O mesmo critério vale aqui."
+ },
+ {
+  "pergunta": "Roma é a grande prostituta de Apocalipse 17",
+  "resposta": "João descreve a potência perseguidora do seu tempo, embriagada com o sangue dos mártires: a Roma pagã dos imperadores. A Igreja de Roma era a perseguida. No mesmo livro, a Igreja aparece como a Esposa do Cordeiro.",
+  "biblia": [
+   {
+    "ref": "Ap 17,6",
+    "texto": "A mulher está embriagada com o sangue dos santos e das testemunhas de Jesus."
+   },
+   {
+    "ref": "Ap 17,9.18",
+    "texto": "As sete colinas e a cidade que domina os reis da terra apontam para a capital do império."
+   },
+   {
+    "ref": "Ap 19,7-8",
+    "texto": "A Igreja é a Esposa do Cordeiro, vestida de linho puro."
+   },
+   {
+    "ref": "Ap 21,2.9",
+    "texto": "A Esposa desce do céu: o oposto da figura do capítulo 17."
+   },
+   {
+    "ref": "1Pd 5,13",
+    "texto": "Pedro escreve de “Babilônia”, nome simbólico de Roma, e saúda em nome da comunidade eleita que ali está."
+   },
+   {
+    "ref": "Rm 1,7-8",
+    "texto": "A fé dos cristãos de Roma é celebrada no mundo inteiro."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 796",
+    "texto": "A Igreja é a Esposa de Cristo."
+   },
+   {
+    "ref": "CIC 675-677",
+    "texto": "A Igreja passará por uma provação final; o Catecismo não a identifica com o mal que a persegue."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "Séc. III",
+    "texto": "São Vitorino de Pettau, no comentário mais antigo ao Apocalipse, lê a figura como o império perseguidor."
+   },
+   {
+    "ref": "Séc. V",
+    "texto": "Santo Agostinho, A Cidade de Deus XVIII, chama a Roma pagã de segunda Babilônia."
+   }
+  ],
+  "conversa": "Leia junto Ap 17,6. Pedro, Paulo e milhares de cristãos de Roma estão entre as vítimas dessa figura, não dentro dela."
+ },
+ {
+  "pergunta": "A “pedra” de Mateus 16 é Jesus, não Pedro",
+  "resposta": "Jesus dá a Simão o nome de Pedro, rocha, e na mesma frase promete edificar a Igreja sobre essa pedra. Cristo é o fundamento último; Pedro é a rocha visível que Ele escolheu. Uma verdade não anula a outra.",
+  "biblia": [
+   {
+    "ref": "Mt 16,16-19",
+    "texto": "A confissão de Pedro, o novo nome, a promessa da Igreja e as chaves."
+   },
+   {
+    "ref": "Jo 1,42",
+    "texto": "Jesus o chama Cefas, “rocha” em aramaico, a língua em que falava."
+   },
+   {
+    "ref": "Is 22,20-22",
+    "texto": "As chaves da casa de Davi são entregues ao administrador do rei."
+   },
+   {
+    "ref": "Lc 22,31-32",
+    "texto": "Jesus reza por Pedro para que ele confirme os irmãos."
+   },
+   {
+    "ref": "Jo 21,15-17",
+    "texto": "Três vezes Jesus lhe confia o rebanho."
+   },
+   {
+    "ref": "At 15,7",
+    "texto": "No concílio de Jerusalém, Pedro se levanta e fala primeiro."
+   },
+   {
+    "ref": "1Cor 3,11",
+    "texto": "Cristo é o fundamento que ninguém pode substituir."
+   },
+   {
+    "ref": "Ef 2,20",
+    "texto": "A Igreja é edificada sobre os apóstolos, com Cristo como pedra angular."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 552-553",
+    "texto": "Pedro recebe o primeiro lugar e as chaves do Reino."
+   },
+   {
+    "ref": "CIC 424",
+    "texto": "A Igreja é edificada também sobre a fé que Pedro confessou."
+   },
+   {
+    "ref": "CIC 881",
+    "texto": "O ofício de Pedro pertence ao fundamento da Igreja."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "251",
+    "texto": "São Cipriano, A unidade da Igreja 4: o Senhor edifica a Igreja sobre um só."
+   },
+   {
+    "ref": "427",
+    "texto": "Santo Agostinho, Retratações I,21: diz que já explicou a pedra como Pedro e, mais tarde, como Cristo, e deixa ao leitor escolher. A Igreja acolhe essas leituras junto com a de Pedro."
+   },
+   {
+    "ref": "451",
+    "texto": "No Concílio de Calcedônia, os bispos aclamam a carta do Papa Leão: Pedro falou por Leão."
+   }
+  ],
+  "conversa": "Não é preciso escolher entre Cristo e Pedro. Mostre 1Cor 3,11 e Ef 2,20 juntos: a Bíblia usa a imagem do fundamento dos dois modos."
+ }
+]

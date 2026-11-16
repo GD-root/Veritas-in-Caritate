@@ -1,0 +1,165 @@
+[
+ {
+  "simples": true,
+  "pergunta": "Fé",
+  "resposta": "É a virtude pela qual cremos em Deus e em tudo o que Ele revelou e a Igreja nos propõe, porque Ele é a própria verdade. É dom de Deus, e pede ser guardada, vivida, professada e testemunhada.",
+  "biblia": [
+   {
+    "ref": "Hb 11,1",
+    "texto": "A fé é o fundamento do que se espera e a prova do que não se vê."
+   },
+   {
+    "ref": "Rm 10,17",
+    "texto": "A fé vem da escuta da palavra de Cristo."
+   },
+   {
+    "ref": "Tg 2,26",
+    "texto": "A fé sem obras é morta."
+   },
+   {
+    "ref": "Gl 5,6",
+    "texto": "O que vale é a fé que age pela caridade."
+   },
+   {
+    "ref": "Mt 10,32",
+    "texto": "Quem confessar Jesus diante dos homens será confessado por Ele diante do Pai."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 1814",
+    "texto": "A fé é a virtude pela qual cremos em Deus e no que Ele revelou."
+   },
+   {
+    "ref": "CIC 1815",
+    "texto": "A fé sem obras está morta."
+   },
+   {
+    "ref": "CIC 1816",
+    "texto": "O discípulo deve guardar a fé, vivê-la, professá-la e testemunhá-la."
+   },
+   {
+    "ref": "CIC 161-162",
+    "texto": "A fé é necessária para a salvação e precisa ser alimentada."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "Séc. V",
+    "texto": "Santo Agostinho, Sermão 43: creio para compreender, e compreendo para crer melhor."
+   },
+   {
+    "ref": "Séc. XI",
+    "texto": "Santo Anselmo: a fé que busca entender."
+   }
+  ],
+  "rotuloConversa": "Como viver",
+  "conversa": "Reze o Credo devagar, uma vez por semana, pensando em cada frase. E procure conhecer a razão de uma verdade da fé por vez."
+ },
+ {
+  "simples": true,
+  "pergunta": "Esperança",
+  "resposta": "É a virtude pela qual desejamos o Reino dos céus e a vida eterna como nossa felicidade, confiando nas promessas de Cristo e no socorro da graça, e não nas nossas forças. Ela protege do desânimo e sustenta nas horas de abandono.",
+  "biblia": [
+   {
+    "ref": "Rm 8,24-25",
+    "texto": "Na esperança fomos salvos; esperamos com paciência o que não vemos."
+   },
+   {
+    "ref": "Rm 5,5",
+    "texto": "A esperança não decepciona, porque o amor de Deus foi derramado em nossos corações."
+   },
+   {
+    "ref": "Hb 6,19",
+    "texto": "A esperança é âncora segura e firme da alma."
+   },
+   {
+    "ref": "1Pd 3,15",
+    "texto": "Estar sempre prontos a dar a razão da esperança que há em nós."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 1817",
+    "texto": "A esperança é o desejo do Reino dos céus, apoiado nas promessas de Cristo e na graça."
+   },
+   {
+    "ref": "CIC 1818",
+    "texto": "Ela responde ao desejo de felicidade e protege contra o desânimo."
+   },
+   {
+    "ref": "CIC 1820-1821",
+    "texto": "A esperança se alimenta na oração, sobretudo no Pai-Nosso; podemos esperar a glória do céu."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "Séc. XVI",
+    "texto": "Santa Teresa de Jesus exorta a alma a esperar com paciência e vigilância; o Catecismo a cita no n. 1821."
+   },
+   {
+    "ref": "2007",
+    "texto": "Bento XVI, encíclica Spe Salvi, sobre a esperança cristã."
+   }
+  ],
+  "rotuloConversa": "Como viver",
+  "conversa": "Diante de uma dificuldade, reze o Pai-Nosso parando em “venha a nós o vosso Reino”. A esperança cresce quando é pedida."
+ },
+ {
+  "simples": true,
+  "pergunta": "Caridade",
+  "resposta": "É a virtude pela qual amamos a Deus sobre todas as coisas, por Ele mesmo, e ao próximo como a nós mesmos, por amor de Deus. É a maior das virtudes: dá forma a todas as outras e é o vínculo da perfeição.",
+  "biblia": [
+   {
+    "ref": "1Cor 13,13",
+    "texto": "Permanecem a fé, a esperança e a caridade; a maior é a caridade."
+   },
+   {
+    "ref": "Jo 13,34",
+    "texto": "O mandamento novo: amar uns aos outros como Jesus amou."
+   },
+   {
+    "ref": "Mt 22,37-40",
+    "texto": "Amar a Deus e ao próximo resume a Lei e os Profetas."
+   },
+   {
+    "ref": "1Jo 4,8.16",
+    "texto": "Deus é amor; quem permanece no amor permanece em Deus."
+   },
+   {
+    "ref": "Cl 3,14",
+    "texto": "Acima de tudo, a caridade, que é o vínculo da perfeição."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 1822",
+    "texto": "A caridade é amar a Deus sobre todas as coisas e ao próximo como a si mesmo, por amor de Deus."
+   },
+   {
+    "ref": "CIC 1823-1825",
+    "texto": "Jesus fez dela o mandamento novo; ela leva a amar como Ele amou, até os inimigos."
+   },
+   {
+    "ref": "CIC 1826-1827",
+    "texto": "Sem caridade nada se aproveita; ela anima e ordena todas as virtudes."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "Séc. V",
+    "texto": "Santo Agostinho, Comentário à Primeira Carta de João 7,8: ama e faze o que quiseres."
+   },
+   {
+    "ref": "Séc. XVI",
+    "texto": "São João da Cruz: no entardecer da vida seremos julgados pelo amor."
+   },
+   {
+    "ref": "2009",
+    "texto": "Bento XVI, encíclica Caritas in Veritate: a caridade na verdade."
+   }
+  ],
+  "rotuloConversa": "Como viver",
+  "conversa": "Escolha uma pessoa difícil e faça por ela um bem concreto nesta semana, sem esperar retorno. É daí que vem o nome deste aplicativo: a verdade, sempre na caridade."
+ }
+]

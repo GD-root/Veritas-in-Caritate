@@ -1,0 +1,340 @@
+[
+ {
+  "simples": true,
+  "pergunta": "A vida desde a concepção e o aborto",
+  "tituloResposta": "O que a Igreja ensina",
+  "resposta": "A Igreja ensina que a vida humana é sagrada e deve ser respeitada e protegida desde a concepção. Por isso o aborto provocado é sempre gravemente contrário à lei moral. A mesma Igreja lembra que a misericórdia de Deus não tem limite e acolhe quem passou por essa dor.",
+  "biblia": [
+   {
+    "ref": "Jr 1,5",
+    "texto": "Antes de formar o profeta no ventre, Deus já o conhecia e o havia consagrado."
+   },
+   {
+    "ref": "Sl 139(138),13-16",
+    "texto": "Deus tece a pessoa no seio da mãe e vê o seu ser ainda em formação."
+   },
+   {
+    "ref": "Lc 1,41",
+    "texto": "João Batista, ainda no ventre de Isabel, salta de alegria diante de Jesus."
+   },
+   {
+    "ref": "Gn 1,27",
+    "texto": "Deus criou o ser humano à sua imagem."
+   },
+   {
+    "ref": "Ex 20,13",
+    "texto": "Não matarás."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 2258",
+    "texto": "A vida humana é sagrada desde a origem, e só Deus é o seu Senhor."
+   },
+   {
+    "ref": "CIC 2270-2272",
+    "texto": "A vida deve ser protegida desde a concepção; o aborto provocado é condenado desde o século I."
+   },
+   {
+    "ref": "CIC 2273-2275",
+    "texto": "O direito à vida do inocente é base da sociedade; o embrião deve ser tratado como pessoa."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "Séc. I",
+    "texto": "Didaqué 2,2: não matarás a criança por aborto."
+   },
+   {
+    "ref": "1965",
+    "texto": "Concílio Vaticano II, Gaudium et Spes 51: a vida deve ser protegida com o máximo cuidado desde a concepção."
+   },
+   {
+    "ref": "1995",
+    "texto": "São João Paulo II, encíclica Evangelium Vitae."
+   }
+  ],
+  "conversa": "Fale sempre de duas vidas: a da criança e a da mãe. Quem passou por um aborto precisa ouvir primeiro que existe perdão e caminho de cura, e que a Igreja acolhe."
+ },
+ {
+  "simples": true,
+  "pergunta": "O fim da vida e a eutanásia",
+  "tituloResposta": "O que a Igreja ensina",
+  "resposta": "A Igreja ensina que a vida é dom de Deus até o seu fim natural. A eutanásia direta, que põe fim à vida de uma pessoa doente ou moribunda, é moralmente inaceitável. Isso não obriga a prolongar a vida a qualquer custo: recusar tratamentos desproporcionados é legítimo, e os cuidados paliativos devem ser incentivados.",
+  "biblia": [
+   {
+    "ref": "Ex 20,13",
+    "texto": "Não matarás."
+   },
+   {
+    "ref": "Dt 32,39",
+    "texto": "É Deus quem tem poder sobre a vida e a morte."
+   },
+   {
+    "ref": "Jó 1,21",
+    "texto": "O Senhor deu, o Senhor tirou; bendito seja o nome do Senhor."
+   },
+   {
+    "ref": "Rm 14,7-8",
+    "texto": "Ninguém vive nem morre para si mesmo: na vida e na morte pertencemos ao Senhor."
+   },
+   {
+    "ref": "Mt 25,36",
+    "texto": "Estava doente e me visitastes."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 2276-2279",
+    "texto": "O respeito aos doentes, a recusa da eutanásia, a legitimidade de suspender tratamentos desproporcionados e os cuidados paliativos."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "1980",
+    "texto": "Congregação para a Doutrina da Fé, declaração Iura et Bona, sobre a eutanásia."
+   },
+   {
+    "ref": "1995",
+    "texto": "São João Paulo II, encíclica Evangelium Vitae 65."
+   },
+   {
+    "ref": "2020",
+    "texto": "Congregação para a Doutrina da Fé, carta Samaritanus Bonus, sobre o cuidado das pessoas em fase terminal."
+   }
+  ],
+  "conversa": "Distinga provocar a morte de deixar morrer em paz. Quem pede para morrer quase sempre pede alívio da dor e companhia: a resposta cristã é presença e cuidado."
+ },
+ {
+  "simples": true,
+  "pergunta": "O matrimônio entre homem e mulher",
+  "tituloResposta": "O que a Igreja ensina",
+  "resposta": "A Igreja ensina que o matrimônio é a aliança pela qual um homem e uma mulher formam uma comunhão de toda a vida, ordenada ao bem dos dois e à geração e educação dos filhos. Cristo o elevou a sacramento. Suas propriedades são a unidade e a indissolubilidade.",
+  "biblia": [
+   {
+    "ref": "Gn 1,27-28",
+    "texto": "Deus criou o ser humano homem e mulher, e os abençoou para que fossem fecundos."
+   },
+   {
+    "ref": "Gn 2,24",
+    "texto": "O homem deixa pai e mãe, une-se à sua mulher, e os dois se tornam uma só carne."
+   },
+   {
+    "ref": "Mt 19,4-6",
+    "texto": "Jesus retoma o Gênesis e conclui: o que Deus uniu, o homem não separe."
+   },
+   {
+    "ref": "Ef 5,25",
+    "texto": "Os maridos devem amar as esposas como Cristo amou a Igreja."
+   },
+   {
+    "ref": "Ef 5,31-32",
+    "texto": "A união dos esposos é um grande mistério, referido a Cristo e à Igreja."
+   },
+   {
+    "ref": "Jo 2,1-11",
+    "texto": "Jesus realiza o primeiro sinal numa festa de casamento."
+   },
+   {
+    "ref": "Hb 13,4",
+    "texto": "O matrimônio seja honrado por todos."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 1601",
+    "texto": "A aliança entre o homem e a mulher foi elevada por Cristo à dignidade de sacramento."
+   },
+   {
+    "ref": "CIC 1603-1605",
+    "texto": "O matrimônio vem do Criador; homem e mulher foram criados um para o outro."
+   },
+   {
+    "ref": "CIC 1638-1640",
+    "texto": "O matrimônio válido cria um vínculo perpétuo e exclusivo, que entre batizados não pode ser dissolvido."
+   },
+   {
+    "ref": "CIC 2382",
+    "texto": "Jesus restabeleceu a intenção original do Criador: um matrimônio indissolúvel."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "c. 401",
+    "texto": "Santo Agostinho, O bem do matrimônio: os três bens são os filhos, a fidelidade e o sacramento."
+   },
+   {
+    "ref": "1563",
+    "texto": "O Concílio de Trento, sessão 24, sobre o sacramento do matrimônio."
+   },
+   {
+    "ref": "1981",
+    "texto": "São João Paulo II, exortação Familiaris Consortio."
+   }
+  ],
+  "conversa": "Apresente o matrimônio como vocação e dom antes de falar do que ele exclui. E lembre que quem vive uma situação difícil continua sendo filho da Igreja."
+ },
+ {
+  "simples": true,
+  "pergunta": "A castidade em cada estado de vida",
+  "tituloResposta": "O que a Igreja ensina",
+  "resposta": "Castidade não é desprezo do corpo. É a integração da sexualidade na pessoa inteira, pelo domínio de si. Todo batizado é chamado a ela conforme o seu estado: os casados na fidelidade, os solteiros e os noivos na continência, os consagrados no celibato.",
+  "biblia": [
+   {
+    "ref": "1Cor 6,18-20",
+    "texto": "O corpo é templo do Espírito Santo; glorificar a Deus no próprio corpo."
+   },
+   {
+    "ref": "1Ts 4,3-5",
+    "texto": "A vontade de Deus é a nossa santificação, com o corpo tratado com santidade e respeito."
+   },
+   {
+    "ref": "Mt 5,8",
+    "texto": "Bem-aventurados os puros de coração, porque verão a Deus."
+   },
+   {
+    "ref": "Mt 5,27-28",
+    "texto": "A pureza começa no olhar e no coração."
+   },
+   {
+    "ref": "Gl 5,22-23",
+    "texto": "O domínio de si está entre os frutos do Espírito."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 2337-2339",
+    "texto": "A castidade integra a sexualidade na pessoa e pede a aprendizagem do domínio de si."
+   },
+   {
+    "ref": "CIC 2348-2350",
+    "texto": "Todo batizado é chamado à castidade segundo o seu estado de vida; os noivos, na continência."
+   },
+   {
+    "ref": "CIC 2360-2363",
+    "texto": "A sexualidade se ordena ao amor conjugal, com os fins do bem dos esposos e da transmissão da vida."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "c. 400",
+    "texto": "Santo Agostinho, Confissões X,29: pela continência somos reunidos e reconduzidos à unidade."
+   },
+   {
+    "ref": "1979-1984",
+    "texto": "São João Paulo II, catequeses sobre o amor humano, conhecidas como teologia do corpo."
+   }
+  ],
+  "conversa": "Fale da castidade como liberdade para amar, e não como lista de proibições. E conte com a Confissão: quem cai, recomeça."
+ },
+ {
+  "simples": true,
+  "pergunta": "As pessoas homossexuais: acolhida e ensinamento",
+  "tituloResposta": "O que a Igreja ensina",
+  "resposta": "A Igreja distingue a pessoa, a inclinação e os atos. Ela ensina que os atos homossexuais não estão de acordo com o plano de Deus para a sexualidade. E ensina, com a mesma força, que as pessoas com tendência homossexual devem ser acolhidas com respeito, compaixão e delicadeza, sem nenhuma discriminação injusta. Como todo batizado, são chamadas à castidade e à santidade.",
+  "biblia": [
+   {
+    "ref": "Gn 1,27",
+    "texto": "Toda pessoa é criada à imagem de Deus."
+   },
+   {
+    "ref": "Rm 1,26-27",
+    "texto": "Paulo fala de relações contrárias à natureza."
+   },
+   {
+    "ref": "1Cor 6,9-11",
+    "texto": "Paulo enumera vários pecados e conclui que alguns da comunidade tinham vivido assim, mas foram lavados e santificados."
+   },
+   {
+    "ref": "Jo 8,10-11",
+    "texto": "Jesus não condena a pessoa e a convida a não pecar mais."
+   },
+   {
+    "ref": "Mt 11,28",
+    "texto": "Vinde a mim todos os que estais cansados e sobrecarregados."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 2357-2359",
+    "texto": "O ensinamento sobre os atos, o dever de acolher com respeito e sem discriminação injusta, e o chamado à castidade."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "1975",
+    "texto": "Congregação para a Doutrina da Fé, declaração Persona Humana."
+   },
+   {
+    "ref": "1986",
+    "texto": "Congregação para a Doutrina da Fé, carta sobre o cuidado pastoral das pessoas homossexuais."
+   }
+  ],
+  "conversa": "Ninguém se resume à sua inclinação. Comece pela dignidade da pessoa e pela amizade, porque a verdade só é ouvida por quem se sente amado. Piada e desprezo são faltas contra a caridade."
+ },
+ {
+  "simples": true,
+  "pergunta": "A família, Igreja doméstica",
+  "tituloResposta": "O que a Igreja ensina",
+  "resposta": "A família nasce do matrimônio e foi instituída por Deus. A Igreja a chama de Igreja doméstica, porque é nela que os filhos recebem o primeiro anúncio da fé. Os pais são os primeiros responsáveis pela educação dos filhos, e os filhos devem aos pais respeito e gratidão.",
+  "biblia": [
+   {
+    "ref": "Ex 20,12",
+    "texto": "Honra teu pai e tua mãe."
+   },
+   {
+    "ref": "Ef 6,1-4",
+    "texto": "Os filhos obedeçam aos pais; os pais não irritem os filhos e os eduquem na disciplina do Senhor."
+   },
+   {
+    "ref": "Cl 3,20-21",
+    "texto": "Os pais não provoquem os filhos, para que não desanimem."
+   },
+   {
+    "ref": "Dt 6,6-7",
+    "texto": "As palavras de Deus devem ser ensinadas aos filhos, em casa e pelo caminho."
+   },
+   {
+    "ref": "Js 24,15",
+    "texto": "Eu e a minha casa serviremos ao Senhor."
+   },
+   {
+    "ref": "Eclo 3,3-5.14",
+    "texto": "Quem honra pai e mãe acumula tesouros; ampara o teu pai na velhice."
+   },
+   {
+    "ref": "Lc 2,51",
+    "texto": "Jesus viveu em Nazaré, submisso a Maria e a José."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 2201-2206",
+    "texto": "A família é instituída por Deus; a família cristã é Igreja doméstica, comunidade de fé, esperança e caridade."
+   },
+   {
+    "ref": "CIC 2221-2226",
+    "texto": "Os pais são os primeiros educadores e os primeiros anunciadores da fé aos filhos."
+   },
+   {
+    "ref": "CIC 1655-1657",
+    "texto": "As famílias cristãs são focos de fé viva; o lar é a primeira escola da vida cristã."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "Séc. IV",
+    "texto": "São João Crisóstomo, nas homilias sobre a Carta aos Efésios: faz da tua casa uma igreja."
+   },
+   {
+    "ref": "1964",
+    "texto": "Concílio Vaticano II, Lumen Gentium 11: a família como Igreja doméstica."
+   },
+   {
+    "ref": "1981",
+    "texto": "São João Paulo II, exortação Familiaris Consortio."
+   }
+  ],
+  "conversa": "Uma oração curta em família, todos os dias, vale mais que um grande plano. Comece pela bênção da mesa."
+ }
+]

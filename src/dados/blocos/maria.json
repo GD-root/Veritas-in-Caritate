@@ -1,0 +1,328 @@
+[
+ {
+  "pergunta": "Maria está morta e não pode nos ouvir",
+  "resposta": "Quem morre em Cristo vive junto de Deus. A Igreja crê que Maria, ao fim da vida terrena, foi elevada ao céu em corpo e alma. Ela está viva em Cristo e reza por nós.",
+  "biblia": [
+   {
+    "ref": "Lc 20,37-38",
+    "texto": "Jesus ensina que Deus é Deus de vivos: Abraão, Isaac e Jacó vivem para Ele."
+   },
+   {
+    "ref": "Mt 17,1-3",
+    "texto": "Na Transfiguração, Moisés e Elias aparecem e conversam com Jesus."
+   },
+   {
+    "ref": "Lc 23,42-43",
+    "texto": "Ao ladrão arrependido Jesus promete o paraíso naquele mesmo dia."
+   },
+   {
+    "ref": "Ap 6,9-10",
+    "texto": "As almas dos mártires falam com Deus e sabem do que se passa na terra."
+   },
+   {
+    "ref": "Ap 5,8",
+    "texto": "No céu, os anciãos apresentam a Deus as orações dos fiéis."
+   },
+   {
+    "ref": "Hb 12,1",
+    "texto": "Os que nos precederam na fé nos rodeiam como uma nuvem de testemunhas."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 966",
+    "texto": "A Assunção: Maria foi elevada à glória do céu em corpo e alma."
+   },
+   {
+    "ref": "CIC 956",
+    "texto": "Os santos no céu não deixam de interceder por nós junto do Pai."
+   },
+   {
+    "ref": "CIC 1023",
+    "texto": "Os que morrem na graça de Deus vivem para sempre com Cristo."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "Séc. III",
+    "texto": "A oração “À vossa proteção” (Sub tuum praesidium) já pede o socorro da Mãe de Deus."
+   },
+   {
+    "ref": "Séc. VIII",
+    "texto": "São João Damasceno prega sobre a Dormição e a glorificação de Maria."
+   },
+   {
+    "ref": "1950",
+    "texto": "Pio XII define o dogma da Assunção na constituição Munificentissimus Deus."
+   }
+  ],
+  "conversa": "Comece pelo ponto em comum: os dois creem na vida eterna. A pergunta passa a ser se os que vivem com Cristo deixam de amar e de rezar."
+ },
+ {
+  "pergunta": "Maria não é Mãe de Deus",
+  "resposta": "Toda mãe é mãe de uma pessoa, e a Pessoa que nasceu de Maria é o Filho de Deus feito homem. Ela não deu origem à divindade; deu à luz, na carne, Aquele que é Deus. Negar o título acaba dividindo Jesus em dois.",
+  "biblia": [
+   {
+    "ref": "Lc 1,43",
+    "texto": "Isabel, cheia do Espírito Santo, chama Maria de mãe do seu Senhor."
+   },
+   {
+    "ref": "Jo 1,1.14",
+    "texto": "O Verbo era Deus, e o Verbo se fez carne."
+   },
+   {
+    "ref": "Gl 4,4",
+    "texto": "Deus enviou o seu Filho, nascido de uma mulher."
+   },
+   {
+    "ref": "Mt 1,23",
+    "texto": "O filho da virgem é o Emanuel, Deus conosco."
+   },
+   {
+    "ref": "Jo 20,28",
+    "texto": "Tomé confessa Jesus ressuscitado como seu Senhor e seu Deus."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 495",
+    "texto": "Maria é verdadeiramente Mãe de Deus (Theotokos), porque é mãe do Filho eterno feito homem."
+   },
+   {
+    "ref": "CIC 466",
+    "texto": "O Concílio de Éfeso: em Cristo há uma só Pessoa, a do Verbo."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "c. 107",
+    "texto": "Santo Inácio de Antioquia, Carta aos Efésios 18: Jesus Cristo, nosso Deus, foi trazido no seio de Maria."
+   },
+   {
+    "ref": "431",
+    "texto": "O Concílio de Éfeso proclama Maria Theotokos, com São Cirilo de Alexandria."
+   }
+  ],
+  "conversa": "O título protege a fé em Jesus antes de falar de Maria. Pergunte: quem nasceu em Belém era Deus? Se sim, a mãe dele é Mãe de Deus."
+ },
+ {
+  "pergunta": "Maria é só uma mulher comum",
+  "resposta": "Maria é criatura, e tudo o que tem recebeu de Deus. Mas Deus a preparou de modo único para ser mãe do seu Filho e a preservou do pecado desde a concepção, pelos méritos de Cristo. Honrá-la é reconhecer o que Deus fez nela.",
+  "biblia": [
+   {
+    "ref": "Lc 1,28",
+    "texto": "O anjo a saúda como cheia de graça. No grego, a palavra indica alguém que já foi agraciada e assim permanece."
+   },
+   {
+    "ref": "Lc 1,42",
+    "texto": "Isabel a proclama bendita entre as mulheres."
+   },
+   {
+    "ref": "Lc 1,48-49",
+    "texto": "Maria anuncia que todas as gerações a dirão bem-aventurada, pelas grandes coisas que Deus fez nela."
+   },
+   {
+    "ref": "Gn 3,15",
+    "texto": "Deus põe inimizade entre a serpente e a mulher, entre as duas descendências."
+   },
+   {
+    "ref": "Lc 1,39-56",
+    "texto": "A visita a Isabel ecoa a Arca da Aliança em 2Sm 6: a pergunta de Davi, a alegria, os três meses."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 490-493",
+    "texto": "A Imaculada Conceição: redimida de modo mais sublime, em vista dos méritos do Filho."
+   },
+   {
+    "ref": "CIC 971",
+    "texto": "O culto a Maria é singular, mas difere essencialmente da adoração devida só a Deus."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "Séc. IV",
+    "texto": "Santo Efrém, Hinos de Nísibis 27,8: só Jesus e sua Mãe são de todo belos, porque nele não há defeito nem nela mancha."
+   },
+   {
+    "ref": "415",
+    "texto": "Santo Agostinho, A natureza e a graça 36: ao tratar de pecado, não quer que se fale de Maria, pela honra do Senhor."
+   },
+   {
+    "ref": "1854",
+    "texto": "Pio IX define a Imaculada Conceição na bula Ineffabilis Deus."
+   }
+  ],
+  "conversa": "Deixe claro que o católico não adora Maria. A honra dada a ela volta para Deus, como ela mesma canta no Magnificat."
+ },
+ {
+  "pergunta": "Jesus renegou Maria ao chamá-la de “Mulher”",
+  "resposta": "Na boca de Jesus, “Mulher” é título solene. Ele o usa em Caná e na cruz, e assim liga sua mãe à mulher do Gênesis e do Apocalipse. Em Caná, logo depois dessa palavra, Ele atende ao pedido dela.",
+  "biblia": [
+   {
+    "ref": "Jo 2,1-11",
+    "texto": "Em Caná, Jesus chama Maria de Mulher e em seguida faz o primeiro sinal a pedido dela."
+   },
+   {
+    "ref": "Jo 19,26-27",
+    "texto": "Na cruz, usa o mesmo título e a entrega como mãe ao discípulo amado."
+   },
+   {
+    "ref": "Gn 3,15",
+    "texto": "A mulher cuja descendência vence a serpente."
+   },
+   {
+    "ref": "Ap 12,1-5",
+    "texto": "A mulher vestida de sol dá à luz aquele que governará as nações."
+   },
+   {
+    "ref": "Lc 2,51",
+    "texto": "Em Nazaré, Jesus vivia submisso a Maria e a José."
+   },
+   {
+    "ref": "Ex 20,12",
+    "texto": "Honrar pai e mãe é mandamento, e Jesus cumpre a Lei por inteiro."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 2618",
+    "texto": "Em Caná, Maria intercede e Jesus realiza o sinal."
+   },
+   {
+    "ref": "CIC 494",
+    "texto": "Pela obediência, Maria desata o nó da desobediência de Eva."
+   },
+   {
+    "ref": "CIC 726",
+    "texto": "Maria é a Mulher, a nova Eva, mãe dos viventes."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "c. 155",
+    "texto": "São Justino, Diálogo com Trifão 100: Eva acolheu a palavra da serpente; Maria, a do anjo."
+   },
+   {
+    "ref": "c. 180",
+    "texto": "Santo Irineu, Contra as Heresias III,22,4: a obediência de Maria repara a desobediência de Eva."
+   }
+  ],
+  "conversa": "Vale lembrar Lc 11,27-28: quando Jesus elogia quem ouve a Palavra e a guarda, Maria é a primeira a caber no elogio (Lc 1,38.45)."
+ },
+ {
+  "pergunta": "Maria teve outros filhos e não é sempre virgem",
+  "resposta": "Os “irmãos de Jesus” do Evangelho são parentes próximos. A própria Escritura aponta outra Maria como mãe de Tiago e de José, e a Igreja professa desde os primeiros séculos que Maria é sempre virgem.",
+  "biblia": [
+   {
+    "ref": "Mt 13,55",
+    "texto": "Tiago, José, Simão e Judas são chamados irmãos de Jesus."
+   },
+   {
+    "ref": "Mt 27,56",
+    "texto": "Ao pé da cruz está uma Maria que é mãe de Tiago e de José, distinta da mãe de Jesus (ver também Mc 15,40 e Jo 19,25)."
+   },
+   {
+    "ref": "Gn 13,8",
+    "texto": "Abraão chama Ló de irmão, embora Ló fosse seu sobrinho (Gn 11,27)."
+   },
+   {
+    "ref": "Jo 19,26-27",
+    "texto": "Jesus confia a mãe a João, gesto difícil de explicar se ela tivesse outros filhos."
+   },
+   {
+    "ref": "Lc 1,34",
+    "texto": "Diante do anúncio, Maria pergunta como aquilo se fará."
+   },
+   {
+    "ref": "Mt 1,25",
+    "texto": "O “até que” afirma a virgindade antes do nascimento e nada diz do depois, como em 2Sm 6,23."
+   },
+   {
+    "ref": "Lc 2,7",
+    "texto": "“Primogênito” é o título legal do primeiro filho, haja ou não outros (Ex 13,2)."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 499",
+    "texto": "A Igreja confessa a virgindade real e perpétua de Maria."
+   },
+   {
+    "ref": "CIC 500",
+    "texto": "Os “irmãos de Jesus” são parentes próximos, conforme uso conhecido do Antigo Testamento."
+   },
+   {
+    "ref": "CIC 510",
+    "texto": "Virgem ao conceber, ao dar à luz e para sempre."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "383",
+    "texto": "São Jerônimo escreve Contra Helvídio em defesa da virgindade perpétua."
+   },
+   {
+    "ref": "Séc. V",
+    "texto": "Santo Agostinho, Sermão 186: virgem ao conceber, ao dar à luz e depois."
+   },
+   {
+    "ref": "553",
+    "texto": "O II Concílio de Constantinopla dá a Maria o título de sempre virgem."
+   }
+  ],
+  "conversa": "Peça para ler Mt 13,55 ao lado de Mt 27,56. Os mesmos nomes aparecem com outra mãe, e o texto responde sozinho."
+ },
+ {
+  "pergunta": "Onde está a Ave-Maria na Bíblia?",
+  "resposta": "A primeira metade da oração é o próprio Evangelho: a saudação do anjo e a de Isabel. A segunda metade é um pedido de oração, como os cristãos pedem uns aos outros.",
+  "biblia": [
+   {
+    "ref": "Lc 1,28",
+    "texto": "A saudação do anjo: cheia de graça, o Senhor é contigo."
+   },
+   {
+    "ref": "Lc 1,42",
+    "texto": "A saudação de Isabel: bendita entre as mulheres, bendito o fruto do ventre."
+   },
+   {
+    "ref": "Lc 1,43",
+    "texto": "Isabel a chama de mãe do Senhor, de onde vem “Santa Maria, Mãe de Deus”."
+   },
+   {
+    "ref": "Tg 5,16",
+    "texto": "Rezar uns pelos outros; a oração do justo tem grande força."
+   },
+   {
+    "ref": "1Tm 2,1-5",
+    "texto": "Paulo pede intercessões por todos no mesmo trecho em que chama Cristo de único mediador. Interceder não concorre com Ele."
+   },
+   {
+    "ref": "Lc 1,48",
+    "texto": "Chamá-la bem-aventurada cumpre o que ela mesma anunciou."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 2676",
+    "texto": "O Catecismo comenta a primeira parte da Ave-Maria frase por frase."
+   },
+   {
+    "ref": "CIC 2677",
+    "texto": "E a segunda: pedimos que ela reze por nós agora e na hora da morte."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "Séc. VII",
+    "texto": "O antifonário romano já une as duas saudações de Lucas na antífona do ofertório do 4º domingo do Advento."
+   },
+   {
+    "ref": "1568",
+    "texto": "A segunda parte se fixa na forma atual com o Breviário de São Pio V."
+   }
+  ],
+  "conversa": "Reze a oração devagar com a pessoa e mostre cada frase em Lucas 1. Quase sempre ela nunca tinha notado."
+ }
+]
