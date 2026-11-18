@@ -16,7 +16,8 @@ src/
   dados/
     temas.json                  temas e blocos (nome, cor, arquivo das fichas)
     blocos/*.json               as fichas de cada bloco: maria, igreja, escritura, sacramentos, cristo,
-                                imagens, solas, teologais, cardeais, vida
+                                imagens, solas, teologais, cardeais, vida,
+                                libertacao, desvios, liturgia (Teologia da Libertação)
     catecismo-explicacoes.json  explicação, com palavras próprias, dos parágrafos citados
     catecismo-partes.json       trechos do Catecismo como divididos no site do Vaticano
     catecismo-estrutura.json    ← gerado do Drive: Partes, Secções, Capítulos, Artigos e subtítulos
@@ -34,7 +35,7 @@ Edite o arquivo do bloco em `src/dados/blocos/`. Cada ficha tem:
 | `resposta` | a resposta curta |
 | `biblia`, `catecismo`, `tradicao` | listas de `{ "ref": "...", "texto": "..." }`; no Catecismo, use `"CIC 966"` ou `"CIC 75-79"` |
 | `conversa` | o conselho de como conversar |
-| `tituloResposta`, `rotuloConversa` | opcionais, para trocar os títulos padrão |
+| `tituloResposta`, `rotuloConversa`, `rotuloTradicao` | opcionais, para trocar os títulos padrão |
 
 Para um bloco novo: crie o arquivo em `src/dados/blocos/`, importe em `src/dados.ts` e ponha em `src/dados/temas.json`.
 

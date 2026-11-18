@@ -14,9 +14,12 @@ import solas from "./dados/blocos/solas.json";
 import teologais from "./dados/blocos/teologais.json";
 import cardeais from "./dados/blocos/cardeais.json";
 import vida from "./dados/blocos/vida.json";
+import libertacao from "./dados/blocos/libertacao.json";
+import desvios from "./dados/blocos/desvios.json";
+import liturgia from "./dados/blocos/liturgia.json";
 import type { EstruturaCatecismo, Explicacao, Ficha, Tema, TemaInfo } from "./tipos";
 
-const FICHAS: Record<string, Ficha[]> = { maria, igreja, escritura, sacramentos, cristo, imagens, solas, teologais, cardeais, vida };
+const FICHAS: Record<string, Ficha[]> = { maria, igreja, escritura, sacramentos, cristo, imagens, solas, teologais, cardeais, vida, libertacao, desvios, liturgia };
 
 export const TEMAS: Tema[] = (temasInfo as TemaInfo[]).map((t) => ({
   nome: t.nome,

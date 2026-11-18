@@ -17,6 +17,8 @@ export interface Ficha {
   biblia: Referencia[];
   catecismo: Referencia[];
   tradicao: Referencia[];
+  /** título do quadro da Tradição; padrão "Na Tradição" */
+  rotuloTradicao?: string;
   /** rótulo do conselho final; padrão "Como conversar" */
   rotuloConversa?: string;
   conversa: string;
