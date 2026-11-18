@@ -82,7 +82,7 @@ footer{font-size:14px;color:var(--muted);border-top:1px solid var(--line);paddin
 :root[data-theme="dark"] .tema-branca{--accent:#E3C878;--accent-soft:#2E2816}
 :root[data-theme="dark"] .tema-roxa{--accent:#B9A2E6;--accent-soft:#2A2140}
 :root[data-theme="dark"] .tema-vermelha{--accent:#F0928A;--accent-soft:#3D1B19}
-.partes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.partes{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
 .parte{font:inherit;font-size:15px;line-height:1.25;cursor:pointer;padding:10px 8px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--muted);display:flex;flex-direction:column;align-items:center;gap:4px;text-align:center}
 .parte b{font-family:var(--display);font-size:20px;color:var(--gold)}
 .parte[aria-current="true"]{border-color:var(--accent);color:var(--ink);font-weight:600;box-shadow:inset 0 -3px 0 var(--accent)}
@@ -95,7 +95,7 @@ footer{font-size:14px;color:var(--muted);border-top:1px solid var(--line);paddin
 .blocks[hidden],.search[hidden]{display:none}
 .plano{border-top:0}
 .qt.reto{font-style:normal;font-weight:600}
-@media (max-width:420px){.partes{grid-template-columns:1fr}}
+@media (max-width:560px){.partes{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .logo{width:72px;height:72px;margin-bottom:6px}
 .item{border-top:3px solid var(--accent)}
 .onde{margin:14px 0 -6px;font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--gold)}

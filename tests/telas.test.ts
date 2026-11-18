@@ -15,18 +15,20 @@ const g = lerGabarito<Gabarito>("telas");
 
 /* Mudanças feitas de propósito depois da versão 1, desfeitas aqui para comparar o resto:
    - números do Catecismo sem explicação própria agora são botões (abrem "onde fica no Catecismo");
-   - a janela ganhou o quadro "Onde fica no Catecismo". */
+   - a janela ganhou o quadro "Onde fica no Catecismo";
+   - o quarto tema (Teologia da Libertação) entrou depois, com gabarito próprio em libertacao.test.ts. */
 const semBotoesNovos = (h: string) => h.replace(/<button class="ref cicbtn cicloc" data-ref="([^"]*)" aria-haspopup="dialog">([^<]*)<\/button>/g, '<span class="ref">$2</span>');
+const semTemaNovo = (h: string) => h.replace(/<button class="parte" data-t="3"[^>]*>.*?<\/button>/s, "");
 const semOndeFica = (h: string) => h.replace(/<div class="monde">.*?<\/ol><\/div>/s, "");
 
 describe("telas iguais à versão 1", () => {
   it("tem gabarito de todos os blocos", () => {
-    expect(Object.keys(g.blocos).length).toBe(TEMAS.reduce((s, t) => s + t.blocos.length, 0));
+    expect(Object.keys(g.blocos).length).toBe(TEMAS.slice(0, 3).reduce((s, t) => s + t.blocos.length, 0));
   });
   for (const [chave, esperado] of Object.entries(g.blocos)) {
     const [t, b] = chave.split("-").map(Number);
     it(`tema ${t}, bloco ${b}: ${TEMAS[t].blocos[b].nome}`, () => {
-      expect(partesHTML(t)).toBe(esperado.partes);
+      expect(semTemaNovo(partesHTML(t))).toBe(esperado.partes);
       expect(chipsHTML(t, b)).toBe(esperado.chips);
       expect(semBotoesNovos(listaHTML(t, b, ""))).toBe(esperado.lista);
     });

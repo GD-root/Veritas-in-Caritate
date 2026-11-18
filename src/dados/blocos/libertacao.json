@@ -1,0 +1,284 @@
+[
+ {
+  "simples": true,
+  "pergunta": "O que é a teologia da libertação",
+  "resposta": "É uma corrente teológica nascida na América Latina no fim dos anos 1960, depois da Conferência de Medellín (1968). O nome vem do livro de Gustavo Gutiérrez, de 1971. Ela queria responder à miséria e à injustiça do continente, e esse desejo de libertar os pobres é cristão. O problema é que várias das suas formas tomaram a análise marxista como chave para ler a Bíblia, a fé e a Igreja. O resultado é uma teologia política: a salvação vira libertação econômica, a história vira luta de classes e a Igreja do povo é posta contra a hierarquia. Por isso a Igreja distinguiu: acolhe a preocupação com os pobres e rejeita o desvio.",
+  "biblia": [
+   {
+    "ref": "Ex 3,7-8",
+    "texto": "Deus vê a aflição do seu povo, ouve o seu clamor e desce para libertá-lo."
+   },
+   {
+    "ref": "Lc 4,18",
+    "texto": "Jesus foi ungido para anunciar a Boa Nova aos pobres e a libertação aos cativos."
+   },
+   {
+    "ref": "Jo 8,34-36",
+    "texto": "Quem comete o pecado é escravo do pecado; se o Filho vos libertar, sereis verdadeiramente livres."
+   },
+   {
+    "ref": "Gl 5,1",
+    "texto": "É para a liberdade que Cristo nos libertou."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 1741",
+    "texto": "Pela sua Cruz, Cristo libertou os homens do pecado, que é a escravidão mais profunda."
+   },
+   {
+    "ref": "CIC 2425",
+    "texto": "A Igreja rejeita as ideologias totalitárias e ateias ligadas ao comunismo e ao socialismo, e também o individualismo do capitalismo."
+   },
+   {
+    "ref": "CIC 2448",
+    "texto": "A Igreja tem um amor de preferência pelos pobres, que faz parte da sua tradição constante."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "1968",
+    "texto": "II Conferência do Episcopado Latino-Americano, em Medellín: a Igreja do continente assume a causa dos pobres."
+   },
+   {
+    "ref": "1979",
+    "texto": "III Conferência, em Puebla, aberta por São João Paulo II: a opção preferencial pelos pobres, sem as leituras marxistas."
+   },
+   {
+    "ref": "1984",
+    "texto": "Congregação para a Doutrina da Fé, Libertatis Nuntius: os desvios de algumas teologias da libertação."
+   },
+   {
+    "ref": "1986",
+    "texto": "Congregação para a Doutrina da Fé, Libertatis Conscientia: a liberdade cristã e a verdadeira libertação."
+   }
+  ],
+  "conversa": "Comece concordando com o que é verdadeiro: a miséria clama ao céu e o cristão não pode ficar indiferente. A discordância não é sobre ajudar o pobre. É sobre a chave de leitura: Cristo e o Evangelho, ou Marx e a luta de classes.",
+  "rotuloTradicao": "Na Tradição e no Magistério"
+ },
+ {
+  "simples": true,
+  "pergunta": "A Igreja condenou a teologia da libertação?",
+  "resposta": "A Igreja não condenou a palavra “libertação”, que é bíblica. Condenou as teologias da libertação que adotam conceitos marxistas sem crítica. Em 1984, a Congregação para a Doutrina da Fé, presidida pelo cardeal Joseph Ratzinger (depois Papa Bento XVI) e com a aprovação de São João Paulo II, publicou a instrução Libertatis Nuntius, apontando esses erros. Em 1986, a Libertatis Conscientia mostrou o lado positivo: o que é a libertação cristã. Livros de autores dessa corrente foram corrigidos oficialmente, como os de Leonardo Boff (1985) e de Jon Sobrino (2006).",
+  "biblia": [
+   {
+    "ref": "Cl 2,8",
+    "texto": "Que ninguém vos engane com filosofias vãs, segundo os elementos do mundo e não segundo Cristo."
+   },
+   {
+    "ref": "Gl 1,6-8",
+    "texto": "Mesmo que alguém anuncie outro evangelho, diferente do que recebestes, seja anátema."
+   },
+   {
+    "ref": "1Ts 5,21",
+    "texto": "Examinai tudo e ficai com o que é bom."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 85-87",
+    "texto": "Cabe ao Magistério da Igreja interpretar autenticamente a Palavra de Deus."
+   },
+   {
+    "ref": "CIC 2420",
+    "texto": "A Igreja faz juízo moral sobre as questões econômicas e sociais quando os direitos da pessoa ou a salvação das almas o exigem."
+   },
+   {
+    "ref": "CIC 2425",
+    "texto": "A Igreja rejeita as ideologias totalitárias e ateias associadas ao comunismo e ao socialismo."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "1984",
+    "texto": "Libertatis Nuntius, Introdução: o aviso contra os desvios não desautoriza quem responde com espírito evangélico à opção preferencial pelos pobres."
+   },
+   {
+    "ref": "1985",
+    "texto": "Notificação sobre o livro “Igreja: carisma e poder”, de Leonardo Boff: opções que põem em perigo a sã doutrina da fé."
+   },
+   {
+    "ref": "1986",
+    "texto": "Libertatis Conscientia: apresenta a liberdade cristã e a libertação como a Igreja as entende."
+   },
+   {
+    "ref": "2006",
+    "texto": "Notificação sobre obras de Jon Sobrino: afirmações sobre a divindade de Cristo e o valor salvífico da sua morte que não estão de acordo com a fé."
+   }
+  ],
+  "conversa": "Evite dizer que “a Igreja proibiu ajudar os pobres” ou que “tudo é comunismo”. Seja preciso: a Igreja rejeitou a leitura marxista da fé e mostrou qual é a libertação cristã. A precisão desarma.",
+  "rotuloTradicao": "Na Tradição e no Magistério"
+ },
+ {
+  "simples": true,
+  "pergunta": "Libertatis Nuntius (1984): os erros apontados",
+  "tituloResposta": "O que diz",
+  "resposta": "É a instrução “sobre alguns aspectos da teologia da libertação”. Reconhece que o desejo de libertação é um sinal dos tempos e tem raiz bíblica. Mas avisa que não se pode usar a análise marxista como se fosse ciência neutra, porque ela está amarrada a uma visão ateia do homem e da história. Daí vêm os erros: a luta de classes como lei da história, a verdade medida pela prática revolucionária, a “Igreja do povo” contra a hierarquia, a Bíblia lida só como política, Cristo reduzido a símbolo da luta e a Eucaristia transformada em celebração do povo em luta.",
+  "biblia": [
+   {
+    "ref": "Mt 4,4",
+    "texto": "Não só de pão vive o homem, mas de toda palavra que sai da boca de Deus."
+   },
+   {
+    "ref": "Rm 12,2",
+    "texto": "Não vos conformeis com este mundo, mas transformai-vos pela renovação da mente."
+   },
+   {
+    "ref": "Jo 18,36",
+    "texto": "O meu Reino não é deste mundo."
+   },
+   {
+    "ref": "Cl 2,8",
+    "texto": "Cuidado com as filosofias que não são segundo Cristo."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 407",
+    "texto": "Ignorar que o homem tem a natureza ferida pelo pecado leva a graves erros na política, na ação social e na moral."
+   },
+   {
+    "ref": "CIC 2244",
+    "texto": "Toda instituição se inspira numa visão do homem e do seu destino."
+   },
+   {
+    "ref": "CIC 2425",
+    "texto": "A Igreja rejeita as ideologias totalitárias e ateias."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "1984",
+    "texto": "Libertatis Nuntius VII: a análise marxista não pode ser separada da ideologia que a sustenta."
+   },
+   {
+    "ref": "1984",
+    "texto": "Libertatis Nuntius VIII a X: a luta de classes, a “Igreja do povo” e a nova leitura da Bíblia e dos sacramentos."
+   },
+   {
+    "ref": "1984",
+    "texto": "Libertatis Nuntius XI: denunciar esses desvios não é aprovar quem mantém os pobres na miséria."
+   }
+  ],
+  "rotuloConversa": "Para guardar",
+  "conversa": "A instrução é curta e está no site do Vaticano. Ler o texto original evita tanto a caricatura quanto a defesa cega.",
+  "rotuloTradicao": "Na Tradição e no Magistério"
+ },
+ {
+  "simples": true,
+  "pergunta": "Libertatis Conscientia (1986): a verdadeira libertação",
+  "tituloResposta": "O que diz",
+  "resposta": "É a segunda instrução, “sobre a liberdade cristã e a libertação”. Mostra o lado positivo: a libertação mais profunda é a do pecado, e dela nasce o compromisso com a justiça. Afirma o amor preferencial pelos pobres, sem excluir ninguém, e propõe o caminho da doutrina social da Igreja: a dignidade da pessoa, a solidariedade, a subsidiariedade, o valor do trabalho e a mudança das estruturas a partir da conversão do coração. Rejeita a violência sistemática como caminho.",
+  "biblia": [
+   {
+    "ref": "Jo 8,32",
+    "texto": "Conhecereis a verdade, e a verdade vos libertará."
+   },
+   {
+    "ref": "Gl 5,13",
+    "texto": "Fostes chamados à liberdade: servi-vos uns aos outros pela caridade."
+   },
+   {
+    "ref": "Lc 1,52-53",
+    "texto": "Derrubou do trono os poderosos e elevou os humildes; encheu de bens os famintos."
+   },
+   {
+    "ref": "Mt 25,40",
+    "texto": "O que fizestes a um destes meus irmãos mais pequeninos, a mim o fizestes."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 1740",
+    "texto": "A liberdade não é o direito de dizer e fazer tudo: é dada para o bem."
+   },
+   {
+    "ref": "CIC 1888-1889",
+    "texto": "A conversão interior vem primeiro, sem dispensar a correção das instituições injustas."
+   },
+   {
+    "ref": "CIC 2443-2449",
+    "texto": "O amor da Igreja pelos pobres e as obras de misericórdia."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "1986",
+    "texto": "Libertatis Conscientia 68: o amor de preferência pelos pobres, que não é exclusivo nem fruto de luta de classes."
+   },
+   {
+    "ref": "1986",
+    "texto": "Libertatis Conscientia, cap. V: a doutrina social da Igreja como caminho de uma prática cristã de libertação."
+   },
+   {
+    "ref": "1986",
+    "texto": "São João Paulo II, carta aos bispos do Brasil (9 de abril): uma teologia da libertação fiel à Tradição e ao Magistério é útil e necessária."
+   },
+   {
+    "ref": "1991",
+    "texto": "São João Paulo II, Centesimus Annus: depois da queda dos regimes comunistas, a doutrina social como alternativa."
+   }
+  ],
+  "rotuloConversa": "Para guardar",
+  "conversa": "Quando disserem que a Igreja só sabe criticar, mostre esta segunda instrução: ela não fica no “não”, propõe um caminho.",
+  "rotuloTradicao": "Na Tradição e no Magistério"
+ },
+ {
+  "simples": true,
+  "pergunta": "O que disseram os Papas",
+  "resposta": "Paulo VI já avisava, em 1975, que a libertação anunciada pela Igreja não se reduz a um projeto político. São João Paulo II, em Puebla (1979), rejeitou a imagem de Jesus como revolucionário político. Na Nicarágua (1983), defendeu a unidade da Igreja contra uma “Igreja popular” separada dos bispos. Bento XVI, em 2009, lembrou aos bispos do Brasil as consequências desses desvios: rebelião, divisão, dissenso. E todos insistiram, ao mesmo tempo, no amor pelos pobres.",
+  "biblia": [
+   {
+    "ref": "Lc 22,32",
+    "texto": "Jesus pede a Pedro: confirma os teus irmãos."
+   },
+   {
+    "ref": "Jo 17,21",
+    "texto": "Que todos sejam um, para que o mundo creia."
+   },
+   {
+    "ref": "At 4,32-35",
+    "texto": "Os primeiros cristãos partilhavam os bens, a partir da fé no Ressuscitado."
+   }
+  ],
+  "catecismo": [
+   {
+    "ref": "CIC 882",
+    "texto": "O Papa é o princípio perpétuo e visível da unidade da Igreja."
+   },
+   {
+    "ref": "CIC 2444",
+    "texto": "O amor da Igreja pelos pobres faz parte da sua tradição constante."
+   }
+  ],
+  "tradicao": [
+   {
+    "ref": "1975",
+    "texto": "Paulo VI, Evangelii Nuntiandi 32-35: a libertação que a Igreja anuncia não se reduz ao econômico, ao político ou ao cultural."
+   },
+   {
+    "ref": "1979",
+    "texto": "São João Paulo II, discurso de abertura em Puebla I,4: a ideia de Jesus como político, revolucionário, “o subversivo de Nazaré”, não está de acordo com a catequese da Igreja."
+   },
+   {
+    "ref": "1983",
+    "texto": "São João Paulo II, homilia em Manágua: a unidade da Igreja com os seus bispos, contra uma “Igreja popular” paralela."
+   },
+   {
+    "ref": "2007",
+    "texto": "Bento XVI, discurso em Aparecida: a opção preferencial pelos pobres está implícita na fé em Cristo."
+   },
+   {
+    "ref": "2009",
+    "texto": "Bento XVI aos bispos do Brasil (5 de dezembro): as consequências dessa teologia, de rebelião, divisão, dissenso e anarquia, ainda se fazem sentir."
+   },
+   {
+    "ref": "2013",
+    "texto": "Francisco, Evangelii Gaudium 200: a pior discriminação que os pobres sofrem é a falta de cuidado espiritual."
+   }
+  ],
+  "rotuloConversa": "Para guardar",
+  "conversa": "Os Papas falaram em continuidade: firmeza contra a ideologia e amor concreto pelos pobres. Quem cita um só desses lados está contando metade da história.",
+  "rotuloTradicao": "Na Tradição e no Magistério"
+ }
+]

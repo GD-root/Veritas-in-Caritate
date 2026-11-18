@@ -63,5 +63,25 @@
     "cor": "tema-liturgica"
    }
   ]
+ },
+ {
+  "nome": "Teologia da Libertação",
+  "blocos": [
+   {
+    "id": "libertacao",
+    "nome": "O que a Igreja ensina",
+    "cor": ""
+   },
+   {
+    "id": "desvios",
+    "nome": "Os erros corrigidos",
+    "cor": "tema-vermelha"
+   },
+   {
+    "id": "liturgia",
+    "nome": "Eucaristia, ritos e música",
+    "cor": "tema-branca"
+   }
+  ]
  }
 ]

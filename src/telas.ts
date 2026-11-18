@@ -39,7 +39,7 @@ export function ficha(tema: number, bloco: Bloco, bi: number, d: Ficha, i: numbe
       <div class="short"><h3>${esc(d.tituloResposta || (d.simples ? "O que é" : "Resposta curta"))}</h3><p>${esc(d.resposta)}</p></div>
       <div><h3>Na Bíblia</h3>${linhas(d.biblia)}</div>
       <div><h3>No Catecismo</h3>${linhas(d.catecismo, "cic")}${temBalao ? '<p class="dica">Toque nos números com ＋ para ver o que cada parágrafo ensina.</p>' : ""}</div>
-      <div><h3>Na Tradição</h3>${linhas(d.tradicao, "trad")}</div>
+      <div><h3>${esc(d.rotuloTradicao || "Na Tradição")}</h3>${linhas(d.tradicao, "trad")}</div>
       <p class="say"><b>${esc(d.rotuloConversa || "Como conversar")}:</b> ${esc(d.conversa)}</p>
       <div class="foot"><button class="copy" data-b="${bi}" data-i="${i}">Copiar referências</button></div>
     </div>
