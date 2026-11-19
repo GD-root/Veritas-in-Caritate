@@ -22,6 +22,8 @@ a{color:inherit}
 /* papel de parede fixo atrás de tudo */
 .fundo{position:fixed;top:0;left:50%;transform:translateX(-50%);width:var(--larg);z-index:-1;pointer-events:none}
 .fundo img{display:block;width:100%;height:auto}
+/* medalhão do vitral (centro 195,100 da cena de 390 de largura), um pouco maior que a moldura do fundo */
+.fundo .medalhao{position:absolute;width:calc(100% * 58 / 390);height:auto;left:calc(50% - 100% * 29 / 390);top:calc(var(--larg) * 71 / 390);filter:drop-shadow(0 0 6px rgba(255,236,190,.55))}
 /* barra de cima: título centralizado */
 .topo{position:sticky;top:0;z-index:5;display:grid;grid-template-columns:44px 1fr 44px;align-items:center;gap:8px;max-width:720px;margin:0 auto;padding:calc(10px + env(safe-area-inset-top)) 16px 10px;
   background:color-mix(in srgb,var(--bg) 78%,transparent);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);
@@ -90,6 +92,7 @@ a{color:inherit}
 .conversa p{font-size:14.5px}.conversa b{color:var(--ouro)}
 .acoes{display:flex;gap:8px}
 .bt{flex:1;display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:44px;padding:0 14px;border-radius:14px;background:var(--vidro);border:1px solid var(--line);font:700 13.5px var(--body);color:var(--ink);text-decoration:none;cursor:pointer;-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+.bt.salva{color:var(--ouro);border-color:color-mix(in srgb,var(--ouro) 60%,transparent)}
 .bt.zap{background:#1f7a4a;border-color:#1f7a4a;color:#fff}
 .passos{display:flex;align-items:center;gap:10px}.passos small{font:700 12px var(--body);color:var(--fraco);white-space:nowrap}.passos>span{flex:1}
 .vazio{text-align:center;color:var(--muted);padding:6px 10px}
@@ -98,7 +101,7 @@ a{color:inherit}
 .verso small{display:block;font:800 9.5px var(--body);letter-spacing:.18em;text-transform:uppercase;color:var(--fraco);margin-top:2px}
 /* menu de baixo: símbolos; o escolhido mostra o nome */
 .menu{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(14px + env(safe-area-inset-bottom));z-index:6;display:flex;gap:4px;padding:6px;border-radius:99px;background:color-mix(in srgb,var(--card) 92%,transparent);border:1px solid var(--line);box-shadow:0 10px 26px #0000003a;-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px)}
-.menu a{display:flex;align-items:center;justify-content:center;gap:7px;min-width:54px;height:48px;padding:0 14px;border-radius:99px;color:var(--fraco);text-decoration:none;font:800 13.5px var(--body)}
+.menu a{display:flex;align-items:center;justify-content:center;gap:7px;min-width:50px;height:48px;padding:0 14px;border-radius:99px;color:var(--fraco);text-decoration:none;font:800 13.5px var(--body)}
 .menu a span{display:none}
 .menu a[aria-current="page"]{background:linear-gradient(150deg,var(--sel1),var(--sel2));color:#fff;padding:0 18px}
 .menu a[aria-current="page"] span{display:inline}

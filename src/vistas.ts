@@ -13,6 +13,14 @@ export const chave = (t: number, b: number, i: number) => `${t}-${b}-${i}`;
 /** Papel de parede de cada tema (public/fundos/<nome>-escuro.svg e -claro.svg). */
 export const FUNDO_TEMA = ["defesa", "reforma", "valores", "libertacao"];
 
+/** Símbolo do medalhão do vitral (public/fundos/simbolos/<nome>.svg): o do tema ou o do bloco. */
+export function simbolo(t?: number, b?: number): string {
+  if (t === undefined) return "veritas";
+  if (b === undefined) return FUNDO_TEMA[t] || "veritas";
+  const id = TEMAS[t].blocos[b].id;
+  return id === "libertacao" ? "libertacao-bloco" : id;
+}
+
 /** Breve apresentação de cada tema, mostrada na tela do tema. */
 const SOBRE_TEMA: Record<string, string> = {
   "Defesa da fé": "As objeções mais comuns sobre Maria, a Igreja, a Bíblia, os sacramentos e os santos.",
@@ -32,6 +40,8 @@ const SV = (d: string, w = 20) => `<svg width="${w}" height="${w}" viewBox="0 0 
 export const IC = {
   chev: SV('<path d="M9 6l6 6-6 6"/>', 16),
   busca: SV('<circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/>', 18),
+  salvar: SV('<path d="M6 3h12v18l-6-4-6 4z"/>', 17),
+  salva: '<svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg>',
   copiar: SV('<rect x="8" y="8" width="12" height="12" rx="2"/><path d="M4 16V6a2 2 0 0 1 2-2h10"/>', 17),
   zap: SV('<path d="M4 20l1.5-4A8 8 0 1 1 9 19z"/>', 17),
   luz: SV('<path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3z"/>', 18),
@@ -128,7 +138,7 @@ function refsCatecismo(arr: Referencia[]): string {
   }).join("");
 }
 
-export function fichaHTML(t: number, b: number, i: number): string {
+export function fichaHTML(t: number, b: number, i: number, salva = false): string {
   const bl = TEMAS[t].blocos[b], d = bl.itens[i];
   const ant = i > 0 ? `<a class="bt" href="#t/${t}/${b}/${i - 1}">‹ Anterior</a>` : "<span></span>";
   const prox = i < bl.itens.length - 1 ? `<a class="bt" href="#t/${t}/${b}/${i + 1}">Próxima ›</a>` : `<a class="bt" href="#t/${t}/${b}">Voltar ao bloco</a>`;
@@ -143,8 +153,25 @@ export function fichaHTML(t: number, b: number, i: number): string {
     `<div class="no"><h4>${esc(d.rotuloTradicao || "Na Tradição")}</h4>${d.tradicao.map(({ ref, texto }) => `<p><span class="ano">${esc(ref)}</span> ${esc(texto)}</p>`).join("")}</div>` +
     "</div></section>" +
     `<section class="painel conversa">${IC.luz}<p><b>${esc(d.rotuloConversa || "Como conversar")}:</b> ${esc(d.conversa)}</p></section>` +
-    `<div class="acoes"><button class="bt" data-copiar>${IC.copiar} Copiar</button><a class="bt zap" href="${zap}" target="_blank" rel="noopener">${IC.zap} WhatsApp</a></div>` +
+    `<div class="acoes"><button class="bt${salva ? " salva" : ""}" data-salvar aria-pressed="${salva}">${botaoSalvar(salva)}</button><button class="bt" data-copiar>${IC.copiar} Copiar</button><a class="bt zap" href="${zap}" target="_blank" rel="noopener">${IC.zap} WhatsApp</a></div>` +
     `<nav class="passos" aria-label="Outras fichas do bloco">${ant}<small>${i + 1} de ${bl.itens.length}</small>${prox}</nav>`;
+}
+
+/** Rótulo do botão de salvar a ficha. */
+export function botaoSalvar(salva: boolean): string {
+  return salva ? IC.salva + " Salva" : IC.salvar + " Salvar";
+}
+
+/* ---------------- Salvas ---------------- */
+export function salvasHTML(salvas: Set<string>, l: Lidas): string {
+  let grupos = "";
+  TEMAS.forEach((tm, t) => {
+    const linhas = tm.blocos.flatMap((bl, b) => bl.itens.map((d, i) => (salvas.has(chave(t, b, i)) ? linhaFicha(t, b, i, d, l, true) : ""))).join("");
+    if (linhas) grupos += `<h3 class="rot">${esc(tm.nome)}</h3><div class="painel lista">${linhas}</div>`;
+  });
+  return '<div class="espaco curto"></div>' +
+    `<section class="painel centro"><h2>Para ter à mão na próxima conversa</h2><p class="sub">${salvas.size ? plural(salvas.size, "ficha salva", "fichas salvas") + " neste aparelho." : "Nenhuma ficha salva ainda."}</p></section>` +
+    (grupos || `<p class="vazio painel">Abra uma ficha e toque em <b>Salvar</b>. Ela aparece aqui, pronta para mostrar ou mandar no WhatsApp.</p>`);
 }
 
 /* ---------------- Busca em todos os temas ---------------- */

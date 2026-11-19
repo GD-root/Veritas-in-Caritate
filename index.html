@@ -23,10 +23,14 @@
 </head>
 <body>
 <!-- Papel de parede: o interior de uma igreja, com o vitral do tema (public/fundos, gerado por ferramentas/fundos) -->
-<picture class="fundo" aria-hidden="true">
-  <source id="fundo-escuro" media="(prefers-color-scheme: dark)" srcset="fundos/veritas-escuro.svg">
-  <img id="fundo-claro" src="fundos/veritas-claro.svg" alt="">
-</picture>
+<div class="fundo" aria-hidden="true">
+  <picture>
+    <source id="fundo-escuro" media="(prefers-color-scheme: dark)" srcset="fundos/veritas-escuro.svg">
+    <img id="fundo-claro" src="fundos/veritas-claro.svg" alt="">
+  </picture>
+  <!-- o símbolo do tema ou do bloco, no medalhão do alto do vitral -->
+  <img class="medalhao" id="medalhao" src="fundos/simbolos/veritas.svg" alt="">
+</div>
 
 <header class="topo">
   <a class="topbt" id="esq" href="#" aria-label="Início"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="7" cy="17" r="3"/><circle cx="17" cy="17" r="3"/><path d="M9 15L19 5M15 15L5 5M17 7l2 2M7 7L5 9"/></svg></a>
@@ -40,6 +44,7 @@
   <a href="#" data-aba="inicio" aria-label="Início"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/></svg><span>Início</span></a>
   <a href="#temas" data-aba="temas" aria-label="Temas"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h5v16H4zM10 4h5v16h-5z"/><path d="M16 5l4-1 2 15-4 1z"/></svg><span>Temas</span></a>
   <a href="#buscar" data-aba="buscar" aria-label="Buscar"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg><span>Buscar</span></a>
+  <a href="#salvas" data-aba="salvas" aria-label="Salvas"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg><span>Salvas</span></a>
 </nav>
 
 <div class="modal" id="modal" hidden>
