@@ -7,10 +7,12 @@ import { acharBloco, blocoHTML, buscaHTML, buscar, chave, fichaHTML, inicioHTML,
 const nada = new Set<string>();
 
 describe("ficha", () => {
-  it("mostra a resposta, todas as referências e o conselho de cada ficha", () => {
+  it("mostra a resposta e todas as referências de cada ficha, sem o \"Como conversar\"", () => {
     TEMAS.forEach((tm, t) => tm.blocos.forEach((bl, b) => bl.itens.forEach((d, i) => {
       const h = fichaHTML(t, b, i);
-      for (const txt of [d.resposta, d.conversa, ...[...d.biblia, ...d.catecismo, ...d.tradicao].flatMap((r) => [r.ref, r.texto])]) expect(h, d.pergunta).toContain(esc(txt));
+      for (const txt of [d.resposta, ...[...d.biblia, ...d.catecismo, ...d.tradicao].flatMap((r) => [r.ref, r.texto])]) expect(h, d.pergunta).toContain(esc(txt));
+      expect(h).not.toContain("Como conversar");
+      expect(h).not.toContain(esc(d.conversa));
     })));
   });
   it("anterior e próxima dentro do bloco", () => {

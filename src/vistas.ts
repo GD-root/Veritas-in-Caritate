@@ -44,7 +44,6 @@ export const IC = {
   salva: '<svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg>',
   copiar: SV('<rect x="8" y="8" width="12" height="12" rx="2"/><path d="M4 16V6a2 2 0 0 1 2-2h10"/>', 17),
   zap: SV('<path d="M4 20l1.5-4A8 8 0 1 1 9 19z"/>', 17),
-  luz: SV('<path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3z"/>', 18),
   ok: SV('<path d="M5 12.5l4.5 4.5L19 7"/>', 13),
 };
 
@@ -152,7 +151,6 @@ export function fichaHTML(t: number, b: number, i: number, salva = false): strin
     `<div class="no"><h4>No Catecismo</h4>${refsCatecismo(d.catecismo)}${temBalao ? '<p class="dica">Toque nos números com ＋ para ver o que cada parágrafo ensina.</p>' : ""}</div>` +
     `<div class="no"><h4>${esc(d.rotuloTradicao || "Na Tradição")}</h4>${d.tradicao.map(({ ref, texto }) => `<p><span class="ano">${esc(ref)}</span> ${esc(texto)}</p>`).join("")}</div>` +
     "</div></section>" +
-    `<section class="painel conversa">${IC.luz}<p><b>${esc(d.rotuloConversa || "Como conversar")}:</b> ${esc(d.conversa)}</p></section>` +
     `<div class="acoes"><button class="bt${salva ? " salva" : ""}" data-salvar aria-pressed="${salva}">${botaoSalvar(salva)}</button><button class="bt" data-copiar>${IC.copiar} Copiar</button><a class="bt zap" href="${zap}" target="_blank" rel="noopener">${IC.zap} WhatsApp</a></div>` +
     `<nav class="passos" aria-label="Outras fichas do bloco">${ant}<small>${i + 1} de ${bl.itens.length}</small>${prox}</nav>`;
 }
@@ -177,7 +175,7 @@ export function salvasHTML(salvas: Set<string>, l: Lidas): string {
 /* ---------------- Busca em todos os temas ---------------- */
 function textoDaFicha(d: Ficha): string {
   const refs = [...d.biblia, ...d.catecismo, ...d.tradicao].flatMap((r) => [r.ref, r.texto]);
-  return norm([d.pergunta, d.resposta, d.conversa, ...refs].join(" "));
+  return norm([d.pergunta, d.resposta, ...refs].join(" "));
 }
 
 /** Fichas que contêm o termo (sem acentos), de todos os temas. */
