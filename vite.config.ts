@@ -14,7 +14,7 @@ export default defineConfig({
       registerType: "autoUpdate",
       filename: "sw.js",
       workbox: {
-        globPatterns: ["**/*.{html,js,css,png,webmanifest,json}"],
+        globPatterns: ["**/*.{html,js,css,png,svg,webmanifest,json}"],
         cleanupOutdatedCaches: true,
         clientsClaim: true,
         skipWaiting: true,

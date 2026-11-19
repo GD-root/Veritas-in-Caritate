@@ -7,10 +7,11 @@ Catecismo e a voz dos primeiros cristãos, com um conselho de como conversar. Ab
 
 ```
 index.html                    a página (só a estrutura)
-public/                       ícones e manifest do aplicativo
+public/                       ícones, manifest e fundos/ (o interior da igreja com o vitral de cada tema)
 src/
-  main.ts                     toques e navegação
-  telas.ts                    o HTML de cada parte da tela (funções testáveis)
+  main.ts                     navegação (#t/tema/bloco/ficha, #temas, #buscar), fundo de cada tema e toques
+  vistas.ts                   o HTML de cada tela: início, temas, tema, bloco, ficha e busca (funções testáveis)
+  telas.ts                    peças comuns: referências ao Catecismo, texto para copiar e a janela do Catecismo
   dados.ts                    junta os temas com as fichas
   tipos.ts                    o formato de cada arquivo de dados
   dados/
@@ -23,6 +24,7 @@ src/
     catecismo-estrutura.json    ← gerado do Drive: Partes, Secções, Capítulos, Artigos e subtítulos
 tests/                        testes automáticos
 ferramentas/                  o script em Python que lê o Catecismo do Drive (veja ferramentas/LEIAME.md)
+                              e fundos/gerar_fundos.py, que desenha os papéis de parede de public/fundos
 ```
 
 ### Acrescentar ou corrigir uma ficha

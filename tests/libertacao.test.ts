@@ -1,7 +1,7 @@
 /* O tema Teologia da Libertação: fichas completas e telas. */
 import { describe, expect, it } from "vitest";
 import { TEMAS } from "../src/dados";
-import { chipsHTML, listaHTML, partesHTML } from "../src/telas";
+import { blocoHTML, buscar, fichaHTML, temasHTML } from "../src/vistas";
 
 const i = TEMAS.findIndex((t) => t.nome === "Teologia da Libertação");
 const tema = TEMAS[i];
@@ -10,7 +10,7 @@ describe("tema Teologia da Libertação", () => {
   it("é o quarto tema, depois de Valores católicos", () => {
     expect(i).toBe(3);
     expect(TEMAS[2].nome).toBe("Valores católicos");
-    expect(partesHTML(0)).toContain('data-t="3"');
+    expect(temasHTML(new Set())).toContain('href="#t/3"');
   });
   it("tem os três blocos", () => {
     expect(tema.blocos.map((b) => b.id)).toEqual(["libertacao", "desvios", "liturgia"]);
@@ -29,11 +29,10 @@ describe("tema Teologia da Libertação", () => {
     for (const t of ["Libertatis Nuntius", "Libertatis Conscientia", "marxista", "Puebla", "Redemptionis Sacramentum", "Sacrosanctum Concilium", "gregoriano"]) expect(tudo).toContain(t);
   });
   it("mostra o título próprio do quadro da Tradição", () => {
-    const html = listaHTML(i, 0, "");
-    expect(html).toContain("<h3>Na Tradição e no Magistério</h3>");
-    expect(chipsHTML(i, 2)).toContain("Eucaristia, ritos e música");
+    expect(fichaHTML(i, 0, 0)).toContain("<h4>Na Tradição e no Magistério</h4>");
+    expect(blocoHTML(i, 2, new Set())).toContain("Eucaristia, ritos e música");
   });
   it("a busca acha as fichas do tema", () => {
-    expect(listaHTML(i, 0, "Betânia")).toContain("Santíssimo");
+    expect(buscar("Betânia").some(([t, b, f]) => t === i && /Santíssimo/.test(tema.blocos[b].itens[f].pergunta))).toBe(true);
   });
 });

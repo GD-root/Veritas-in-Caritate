@@ -4,7 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Veritas in Caritate</title>
-<meta name="theme-color" content="#6B1F2E">
+<meta name="theme-color" content="#f6f1e7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#100c0b" media="(prefers-color-scheme: dark)">
 <meta name="description" content="Veritas in Caritate: apologética católica com a Bíblia, o Catecismo e a Tradição.">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" type="image/png" sizes="192x192" href="icone-192.png">
@@ -16,41 +17,30 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,500;0,600;1,500&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,600;1,500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <!-- Contagem anônima de acessos (GoatCounter: sem cookies; só o dono vê os números) -->
 <script data-goatcounter="https://gdapps.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <svg class="logo" viewBox="0 0 104 104" role="img" aria-label="Chaves de São Pedro">
-      <rect width="104" height="104" rx="24" fill="#6B1F2E"/>
-      <g transform="rotate(45 52 52)" stroke="#E2B84A" stroke-width="5" fill="none" stroke-linecap="round"><line x1="52" y1="20" x2="52" y2="72"/><circle cx="52" cy="80" r="8"/><line x1="52" y1="22" x2="62" y2="22"/><line x1="52" y1="31" x2="60" y2="31"/></g>
-      <g transform="rotate(-45 52 52)" stroke="#ECECEC" stroke-width="5" fill="none" stroke-linecap="round"><line x1="52" y1="20" x2="52" y2="72"/><circle cx="52" cy="80" r="8"/><line x1="52" y1="22" x2="42" y2="22"/><line x1="52" y1="31" x2="44" y2="31"/></g>
-    </svg>
-    <div class="eyebrow">Apologética católica</div>
-    <h1>Veritas in Caritate</h1>
-    <p class="sub">A verdade na caridade <span>Efésios 4,15</span></p>
-    <p class="lede">Para entender a fé, crescer nela e saber explicar com serenidade o que a Igreja crê e por quê: a passagem da Bíblia, o número do Catecismo e a voz dos primeiros cristãos.</p>
-  </header>
+<!-- Papel de parede: o interior de uma igreja, com o vitral do tema (public/fundos, gerado por ferramentas/fundos) -->
+<picture class="fundo" aria-hidden="true">
+  <source id="fundo-escuro" media="(prefers-color-scheme: dark)" srcset="fundos/veritas-escuro.svg">
+  <img id="fundo-claro" src="fundos/veritas-claro.svg" alt="">
+</picture>
 
-  
+<header class="topo">
+  <a class="topbt" id="esq" href="#" aria-label="Início"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="7" cy="17" r="3"/><circle cx="17" cy="17" r="3"/><path d="M9 15L19 5M15 15L5 5M17 7l2 2M7 7L5 9"/></svg></a>
+  <div class="titulo"><h1 id="titulo">Veritas in Caritate</h1><small id="subtitulo">A verdade na caridade</small></div>
+  <a class="topbt" href="#buscar" aria-label="Buscar"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg></a>
+</header>
 
-  <nav class="partes" id="partes" aria-label="Temas"></nav>
+<main class="wrap" id="app"></main>
 
-  <nav class="blocks" id="blocos" aria-label="Blocos"></nav>
-
-  <div class="search" id="buscabox">
-    <label for="busca">Buscar neste tema</label>
-    <input id="busca" type="search" placeholder="Ex.: irmãos, Lc 1, virgem, 495" autocomplete="off">
-  </div>
-
-  <div class="list" id="lista"></div>
-
-  <footer>
-    As passagens bíblicas estão resumidas: abra a sua Bíblia na referência para ler o texto. Os números do Catecismo seguem o Catecismo da Igreja Católica. Conhecer a verdade para vivê-la e partilhá-la com caridade: quem pergunta merece respeito, mesmo quando discorda.
-  </footer>
-</div>
+<nav class="menu" aria-label="Navegação">
+  <a href="#" data-aba="inicio" aria-label="Início"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/></svg><span>Início</span></a>
+  <a href="#temas" data-aba="temas" aria-label="Temas"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h5v16H4zM10 4h5v16h-5z"/><path d="M16 5l4-1 2 15-4 1z"/></svg><span>Temas</span></a>
+  <a href="#buscar" data-aba="buscar" aria-label="Buscar"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg><span>Buscar</span></a>
+</nav>
 
 <div class="modal" id="modal" hidden>
   <div class="mcaixa" id="mcaixa" role="dialog" aria-modal="true" aria-labelledby="mtit">
