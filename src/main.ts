@@ -8,7 +8,11 @@ const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as 
 const app = $("app"), titulo = $("titulo"), subtitulo = $("subtitulo"), esq = $<HTMLAnchorElement>("esq");
 const fundoEscuro = $<HTMLSourceElement>("fundo-escuro"), fundoClaro = $<HTMLImageElement>("fundo-claro"), medalhao = $<HTMLImageElement>("medalhao");
 const modal = $("modal"), mcaixa = $("mcaixa"), mtit = $("mtit"), mcorpo = $("mcorpo"), mfechar = $("mfechar");
-const ICONE_CHAVES = esq.innerHTML;
+const dir = $<HTMLAnchorElement>("dir");
+const ICONE_CHAVES = esq.innerHTML, ICONE_BUSCA = dir.innerHTML;
+const ICONE_FECHAR = '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>';
+/* tela de onde se abriu a busca: o X volta para ela */
+let antesDaBusca = "#";
 const ICONE_VOLTAR = '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>';
 
 /* Fichas lidas: guardadas só neste aparelho */
@@ -56,6 +60,11 @@ function aba(nome: string) {
 /** Lê o endereço (#t/0/1/2, #temas, #buscar?q=...) e desenha a tela. */
 function render() {
   const h = decodeURIComponent(location.hash.replace(/^#/, ""));
+  const naBusca = h.startsWith("buscar");
+  dir.innerHTML = naBusca ? ICONE_FECHAR : ICONE_BUSCA;
+  dir.href = naBusca ? antesDaBusca : "#buscar";
+  dir.setAttribute("aria-label", naBusca ? "Fechar a busca" : "Buscar");
+  if (!naBusca) antesDaBusca = location.hash || "#";
   const m = h.match(/^t\/(\d+)(?:\/(\d+))?(?:\/(\d+))?$/);
   if (m && TEMAS[+m[1]] && (m[2] === undefined || TEMAS[+m[1]].blocos[+m[2]]) && (m[3] === undefined || TEMAS[+m[1]].blocos[+m[2]].itens[+m[3]])) {
     const t = +m[1], tm = TEMAS[t];
@@ -82,8 +91,9 @@ function render() {
     app.innerHTML = salvasHTML(salvas, lidas);
   } else if (h.startsWith("buscar")) {
     buscaAtual = new URLSearchParams(h.split("?")[1] || "").get("q") ?? buscaAtual;
-    fundo("veritas"); aba("buscar"); topo("Buscar", "Em todos os temas", "#");
+    fundo("veritas"); aba(""); topo("Buscar", "Em todos os temas", antesDaBusca);
     app.innerHTML = buscaHTML(buscaAtual, lidas);
+    if (!buscaAtual) $<HTMLInputElement>("q").focus(); /* aberta pela lupa: já pronta para digitar */
   } else {
     fundo("veritas"); aba("inicio"); topo("Veritas in Caritate", "A verdade na caridade", null);
     app.innerHTML = inicioHTML(lidas);
