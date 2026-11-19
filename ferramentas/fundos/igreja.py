@@ -6,7 +6,7 @@ from vitral import SIMB, CHUMBO, mosaico
 W, H = 390, 844
 V = (195, 318)  # ponto de fuga: base do altar
 PAL = {
- "escuro": dict(fundo="#100c0b", pedra="#1c1714", pedra2="#2a221d", pedraLuz="#4a3c32", madeira="#2e1a10", madeiraLuz="#6a4226", piso="#120e0c", luz="#ffe2a8", cruz="#3a2414", cruzLuz="#6a4426", corpo="#efdcc0", corpoSombra="#c9a882", contorno="#1a0f08"),
+ "escuro": dict(fundo="#100c0b", pedra="#1c1714", pedra2="#2a221d", pedraLuz="#4a3c32", madeira="#2e1a10", madeiraLuz="#6a4226", piso="#120e0c", luz="#ffe2a8", cruz="#3a2414", cruzLuz="#7a5432", corpo="#efdcc0", corpoSombra="#c9a882", contorno="#1a0f08"),
  "claro": dict(fundo="#f6f1e7", pedra="#b8a58a", pedra2="#cdbb9e", pedraLuz="#e8dcc6", madeira="#6a4228", madeiraLuz="#a8724a", piso="#d8cbb4", luz="#fff6dc", cruz="#4a2e1a", cruzLuz="#7a5432", corpo="#efdcc0", corpoSombra="#c9a882", contorno="#2a1a0e"),
 }
 VIDRO = {"veritas": ["#2c5fd0", "#e08a1a", "#c0392b", "#f2c94c", "#2a9d6a", "#7a3cc0", "#4ab0e0"],
@@ -17,57 +17,57 @@ VIDRO = {"veritas": ["#2c5fd0", "#e08a1a", "#c0392b", "#f2c94c", "#2a9d6a", "#7a
          "maria": ["#2c5fd0", "#4ab0e0", "#9ab8ea", "#f3e6c4", "#1c3a9a", "#f2c94c"]}
 
 def crucifixo(x, topo, pe, p, uid):
-    """Cruz de madeira com Cristo crucificado: auréola com a cruz, coroa de espinhos, cabeça inclinada,
-    braços e corpo com sombra, perizônio com dobras, joelhos levemente dobrados, pés sobrepostos e as chagas."""
-    k, c1, c2 = p["contorno"], p["corpo"], p["corpoSombra"]
-    tb = topo + 30            # altura da trave
-    g = [f'<defs><linearGradient id="{uid}mad" x1="0" x2="1"><stop offset="0" stop-color="{p["cruz"]}"/><stop offset=".45" stop-color="{p["cruzLuz"]}"/><stop offset="1" stop-color="{p["cruz"]}"/></linearGradient>'
+    """Crucifixo no estilo barroco: Cristo já morto, cabeça caída sobre o ombro e o cabelo cobrindo o rosto,
+    corpo em curva com os joelhos dobrados de lado, braços em V presos com cordas e cravos, perizônio amarrado
+    de lado, pés cruzados com um cravo, as chagas, madeira rústica e a placa nas três línguas."""
+    k = p["contorno"]
+    tb = topo + 32                          # altura da trave
+    sangue = "#7a0f0f"
+    g = [f'<defs><linearGradient id="{uid}mad" x1="0" x2="1"><stop offset="0" stop-color="{p["cruz"]}"/><stop offset=".5" stop-color="{p["cruzLuz"]}"/><stop offset="1" stop-color="{p["cruz"]}"/></linearGradient>'
          f'<linearGradient id="{uid}madH" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{p["cruzLuz"]}"/><stop offset="1" stop-color="{p["cruz"]}"/></linearGradient>'
-         f'<linearGradient id="{uid}carne" x1="0" x2="1"><stop offset="0" stop-color="{c1}"/><stop offset=".6" stop-color="{c1}"/><stop offset="1" stop-color="{c2}"/></linearGradient>'
-         f'<linearGradient id="{uid}pano" x1="0" x2="1"><stop offset="0" stop-color="#fffdf6"/><stop offset="1" stop-color="#d9cfbd"/></linearGradient></defs>']
-    # a cruz
-    g.append(f'<rect x="{x - 5.5}" y="{topo}" width="11" height="{pe - topo}" fill="url(#{uid}mad)" stroke="{k}" stroke-width="1"/>'
-             f'<rect x="{x - 50}" y="{tb - 5.5}" width="100" height="11" fill="url(#{uid}madH)" stroke="{k}" stroke-width="1"/>'
-             f'<path d="M{x - 1} {topo + 4}V{pe - 4}M{x - 46} {tb - 1}H{x + 46}" stroke="{k}" stroke-width=".5" opacity=".35"/>')
-    # placa INRI
-    g.append(f'<rect x="{x - 12}" y="{topo + 5}" width="24" height="11" rx="1.5" fill="#f3ead6" stroke="{k}" stroke-width=".9"/>'
-             f'<text x="{x}" y="{topo + 13.4}" text-anchor="middle" font-family="Georgia,serif" font-size="7.6" font-weight="700" fill="#5a1a1a">INRI</text>')
-    hx, hy = x + 3, tb + 12   # cabeça, inclinada para a direita dele (esquerda de quem olha seria x-; aqui pende ao ombro direito dele)
-    # auréola com a cruz
-    g.append(f'<circle cx="{hx}" cy="{hy}" r="11.5" fill="#f0c75e" fill-opacity=".35" stroke="#e0b13a" stroke-width="1.6"/>'
-             f'<path d="M{hx} {hy - 11.5}V{hy - 7}M{hx - 11.5} {hy}H{hx - 7}M{hx + 11.5} {hy}H{hx + 7}" stroke="#e0b13a" stroke-width="2.2"/>')
-    # braços (afinam do ombro para a mão; levemente caídos)
-    for lado in (-1, 1):
-        mx, my = x + lado * 45, tb - 1          # mão
-        sx, sy = x + lado * 9, tb + 21          # ombro
-        g.append(f'<path d="M{mx} {my - 2.6}Q{x + lado * 27} {tb + 2} {sx} {sy - 3.5}L{sx} {sy + 4.5}Q{x + lado * 26} {tb + 12} {mx} {my + 2.4}Z" fill="url(#{uid}carne)" stroke="{k}" stroke-width=".9"/>'
-                 f'<path d="M{mx - lado * 1} {my - 2.4}l{lado * 4} -1.4l1 4.4l-{lado * 4} 1z" fill="url(#{uid}carne)" stroke="{k}" stroke-width=".7"/>'
-                 f'<circle cx="{mx}" cy="{my}" r="1.5" fill="#2a1a10"/><path d="M{mx} {my + 1}v3" stroke="#9a1f1f" stroke-width=".9"/>')
-    # tronco: peito largo, cintura estreita, costelas e a chaga do lado
-    g.append(f'<path d="M{x - 10} {tb + 17}Q{x} {tb + 13} {x + 10} {tb + 17}Q{x + 12} {tb + 34} {x + 8} {tb + 52}L{x + 8} {tb + 58}H{x - 8}L{x - 8} {tb + 52}Q{x - 12} {tb + 34} {x - 10} {tb + 17}Z" fill="url(#{uid}carne)" stroke="{k}" stroke-width="1"/>'
-             f'<path d="M{x - 7} {tb + 27}q3.5 2 7 0q3.5 2 7 0M{x - 7} {tb + 33}q3 1.6 6 0M{x + 1} {tb + 33}q3 1.6 6 0M{x - 6.5} {tb + 38.5}q2.6 1.4 5.4 0M{x + 1.2} {tb + 38.5}q2.6 1.4 5.4 0M{x} {tb + 42}v9" fill="none" stroke="{c2}" stroke-width=".9"/>'
-             f'<path d="M{x + 7} {tb + 34}q1.6 1 1 3" fill="none" stroke="#9a1f1f" stroke-width="1.2"/>')
-    # perizônio com dobras e o nó
-    g.append(f'<path d="M{x - 10} {tb + 55}Q{x} {tb + 52} {x + 10} {tb + 55}L{x + 12} {tb + 70}Q{x + 4} {tb + 66} {x + 1} {tb + 73}Q{x - 4} {tb + 66} {x - 11} {tb + 71}Z" fill="url(#{uid}pano)" stroke="{k}" stroke-width=".9"/>'
-             f'<path d="M{x - 6} {tb + 57}l2 11M{x - 1} {tb + 57}l1 12M{x + 5} {tb + 57}l1 10" stroke="#b8ab94" stroke-width=".8"/>'
-             f'<path d="M{x + 10} {tb + 56}q5 3 3 10q-2 -2 -4 -1z" fill="url(#{uid}pano)" stroke="{k}" stroke-width=".8"/>')
-    # pernas: joelhos levemente dobrados, pés sobrepostos com um cravo
-    g.append(f'<path d="M{x - 9} {tb + 68}Q{x - 11} {tb + 82} {x - 6} {tb + 92}Q{x - 6} {tb + 106} {x - 2} {tb + 118}L{x + 3} {tb + 118}Q{x + 3} {tb + 104} {x + 1} {tb + 92}Q{x + 2} {tb + 80} {x + 1} {tb + 70}Z" fill="url(#{uid}carne)" stroke="{k}" stroke-width=".9"/>'
-             f'<path d="M{x + 1} {tb + 70}Q{x + 10} {tb + 80} {x + 6} {tb + 92}Q{x + 5} {tb + 106} {x + 4} {tb + 118}L{x - 1} {tb + 118}Q{x} {tb + 104} {x + 1} {tb + 92}Q{x + 3} {tb + 82} {x - 1} {tb + 72}Z" fill="url(#{uid}carne)" stroke="{k}" stroke-width=".9"/>'
-             f'<path d="M{x - 4} {tb + 89}q2.5 2 5 0M{x + 2} {tb + 89}q2.5 2 4.5 0" fill="none" stroke="{c2}" stroke-width=".8"/>'
-             f'<path d="M{x - 3} {tb + 116}l-1.5 9 6 1 3 -10zM{x + 4} {tb + 116}l-1 10 5 -1 -1 -9z" fill="url(#{uid}carne)" stroke="{k}" stroke-width=".8"/>'
-             f'<circle cx="{x + 1}" cy="{tb + 121}" r="1.5" fill="#2a1a10"/><path d="M{x + 1} {tb + 122.5}v3" stroke="#9a1f1f" stroke-width=".9"/>')
-    # cabeça: rosto, cabelo caído, barba e coroa de espinhos
-    g.append(f'<path d="M{hx - 7} {hy - 4}Q{hx - 9} {hy + 10} {hx - 4} {hy + 18}L{hx - 6} {hy + 6}Z" fill="#4a2c16" stroke="{k}" stroke-width=".7"/>'
-             f'<path d="M{hx + 6} {hy - 4}Q{hx + 9} {hy + 9} {hx + 5} {hy + 16}L{hx + 4} {hy + 5}Z" fill="#4a2c16" stroke="{k}" stroke-width=".7"/>'
-             f'<ellipse cx="{hx}" cy="{hy + 1}" rx="5.4" ry="6.8" transform="rotate(14 {hx} {hy})" fill="url(#{uid}carne)" stroke="{k}" stroke-width=".9"/>'
-             f'<path d="M{hx - 4.4} {hy + 3}Q{hx - 2} {hy + 12} {hx + 2} {hy + 10}Q{hx + 5.6} {hy + 8} {hx + 5} {hy + 3}Q{hx + 1} {hy + 6} {hx - 4.4} {hy + 3}Z" fill="#4a2c16"/>'
-             f'<path d="M{hx - 3.2} {hy - .2}q1.2 .9 2.4 .2M{hx + 1.4} {hy + .7}q1.2 .9 2.4 .2" fill="none" stroke="#3a2210" stroke-width=".8" stroke-linecap="round"/>'
-             f'<path d="M{hx - 3.4} {hy - 2}l2.4 .6M{hx + 3.8} {hy - .9}l-2.4 .2" stroke="#4a2c16" stroke-width=".7"/>'
-             f'<path d="M{hx + .2} {hy + .4}q.9 2.4 .1 3.6" fill="none" stroke="{c2}" stroke-width=".8"/>'
-             f'<ellipse cx="{hx}" cy="{hy + 1}" rx="5.4" ry="6.8" transform="rotate(14 {hx} {hy})" fill="{c2}" fill-opacity=".18"/>'
-             f'<path d="M{hx - 6.5} {hy - 4}Q{hx} {hy - 9.5} {hx + 6.5} {hy - 3}" fill="none" stroke="#3a2a10" stroke-width="2.4"/>'
-             + "".join(f'<path d="M{hx - 6 + j * 2.4:.1f} {hy - 4.5 - (2.6 if 1 < j < 4 else 1):.1f}l{(-1) ** j * 1.6:.1f} -2.4" stroke="#3a2a10" stroke-width=".8"/>' for j in range(6)))
+         f'<linearGradient id="{uid}pele" x1="0" x2="1"><stop offset="0" stop-color="#8a5a36"/><stop offset=".35" stop-color="#d8ad7c"/><stop offset=".65" stop-color="#e2bc8c"/><stop offset="1" stop-color="#8a5a36"/></linearGradient>'
+         f'<linearGradient id="{uid}braco" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e2bc8c"/><stop offset="1" stop-color="#9a6a42"/></linearGradient>'
+         f'<linearGradient id="{uid}pano" x1="0" x2="1"><stop offset="0" stop-color="#f6efe2"/><stop offset=".6" stop-color="#e2d6c2"/><stop offset="1" stop-color="#a8987e"/></linearGradient></defs>']
+    # cruz de madeira rústica, com veios
+    g.append(f'<rect x="{x - 6.5}" y="{topo}" width="13" height="{pe - topo}" fill="url(#{uid}mad)" stroke="{k}" stroke-width="1"/>'
+             f'<rect x="{x - 54}" y="{tb - 6.5}" width="108" height="13" fill="url(#{uid}madH)" stroke="{k}" stroke-width="1"/>'
+             f'<path d="M{x - 2} {topo + 3}V{pe - 3}M{x + 3} {topo + 20}V{pe - 30}M{x - 50} {tb - 2}H{x + 50}M{x - 30} {tb + 3}H{x + 40}" stroke="{k}" stroke-width=".6" opacity=".45"/>')
+    # placa nas três línguas (hebraico, grego e latim)
+    g.append(f'<path d="M{x - 24} {topo + 1}h48l-2 19h-44z" fill="#efe6d0" stroke="{k}" stroke-width=".9"/>'
+             f'<text x="{x}" y="{topo + 6.6}" text-anchor="middle" font-family="serif" font-size="4.2" textLength="38" lengthAdjust="spacingAndGlyphs" fill="#3a2414">ישוע הנוצרי מלך היהודים</text>'
+             f'<text x="{x}" y="{topo + 11.8}" text-anchor="middle" font-family="serif" font-size="3.6" textLength="40" lengthAdjust="spacingAndGlyphs" fill="#3a2414">ΙΗΣΟΥΣ Ο ΝΑΖΩΡΑΙΟΣ Ο ΒΑΣΙΛΕΥΣ</text>'
+             f'<text x="{x}" y="{topo + 17}" text-anchor="middle" font-family="serif" font-size="3.8" font-weight="700" textLength="40" lengthAdjust="spacingAndGlyphs" fill="#3a2414">IESVS NAZARENVS REX IVDÆORVM</text>')
+    # braços em V, presos com cordas e cravos
+    for lado, (sx, sy) in ((-1, (x - 9, tb + 21)), (1, (x + 10, tb + 23))):
+        mx, my = x + lado * 48, tb - 1
+        g.append(f'<path d="M{mx} {my - 3}Q{x + lado * 30} {tb + 1} {sx + lado * 1} {sy - 4}Q{sx + lado * 4} {sy + 2} {sx} {sy + 6}Q{x + lado * 28} {tb + 13} {mx} {my + 3}Z" fill="url(#{uid}braco)" stroke="{k}" stroke-width=".9"/>'
+                 f'<path d="M{x + lado * 30} {tb + 5}q{lado * -3} 2 {lado * -6} 2" fill="none" stroke="#8a5a36" stroke-width=".8"/>'
+                 f'<path d="M{mx - lado * 1} {my - 3}q{lado * 5} -1 {lado * 7} 2q{lado * -1} 3 {lado * -6} 4z" fill="#c99868" stroke="{k}" stroke-width=".7"/>'
+                 f'<path d="M{mx - lado * 8} {my - 4}l{lado * 2} 9M{mx - lado * 10.5} {my - 3.5}l{lado * 2} 9" stroke="#c9b48a" stroke-width="1.6"/>'
+                 f'<circle cx="{mx + lado * 1}" cy="{my}" r="1.7" fill="#1a120c"/><path d="M{mx + lado * 1} {my + 1.5}q{lado * -1} 4 0 7" fill="none" stroke="{sangue}" stroke-width="1"/>')
+    # tronco em curva: os ombros caídos e o quadril deslocado para a direita de quem olha
+    g.append(f'<path d="M{x - 10} {tb + 18}Q{x + 1} {tb + 14} {x + 11} {tb + 20}Q{x + 15} {tb + 36} {x + 13} {tb + 56}L{x - 4} {tb + 57}Q{x - 9} {tb + 44} {x - 12} {tb + 32}Q{x - 13} {tb + 24} {x - 10} {tb + 18}Z" fill="url(#{uid}pele)" stroke="{k}" stroke-width="1"/>'
+             f'<path d="M{x - 8} {tb + 26}q5 3.5 9 0q4 3 9 .5M{x - 8} {tb + 33}q3 1.6 6 .4M{x + 3} {tb + 33}q3 1.6 7 0M{x - 7.5} {tb + 38}q2.6 1.4 5 .2M{x + 3.5} {tb + 38}q2.8 1.4 6 0M{x + 2} {tb + 41}q.6 6 1 13M{x - 3} {tb + 45}q2 1 4 0M{x + 4} {tb + 45}q2 1 4 0M{x - 2.5} {tb + 50}q2 1 4 0M{x + 4.5} {tb + 50}q2 1 4 0" fill="none" stroke="#8a5a36" stroke-width=".8"/>'
+             f'<path d="M{x + 11} {tb + 33}q2 2 1 5q-1 6 1 10" fill="none" stroke="{sangue}" stroke-width="1.3"/>')
+    # perizônio amarrado de lado, com a ponta caindo
+    g.append(f'<path d="M{x - 6} {tb + 54}Q{x + 4} {tb + 50} {x + 15} {tb + 55}L{x + 17} {tb + 70}Q{x + 8} {tb + 66} {x + 3} {tb + 74}Q{x - 2} {tb + 66} {x - 8} {tb + 69}Z" fill="url(#{uid}pano)" stroke="{k}" stroke-width=".9"/>'
+             f'<path d="M{x - 3} {tb + 56}l1.5 11M{x + 3} {tb + 55}l1 13M{x + 9} {tb + 56}l1.5 10" stroke="#a8987e" stroke-width=".8"/>'
+             f'<path d="M{x + 14} {tb + 56}q6 2 6 8q-1 7 2 12q-4 -1 -5 -6q-2 2 -4 1q1 -7 1 -12z" fill="url(#{uid}pano)" stroke="{k}" stroke-width=".8"/>')
+    # pernas: joelhos dobrados para a direita de quem olha, pés cruzados com um cravo
+    g.append(f'<path d="M{x - 6} {tb + 68}Q{x - 2} {tb + 80} {x + 9} {tb + 88}Q{x + 7} {tb + 104} {x + 3} {tb + 120}L{x - 2} {tb + 120}Q{x} {tb + 104} {x + 2} {tb + 92}Q{x - 9} {tb + 84} {x - 8} {tb + 70}Z" fill="url(#{uid}pele)" stroke="{k}" stroke-width=".9"/>'
+             f'<path d="M{x + 3} {tb + 70}Q{x + 8} {tb + 80} {x + 15} {tb + 86}Q{x + 12} {tb + 104} {x + 6} {tb + 120}L{x + 1} {tb + 120}Q{x + 6} {tb + 104} {x + 8} {tb + 92}Q{x + 1} {tb + 84} {x - 1} {tb + 73}Z" fill="url(#{uid}pele)" stroke="{k}" stroke-width=".9"/>'
+             f'<path d="M{x + 9} {tb + 86}q3 1.5 5 -1M{x + 4} {tb + 89}q2 1 4 -.5" fill="none" stroke="#8a5a36" stroke-width=".9"/>'
+             f'<path d="M{x + 12} {tb + 88}q-1 6 -3 12M{x + 6} {tb + 92}q-1 5 -2 9" fill="none" stroke="{sangue}" stroke-width="1"/>'
+             f'<path d="M{x - 3} {tb + 118}l-2 9 7 1 3 -9zM{x + 2} {tb + 117}l1 11 6 -2 -2 -9z" fill="#c99868" stroke="{k}" stroke-width=".8"/>'
+             f'<circle cx="{x + 2}" cy="{tb + 122}" r="1.8" fill="#1a120c"/><path d="M{x + 2} {tb + 124}q-1 4 0 8M{x - 1} {tb + 126}v4" fill="none" stroke="{sangue}" stroke-width="1"/>')
+    # cabeça caída sobre o ombro, o cabelo escuro cobrindo o rosto, coroa de espinhos
+    hx, hy = x - 9, tb + 22
+    g.append(f'<path d="M{hx + 4} {hy - 9}Q{hx + 10} {hy - 4} {hx + 7} {hy + 4}Q{hx + 4} {hy + 9} {hx - 1} {hy + 10}Q{hx - 6} {hy + 8} {hx - 7} {hy + 2}Q{hx - 6} {hy - 7} {hx + 4} {hy - 9}Z" fill="#c99868" stroke="{k}" stroke-width=".9"/>'
+             f'<path d="M{hx + 5} {hy - 11}Q{hx - 6} {hy - 12} {hx - 9} {hy - 2}Q{hx - 11} {hy + 10} {hx - 7} {hy + 22}Q{hx - 4} {hy + 14} {hx - 3} {hy + 8}Q{hx - 1} {hy + 16} {hx + 1} {hy + 20}Q{hx + 2} {hy + 10} {hx + 3} {hy + 4}Q{hx + 6} {hy + 8} {hx + 7} {hy + 14}Q{hx + 9} {hy + 4} {hx + 8} {hy - 4}Q{hx + 9} {hy - 9} {hx + 5} {hy - 11}Z" fill="#2a1a10" stroke="{k}" stroke-width=".7"/>'
+             f'<path d="M{hx - 6} {hy - 3}q3 6 2 14M{hx} {hy - 4}q1 8 0 16M{hx + 5} {hy - 5}q2 6 1 12" fill="none" stroke="#4a3020" stroke-width=".7"/>'
+             f'<path d="M{hx - 7} {hy - 7}Q{hx} {hy - 14} {hx + 8} {hy - 8}" fill="none" stroke="#3a2a14" stroke-width="2.6"/>'
+             + "".join(f'<path d="M{hx - 6 + j * 2.6:.1f} {hy - 8.5 - (3 if 1 < j < 5 else 1.5):.1f}l{(-1) ** j * 1.8:.1f} -2.6" stroke="#3a2a14" stroke-width=".9"/>' for j in range(6))
+             + f'<path d="M{hx + 6} {hy - 6}q1 4 -1 8M{hx + 2} {hy + 9}q1 3 0 6" fill="none" stroke="{sangue}" stroke-width="1"/>')
     return "".join(g)
 
 def cena(p_nome="escuro", tema="veritas", altura_visivel=.66, uid="x"):
@@ -106,7 +106,7 @@ def cena(p_nome="escuro", tema="veritas", altura_visivel=.66, uid="x"):
     s = 50 / 120
     o.append(f'<circle cx="{vx}" cy="100" r="22" fill="#f6ecd2" stroke="{CHUMBO}" stroke-width="2.4"/><g transform="translate({vx - 25} 75) scale({s:.3f})" stroke="{CHUMBO}" stroke-width="6" stroke-linejoin="round">{SIMB[simb]}</g>')
     # grande crucifixo diante do vitral: Cristo crucificado (ver crucifixo())
-    o.append(crucifixo(vx, 116, vy - 18, p, uid))
+    o.append(crucifixo(vx, 112, vy - 18, p, uid))
     # altar, degraus e castiçais
     o.append(f'<rect x="{vx - 38}" y="{vy - 30}" width="76" height="22" fill="{p["madeira"]}" stroke="{p["pedraLuz"]}" stroke-width="1"/><rect x="{vx - 40}" y="{vy - 32}" width="80" height="4" fill="#efe6d2"/>'
              f'<path d="M{vx - 60} {vy - 8}h120l8 8h-136z" fill="{p["pedraLuz"]}"/>')
