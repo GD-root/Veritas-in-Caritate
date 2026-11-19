@@ -1,67 +1,121 @@
-/* Veritas in Caritate: liga as telas à página e cuida dos toques. */
+/* Veritas in Caritate: navegação entre as telas, o papel de parede de cada tema e os toques. */
 import "./estilos.css";
 import { TEMAS } from "./dados";
-import { chipsHTML, janelaCatecismo, listaHTML, partesHTML, textoParaCopiar } from "./telas";
+import { janelaCatecismo, textoParaCopiar } from "./telas";
+import { FUNDO_TEMA, blocoHTML, buscaHTML, chave, fichaHTML, inicioHTML, resultadosHTML, temaHTML, temasHTML, type Lidas } from "./vistas";
 
-let tema = 0, ativo = 0;
+const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
+const app = $("app"), titulo = $("titulo"), subtitulo = $("subtitulo"), esq = $<HTMLAnchorElement>("esq");
+const fundoEscuro = $<HTMLSourceElement>("fundo-escuro"), fundoClaro = $<HTMLImageElement>("fundo-claro");
+const modal = $("modal"), mcaixa = $("mcaixa"), mtit = $("mtit"), mcorpo = $("mcorpo"), mfechar = $("mfechar");
+const ICONE_CHAVES = esq.innerHTML;
+const ICONE_VOLTAR = '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>';
 
-const lista = document.getElementById("lista")!;
-const nav = document.getElementById("blocos")!;
-const pnav = document.getElementById("partes")!;
-const busca = document.getElementById("busca") as HTMLInputElement;
-const modal = document.getElementById("modal")!;
-const mcaixa = document.getElementById("mcaixa")!;
-const mtit = document.getElementById("mtit")!;
-const mcorpo = document.getElementById("mcorpo")!;
-const mfechar = document.getElementById("mfechar")!;
+/* Fichas lidas: guardadas só neste aparelho */
+const CHAVE_LIDAS = "veritas-lidas";
+function lerLidas(): Lidas {
+  try { return new Set(JSON.parse(localStorage.getItem(CHAVE_LIDAS) || "[]") as string[]); } catch { return new Set(); }
+}
+const lidas = lerLidas();
+function marcarLida(k: string) {
+  if (lidas.has(k)) return;
+  lidas.add(k);
+  try { localStorage.setItem(CHAVE_LIDAS, JSON.stringify([...lidas])); } catch { /* sem espaço ou modo privado */ }
+}
 
-const temas = () => { pnav.innerHTML = partesHTML(tema); };
-const chips = () => { nav.innerHTML = chipsHTML(tema, ativo); };
-const render = () => { lista.innerHTML = listaHTML(tema, ativo, busca.value); };
+let buscaAtual = "";
 
-pnav.addEventListener("click", (e) => {
-  const c = (e.target as Element).closest<HTMLElement>(".parte");
-  if (!c) return;
-  tema = +c.dataset.t!; ativo = 0; busca.value = "";
-  temas(); chips(); render();
-});
-nav.addEventListener("click", (e) => {
-  const c = (e.target as Element).closest<HTMLElement>(".chip");
-  if (!c) return;
-  ativo = +c.dataset.b!; busca.value = "";
-  chips(); render();
-});
+function fundo(nome: string) {
+  fundoEscuro.srcset = `fundos/${nome}-escuro.svg`;
+  fundoClaro.src = `fundos/${nome}-claro.svg`;
+}
 
-/* Abrir e fechar fichas; copiar referências */
-lista.addEventListener("click", (e) => {
-  const alvo = e.target as Element;
-  const q = alvo.closest<HTMLElement>(".q");
-  if (q) {
-    const body = document.getElementById(q.getAttribute("aria-controls")!)!;
-    const abrir = body.hidden;
-    body.hidden = !abrir;
-    q.setAttribute("aria-expanded", String(abrir));
-    q.querySelector(".mark")!.textContent = abrir ? "−" : "+";
-    return;
+function topo(t: string, sub: string, volta: string | null) {
+  titulo.textContent = t;
+  subtitulo.textContent = sub;
+  esq.innerHTML = volta === null ? ICONE_CHAVES : ICONE_VOLTAR;
+  esq.href = volta === null ? "#" : volta;
+  esq.setAttribute("aria-label", volta === null ? "Início" : "Voltar");
+}
+
+function aba(nome: string) {
+  document.querySelectorAll<HTMLAnchorElement>(".menu a").forEach((a) => {
+    if (a.dataset.aba === nome) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
+  });
+}
+
+/** Lê o endereço (#t/0/1/2, #temas, #buscar?q=...) e desenha a tela. */
+function render() {
+  const h = decodeURIComponent(location.hash.replace(/^#/, ""));
+  const m = h.match(/^t\/(\d+)(?:\/(\d+))?(?:\/(\d+))?$/);
+  if (m && TEMAS[+m[1]] && (m[2] === undefined || TEMAS[+m[1]].blocos[+m[2]]) && (m[3] === undefined || TEMAS[+m[1]].blocos[+m[2]].itens[+m[3]])) {
+    const t = +m[1], tm = TEMAS[t];
+    fundo(FUNDO_TEMA[t] || "veritas");
+    aba("temas");
+    if (m[3] !== undefined) {
+      const b = +m[2], i = +m[3], bl = tm.blocos[b];
+      marcarLida(chave(t, b, i));
+      topo(bl.nome, `Ficha ${i + 1} de ${bl.itens.length}`, `#t/${t}/${b}`);
+      app.innerHTML = fichaHTML(t, b, i);
+    } else if (m[2] !== undefined) {
+      const b = +m[2];
+      topo(tm.blocos[b].nome, tm.nome, `#t/${t}`);
+      app.innerHTML = blocoHTML(t, b, lidas);
+    } else {
+      topo(tm.nome, `${tm.blocos.length} ${tm.blocos.length === 1 ? "bloco" : "blocos"}`, "#temas");
+      app.innerHTML = temaHTML(t, lidas);
+    }
+  } else if (h === "temas") {
+    fundo("veritas"); aba("temas"); topo("Os temas", "A estante do Veritas", "#");
+    app.innerHTML = temasHTML(lidas);
+  } else if (h.startsWith("buscar")) {
+    buscaAtual = new URLSearchParams(h.split("?")[1] || "").get("q") ?? buscaAtual;
+    fundo("veritas"); aba("buscar"); topo("Buscar", "Em todos os temas", "#");
+    app.innerHTML = buscaHTML(buscaAtual, lidas);
+  } else {
+    fundo("veritas"); aba("inicio"); topo("Veritas in Caritate", "A verdade na caridade", null);
+    app.innerHTML = inicioHTML(lidas);
   }
-  const c = alvo.closest<HTMLElement>(".copy");
-  if (c) {
-    const d = TEMAS[tema].blocos[+c.dataset.b!].itens[+c.dataset.i!];
-    const ok = () => { c.textContent = "Copiado"; setTimeout(() => (c.textContent = "Copiar referências"), 1600); };
-    const falha = () => { c.textContent = "Não foi possível copiar"; setTimeout(() => (c.textContent = "Copiar referências"), 2200); };
-    try { navigator.clipboard.writeText(textoParaCopiar(d)).then(ok, falha); } catch { falha(); }
-  }
+}
+
+window.addEventListener("hashchange", () => { render(); window.scrollTo(0, 0); });
+
+/* Busca: no início leva para a tela de busca; na tela de busca a lista muda enquanto se digita */
+app.addEventListener("submit", (e) => {
+  const f = e.target as HTMLFormElement;
+  e.preventDefault();
+  const q = (f.querySelector("input") as HTMLInputElement).value;
+  if (f.hasAttribute("data-ir-busca")) location.hash = "buscar?q=" + encodeURIComponent(q);
+  else (f.querySelector("input") as HTMLInputElement).blur();
+});
+app.addEventListener("input", (e) => {
+  const inp = e.target as HTMLInputElement;
+  if (inp.id !== "q") return;
+  buscaAtual = inp.value;
+  $("resultados").innerHTML = resultadosHTML(buscaAtual, lidas);
+});
+
+/* Copiar referências da ficha aberta */
+app.addEventListener("click", (e) => {
+  const c = (e.target as Element).closest<HTMLElement>("[data-copiar]");
+  if (!c) return;
+  const m = location.hash.match(/^#t\/(\d+)\/(\d+)\/(\d+)$/);
+  if (!m) return;
+  const d = TEMAS[+m[1]].blocos[+m[2]].itens[+m[3]];
+  const rotulo = c.innerHTML;
+  const fim = (txt: string) => { c.textContent = txt; setTimeout(() => (c.innerHTML = rotulo), 1800); };
+  try { navigator.clipboard.writeText(textoParaCopiar(d)).then(() => fim("Copiado"), () => fim("Não foi possível copiar")); } catch { fim("Não foi possível copiar"); }
 });
 
 /* Janela do Catecismo */
 let voltar: HTMLElement | null = null;
 const CORES = ["tema-mariana", "tema-liturgica", "tema-branca", "tema-roxa", "tema-vermelha"];
 function fechar() { modal.hidden = true; voltar?.focus(); }
-lista.addEventListener("click", (e) => {
+app.addEventListener("click", (e) => {
   const b = (e.target as Element).closest<HTMLElement>(".cicbtn");
   if (!b) return;
-  const item = b.closest(".item")!;
-  const j = janelaCatecismo(b.dataset.ref!, CORES.find((t) => item.classList.contains(t)) || "");
+  const obj = app.querySelector(".objecao");
+  const j = janelaCatecismo(b.dataset.ref!, CORES.find((t) => obj?.classList.contains(t)) || "");
   if (!j) return;
   mcaixa.className = j.cls; mtit.textContent = j.tit; mcorpo.innerHTML = j.corpo;
   voltar = b; modal.hidden = false; mfechar.focus();
@@ -69,8 +123,7 @@ lista.addEventListener("click", (e) => {
 modal.addEventListener("click", (e) => { if (e.target === modal || (e.target as Element).closest("#mfechar")) fechar(); });
 document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !modal.hidden) fechar(); });
 
-busca.addEventListener("input", render);
-temas(); chips(); render();
+render();
 
 /* Funcionamento sem internet */
 if ("serviceWorker" in navigator) {
