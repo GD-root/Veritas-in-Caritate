@@ -25,6 +25,7 @@ src/
 tests/                        testes automáticos
 ferramentas/                  o script em Python que lê o Catecismo do Drive (veja ferramentas/LEIAME.md)
                               e fundos/gerar_fundos.py, que desenha os papéis de parede de public/fundos
+                              e os símbolos dos vitrais de cada tema e bloco (fundos/simbolos.py)
 ```
 
 ### Acrescentar ou corrigir uma ficha

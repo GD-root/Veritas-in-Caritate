@@ -2,11 +2,11 @@
 import "./estilos.css";
 import { TEMAS } from "./dados";
 import { janelaCatecismo, textoParaCopiar } from "./telas";
-import { FUNDO_TEMA, blocoHTML, buscaHTML, chave, fichaHTML, inicioHTML, resultadosHTML, temaHTML, temasHTML, type Lidas } from "./vistas";
+import { FUNDO_TEMA, blocoHTML, botaoSalvar, buscaHTML, chave, fichaHTML, inicioHTML, resultadosHTML, salvasHTML, simbolo, temaHTML, temasHTML, type Lidas } from "./vistas";
 
 const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
 const app = $("app"), titulo = $("titulo"), subtitulo = $("subtitulo"), esq = $<HTMLAnchorElement>("esq");
-const fundoEscuro = $<HTMLSourceElement>("fundo-escuro"), fundoClaro = $<HTMLImageElement>("fundo-claro");
+const fundoEscuro = $<HTMLSourceElement>("fundo-escuro"), fundoClaro = $<HTMLImageElement>("fundo-claro"), medalhao = $<HTMLImageElement>("medalhao");
 const modal = $("modal"), mcaixa = $("mcaixa"), mtit = $("mtit"), mcorpo = $("mcorpo"), mfechar = $("mfechar");
 const ICONE_CHAVES = esq.innerHTML;
 const ICONE_VOLTAR = '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>';
@@ -23,11 +23,17 @@ function marcarLida(k: string) {
   try { localStorage.setItem(CHAVE_LIDAS, JSON.stringify([...lidas])); } catch { /* sem espaço ou modo privado */ }
 }
 
+/* Fichas salvas: também só neste aparelho */
+const CHAVE_SALVAS = "veritas-salvas";
+const salvas: Set<string> = (() => { try { return new Set(JSON.parse(localStorage.getItem(CHAVE_SALVAS) || "[]") as string[]); } catch { return new Set<string>(); } })();
+function gravarSalvas() { try { localStorage.setItem(CHAVE_SALVAS, JSON.stringify([...salvas])); } catch { /* sem espaço ou modo privado */ } }
+
 let buscaAtual = "";
 
-function fundo(nome: string) {
+function fundo(nome: string, simb = nome) {
   fundoEscuro.srcset = `fundos/${nome}-escuro.svg`;
   fundoClaro.src = `fundos/${nome}-claro.svg`;
+  medalhao.src = `fundos/simbolos/${simb}.svg`;
 }
 
 function topo(t: string, sub: string, volta: string | null) {
@@ -50,13 +56,13 @@ function render() {
   const m = h.match(/^t\/(\d+)(?:\/(\d+))?(?:\/(\d+))?$/);
   if (m && TEMAS[+m[1]] && (m[2] === undefined || TEMAS[+m[1]].blocos[+m[2]]) && (m[3] === undefined || TEMAS[+m[1]].blocos[+m[2]].itens[+m[3]])) {
     const t = +m[1], tm = TEMAS[t];
-    fundo(FUNDO_TEMA[t] || "veritas");
+    fundo(FUNDO_TEMA[t] || "veritas", simbolo(t, m[2] === undefined ? undefined : +m[2]));
     aba("temas");
     if (m[3] !== undefined) {
       const b = +m[2], i = +m[3], bl = tm.blocos[b];
       marcarLida(chave(t, b, i));
       topo(bl.nome, `Ficha ${i + 1} de ${bl.itens.length}`, `#t/${t}/${b}`);
-      app.innerHTML = fichaHTML(t, b, i);
+      app.innerHTML = fichaHTML(t, b, i, salvas.has(chave(t, b, i)));
     } else if (m[2] !== undefined) {
       const b = +m[2];
       topo(tm.blocos[b].nome, tm.nome, `#t/${t}`);
@@ -68,6 +74,9 @@ function render() {
   } else if (h === "temas") {
     fundo("veritas"); aba("temas"); topo("Os temas", "A estante do Veritas", "#");
     app.innerHTML = temasHTML(lidas);
+  } else if (h === "salvas") {
+    fundo("veritas"); aba("salvas"); topo("Salvas", "Suas fichas guardadas", "#");
+    app.innerHTML = salvasHTML(salvas, lidas);
   } else if (h.startsWith("buscar")) {
     buscaAtual = new URLSearchParams(h.split("?")[1] || "").get("q") ?? buscaAtual;
     fundo("veritas"); aba("buscar"); topo("Buscar", "Em todos os temas", "#");
@@ -93,6 +102,20 @@ app.addEventListener("input", (e) => {
   if (inp.id !== "q") return;
   buscaAtual = inp.value;
   $("resultados").innerHTML = resultadosHTML(buscaAtual, lidas);
+});
+
+/* Salvar ou tirar a ficha aberta das salvas */
+app.addEventListener("click", (e) => {
+  const bt = (e.target as Element).closest<HTMLElement>("[data-salvar]");
+  const m = location.hash.match(/^#t\/(\d+)\/(\d+)\/(\d+)$/);
+  if (!bt || !m) return;
+  const k = chave(+m[1], +m[2], +m[3]);
+  if (salvas.has(k)) salvas.delete(k); else salvas.add(k);
+  gravarSalvas();
+  const on = salvas.has(k);
+  bt.innerHTML = botaoSalvar(on);
+  bt.classList.toggle("salva", on);
+  bt.setAttribute("aria-pressed", String(on));
 });
 
 /* Copiar referências da ficha aberta */

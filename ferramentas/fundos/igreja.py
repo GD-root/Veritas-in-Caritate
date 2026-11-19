@@ -1,7 +1,7 @@
 """Nave com bancos: grande vitral gótico ao fundo com o crucifixo na frente, raios de luz, arcadas laterais,
 bancos de madeira dos dois lados e as cores do vitral refletidas no piso do corredor central."""
 import math, random
-from vitral import SIMB, CHUMBO, mosaico
+from vitral import CHUMBO, mosaico
 
 W, H = 390, 844
 V = (195, 318)  # ponto de fuga: base do altar
@@ -76,7 +76,6 @@ def crucifixo(x, topo, pe, p, uid):
 def cena(p_nome="escuro", tema="veritas", altura_visivel=.66, uid="x"):
     p = PAL[p_nome]
     cores = VIDRO[tema]
-    simb = {"veritas": "chaves", "defesa": "escudo", "reforma": "livro", "valores": "coracao", "libertacao": "calice", "maria": "maria"}[tema]
     rnd = random.Random(len(tema) * 7)
     vx, vy = V
     o = [f'<svg viewBox="0 0 {W} {H}" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMin slice"><defs>',
@@ -105,9 +104,9 @@ def cena(p_nome="escuro", tema="veritas", altura_visivel=.66, uid="x"):
     for k in range(3):  # rendilhado do topo
         o.append(f'<circle cx="{vx + (k - 1) * 30}" cy="{126 - (k % 2) * 18}" r="13" fill="none" stroke="{CHUMBO}" stroke-width="3"/>')
     o.append(f'<path d="{arco}" fill="none" stroke="{p["pedraLuz"]}" stroke-width="5"/>')
-    # medalhão do tema no alto do vitral
-    s = 50 / 120
-    o.append(f'<circle cx="{vx}" cy="100" r="22" fill="#f6ecd2" stroke="{CHUMBO}" stroke-width="2.4"/><g transform="translate({vx - 25} 75) scale({s:.3f})" stroke="{CHUMBO}" stroke-width="6" stroke-linejoin="round">{SIMB[simb]}</g>')
+    # moldura do medalhão no alto do vitral: o símbolo do tema ou do bloco é posto por cima pelo app
+    # (public/fundos/simbolos), no centro (195, 100) com 44 de diâmetro
+    o.append(f'<circle cx="{vx}" cy="100" r="22" fill="#f6ecd2" stroke="{CHUMBO}" stroke-width="2.4"/>')
     # grande crucifixo diante do vitral: Cristo crucificado (ver crucifixo())
     o.append(crucifixo(vx, 112, vy - 18, p, uid))
     # altar, degraus e castiçais

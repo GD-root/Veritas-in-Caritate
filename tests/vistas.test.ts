@@ -2,7 +2,7 @@
 import { describe, expect, it } from "vitest";
 import { TEMAS } from "../src/dados";
 import { esc } from "../src/util";
-import { acharBloco, blocoHTML, buscaHTML, buscar, chave, fichaHTML, inicioHTML, temaHTML, temasHTML } from "../src/vistas";
+import { acharBloco, blocoHTML, buscaHTML, buscar, chave, fichaHTML, inicioHTML, salvasHTML, simbolo, temaHTML, temasHTML } from "../src/vistas";
 
 const nada = new Set<string>();
 
@@ -66,5 +66,25 @@ describe("busca em todos os temas", () => {
   it("mostra a contagem e o aviso quando não acha", () => {
     expect(buscaHTML("virgem", nada)).toMatch(/fichas? encontradas?/);
     expect(buscaHTML("xyzxyz", nada)).toContain("Nenhuma ficha contém esse termo");
+  });
+});
+
+describe("salvas e vitrais", () => {
+  it("a ficha mostra Salvar ou Salva", () => {
+    expect(fichaHTML(0, 0, 0)).toContain('aria-pressed="false"');
+    expect(fichaHTML(0, 0, 0, true)).toContain("Salva");
+  });
+  it("a tela de salvas agrupa por tema e avisa quando está vazia", () => {
+    expect(salvasHTML(new Set(), nada)).toContain("Nenhuma ficha salva ainda");
+    const h = salvasHTML(new Set([chave(0, 0, 0), chave(3, 1, 0)]), nada);
+    expect(h).toContain("2 fichas salvas");
+    expect(h).toContain(esc(TEMAS[3].nome));
+    expect(h).toContain('href="#t/0/0/0"');
+  });
+  it("cada tema e cada bloco tem o seu símbolo no vitral", () => {
+    const fs = require("node:fs") as typeof import("node:fs");
+    const nomes = new Set([simbolo(), ...TEMAS.flatMap((tm, t) => [simbolo(t), ...tm.blocos.map((_, b) => simbolo(t, b))])]);
+    expect(nomes.size).toBe(1 + TEMAS.length + TEMAS.reduce((s, t) => s + t.blocos.length, 0));
+    for (const n of nomes) expect(fs.existsSync(`public/fundos/simbolos/${n}.svg`), n).toBe(true);
   });
 });
