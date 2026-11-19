@@ -49,17 +49,20 @@ def crucifixo(x, topo, pe, p, uid):
     g.append(f'<path d="M{x - 10} {tb + 18}Q{x + 1} {tb + 14} {x + 11} {tb + 20}Q{x + 15} {tb + 36} {x + 13} {tb + 56}L{x - 4} {tb + 57}Q{x - 9} {tb + 44} {x - 12} {tb + 32}Q{x - 13} {tb + 24} {x - 10} {tb + 18}Z" fill="url(#{uid}pele)" stroke="{k}" stroke-width="1"/>'
              f'<path d="M{x - 8} {tb + 26}q5 3.5 9 0q4 3 9 .5M{x - 8} {tb + 33}q3 1.6 6 .4M{x + 3} {tb + 33}q3 1.6 7 0M{x - 7.5} {tb + 38}q2.6 1.4 5 .2M{x + 3.5} {tb + 38}q2.8 1.4 6 0M{x + 2} {tb + 41}q.6 6 1 13M{x - 3} {tb + 45}q2 1 4 0M{x + 4} {tb + 45}q2 1 4 0M{x - 2.5} {tb + 50}q2 1 4 0M{x + 4.5} {tb + 50}q2 1 4 0" fill="none" stroke="#8a5a36" stroke-width=".8"/>'
              f'<path d="M{x + 11} {tb + 33}q2 2 1 5q-1 6 1 10" fill="none" stroke="{sangue}" stroke-width="1.3"/>')
-    # perizônio amarrado de lado, com a ponta caindo
-    g.append(f'<path d="M{x - 6} {tb + 54}Q{x + 4} {tb + 50} {x + 15} {tb + 55}L{x + 17} {tb + 70}Q{x + 8} {tb + 66} {x + 3} {tb + 74}Q{x - 2} {tb + 66} {x - 8} {tb + 69}Z" fill="url(#{uid}pano)" stroke="{k}" stroke-width=".9"/>'
-             f'<path d="M{x - 3} {tb + 56}l1.5 11M{x + 3} {tb + 55}l1 13M{x + 9} {tb + 56}l1.5 10" stroke="#a8987e" stroke-width=".8"/>'
-             f'<path d="M{x + 14} {tb + 56}q6 2 6 8q-1 7 2 12q-4 -1 -5 -6q-2 2 -4 1q1 -7 1 -12z" fill="url(#{uid}pano)" stroke="{k}" stroke-width=".8"/>')
-    # pernas: joelhos dobrados para a direita de quem olha, pés cruzados com um cravo
-    g.append(f'<path d="M{x - 6} {tb + 68}Q{x - 2} {tb + 80} {x + 9} {tb + 88}Q{x + 7} {tb + 104} {x + 3} {tb + 120}L{x - 2} {tb + 120}Q{x} {tb + 104} {x + 2} {tb + 92}Q{x - 9} {tb + 84} {x - 8} {tb + 70}Z" fill="url(#{uid}pele)" stroke="{k}" stroke-width=".9"/>'
-             f'<path d="M{x + 3} {tb + 70}Q{x + 8} {tb + 80} {x + 15} {tb + 86}Q{x + 12} {tb + 104} {x + 6} {tb + 120}L{x + 1} {tb + 120}Q{x + 6} {tb + 104} {x + 8} {tb + 92}Q{x + 1} {tb + 84} {x - 1} {tb + 73}Z" fill="url(#{uid}pele)" stroke="{k}" stroke-width=".9"/>'
-             f'<path d="M{x + 9} {tb + 86}q3 1.5 5 -1M{x + 4} {tb + 89}q2 1 4 -.5" fill="none" stroke="#8a5a36" stroke-width=".9"/>'
-             f'<path d="M{x + 12} {tb + 88}q-1 6 -3 12M{x + 6} {tb + 92}q-1 5 -2 9" fill="none" stroke="{sangue}" stroke-width="1"/>'
+    # pernas (desenhadas antes do perizônio, que cobre o alto das coxas): quadril inteiro, joelhos dobrados
+    # para a direita de quem olha, pés cruzados com um cravo
+    g.append(f'<path d="M{x - 9} {tb + 54}H{x + 14}Q{x + 17} {tb + 70} {x + 15} {tb + 84}L{x - 4} {tb + 82}Q{x - 10} {tb + 70} {x - 9} {tb + 54}Z" fill="url(#{uid}pele)" stroke="{k}" stroke-width=".9"/>'
+             f'<path d="M{x - 8} {tb + 70}Q{x - 3} {tb + 82} {x + 8} {tb + 89}Q{x + 7} {tb + 104} {x + 3} {tb + 120}L{x - 2} {tb + 120}Q{x} {tb + 104} {x + 2} {tb + 93}Q{x - 9} {tb + 86} {x - 9} {tb + 72}Z" fill="url(#{uid}pele)" stroke="{k}" stroke-width=".9"/>'
+             f'<path d="M{x + 2} {tb + 70}Q{x + 9} {tb + 78} {x + 15.5} {tb + 86}Q{x + 12} {tb + 104} {x + 6} {tb + 120}L{x + 1} {tb + 120}Q{x + 6} {tb + 104} {x + 8.5} {tb + 93}Q{x + 2} {tb + 86} {x} {tb + 76}Z" fill="url(#{uid}pele)" stroke="{k}" stroke-width=".9"/>'
+             f'<path d="M{x + 9} {tb + 87}q3 1.5 5 -1M{x + 3.5} {tb + 90}q2 1 4 -.5M{x + 5} {tb + 98}q-1 8 -3 14M{x + 11} {tb + 98}q-2 8 -4 14" fill="none" stroke="#8a5a36" stroke-width=".8"/>'
+             f'<path d="M{x + 12} {tb + 89}q-1 6 -3 12M{x + 6} {tb + 93}q-1 5 -2 9" fill="none" stroke="{sangue}" stroke-width="1"/>'
              f'<path d="M{x - 3} {tb + 118}l-2 9 7 1 3 -9zM{x + 2} {tb + 117}l1 11 6 -2 -2 -9z" fill="#c99868" stroke="{k}" stroke-width=".8"/>'
              f'<circle cx="{x + 2}" cy="{tb + 122}" r="1.8" fill="#1a120c"/><path d="M{x + 2} {tb + 124}q-1 4 0 8M{x - 1} {tb + 126}v4" fill="none" stroke="{sangue}" stroke-width="1"/>')
+    # perizônio por cima: cobre do ventre até o meio das coxas, com dobras, a barra lisa e o nó de lado
+    g.append(f'<path d="M{x - 10} {tb + 52}Q{x + 3} {tb + 47} {x + 16} {tb + 53}L{x + 18} {tb + 76}Q{x + 11} {tb + 81} {x + 4} {tb + 78}Q{x - 3} {tb + 82} {x - 10} {tb + 75}Q{x - 12} {tb + 63} {x - 10} {tb + 52}Z" fill="url(#{uid}pano)" stroke="{k}" stroke-width=".9"/>'
+             f'<path d="M{x - 7} {tb + 55}Q{x - 2} {tb + 64} {x - 4} {tb + 77}M{x - 1} {tb + 54}Q{x + 4} {tb + 64} {x + 3} {tb + 77}M{x + 5} {tb + 53}Q{x + 10} {tb + 63} {x + 10} {tb + 78}M{x - 9} {tb + 58}Q{x + 2} {tb + 55} {x + 15} {tb + 58}" fill="none" stroke="#a8987e" stroke-width=".8"/>'
+             f'<path d="M{x + 14} {tb + 52}q5 -1 6 4q-2 3 -6 2z" fill="#e2d6c2" stroke="{k}" stroke-width=".8"/>'
+             f'<path d="M{x + 18} {tb + 57}q4 6 2 14q2 6 5 9q-5 0 -7 -5q-2 3 -4 2q2 -6 1 -12z" fill="url(#{uid}pano)" stroke="{k}" stroke-width=".8"/>')
     # cabeça caída sobre o ombro, o cabelo escuro cobrindo o rosto, coroa de espinhos
     hx, hy = x - 9, tb + 22
     g.append(f'<path d="M{hx + 4} {hy - 9}Q{hx + 10} {hy - 4} {hx + 7} {hy + 4}Q{hx + 4} {hy + 9} {hx - 1} {hy + 10}Q{hx - 6} {hy + 8} {hx - 7} {hy + 2}Q{hx - 6} {hy - 7} {hx + 4} {hy - 9}Z" fill="#c99868" stroke="{k}" stroke-width=".9"/>'
