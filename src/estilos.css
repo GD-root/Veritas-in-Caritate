@@ -76,6 +76,9 @@ a{color:inherit}
 .lin .ok{width:22px;height:22px;flex:none;border-radius:50%;display:grid;place-items:center;background:#2f8a55;color:#fff}
 .barra{height:5px;border-radius:5px;background:var(--line);overflow:hidden;margin-top:6px}
 .barra i{display:block;height:100%;background:linear-gradient(90deg,var(--sel1),var(--ouro2));border-radius:5px}
+.conta-lidas{display:flex;align-items:center;justify-content:center;gap:10px;margin-top:6px}
+.conta-lidas .conta{margin:0}
+.zerar{width:32px;height:32px;flex:none;border-radius:50%;display:grid;place-items:center;padding:0;cursor:pointer;color:var(--ouro);background:var(--card);border:1px solid color-mix(in srgb,var(--ouro) 50%,transparent)}
 .centro .barra{max-width:240px;margin:12px auto 0}
 /* ficha */
 .resposta h3,.no h4{margin:0 0 4px;font:800 10.5px var(--body);letter-spacing:.18em;text-transform:uppercase;color:var(--ouro)}
@@ -87,9 +90,6 @@ a{color:inherit}
 .ref{font-weight:800;color:var(--ouro);white-space:nowrap;font-variant-numeric:tabular-nums}
 .ano{display:inline-block;font:600 11px var(--display);color:#1a1405;background:#e6c66f;border-radius:6px;padding:1px 7px;white-space:nowrap}
 .dica{font-size:12.5px!important;color:var(--fraco)}
-.conversa{display:flex;gap:10px;border-style:dashed}
-.conversa>svg{flex:none;color:var(--ouro);margin-top:2px}
-.conversa p{font-size:14.5px}.conversa b{color:var(--ouro)}
 .acoes{display:flex;gap:8px}
 .bt{flex:1;display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:44px;padding:0 14px;border-radius:14px;background:var(--vidro);border:1px solid var(--line);font:700 13.5px var(--body);color:var(--ink);text-decoration:none;cursor:pointer;-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
 .bt.salva{color:var(--ouro);border-color:color-mix(in srgb,var(--ouro) 60%,transparent)}

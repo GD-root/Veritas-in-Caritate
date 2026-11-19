@@ -19,7 +19,7 @@ export interface Ficha {
   tradicao: Referencia[];
   /** título do quadro da Tradição; padrão "Na Tradição" */
   rotuloTradicao?: string;
-  /** rótulo do conselho final; padrão "Como conversar" */
+  /** rótulo do conselho final; padrão "Como conversar" (o conselho não aparece no app por enquanto) */
   rotuloConversa?: string;
   conversa: string;
 }

@@ -2,7 +2,7 @@
 import "./estilos.css";
 import { TEMAS } from "./dados";
 import { janelaCatecismo, textoParaCopiar } from "./telas";
-import { FUNDO_TEMA, blocoHTML, botaoSalvar, buscaHTML, chave, fichaHTML, inicioHTML, resultadosHTML, salvasHTML, simbolo, temaHTML, temasHTML, type Lidas } from "./vistas";
+import { FUNDO_TEMA, blocoHTML, botaoSalvar, buscaHTML, chave, fichaHTML, inicioHTML, resultadosHTML, salvasHTML, simbolo, zerarLidas, temaHTML, temasHTML, type Lidas } from "./vistas";
 
 const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
 const app = $("app"), titulo = $("titulo"), subtitulo = $("subtitulo"), esq = $<HTMLAnchorElement>("esq");
@@ -17,10 +17,13 @@ function lerLidas(): Lidas {
   try { return new Set(JSON.parse(localStorage.getItem(CHAVE_LIDAS) || "[]") as string[]); } catch { return new Set(); }
 }
 const lidas = lerLidas();
+function gravarLidas() {
+  try { localStorage.setItem(CHAVE_LIDAS, JSON.stringify([...lidas])); } catch { /* sem espaço ou modo privado */ }
+}
 function marcarLida(k: string) {
   if (lidas.has(k)) return;
   lidas.add(k);
-  try { localStorage.setItem(CHAVE_LIDAS, JSON.stringify([...lidas])); } catch { /* sem espaço ou modo privado */ }
+  gravarLidas();
 }
 
 /* Fichas salvas: também só neste aparelho */
@@ -102,6 +105,20 @@ app.addEventListener("input", (e) => {
   if (inp.id !== "q") return;
   buscaAtual = inp.value;
   $("resultados").innerHTML = resultadosHTML(buscaAtual, lidas);
+});
+
+/* Botão redondo de zerar as lidas (do bloco, do tema ou de tudo), com confirmação */
+app.addEventListener("click", (e) => {
+  const bt = (e.target as Element).closest<HTMLElement>("[data-zerar]");
+  if (!bt) return;
+  const alvo = bt.dataset.zerar!;
+  const onde = alvo === "tudo" ? "de todos os temas" : alvo.includes("/") ? "deste bloco" : "deste tema";
+  if (!confirm(`Zerar as fichas lidas ${onde}? As fichas salvas não mudam.`)) return;
+  zerarLidas(lidas, alvo);
+  gravarLidas();
+  const y = window.scrollY;
+  render();
+  window.scrollTo(0, y);
 });
 
 /* Salvar ou tirar a ficha aberta das salvas */

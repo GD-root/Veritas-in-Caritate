@@ -1,7 +1,7 @@
 # Veritas in Caritate
 
 Apologética católica para o celular: para cada objeção, a resposta curta, as passagens da Bíblia, os números do
-Catecismo e a voz dos primeiros cristãos, com um conselho de como conversar. Abre sem internet depois da primeira visita.
+Catecismo e a voz dos primeiros cristãos. Abre sem internet depois da primeira visita.
 
 ## Como está organizado
 
@@ -37,7 +37,7 @@ Edite o arquivo do bloco em `src/dados/blocos/`. Cada ficha tem:
 | `pergunta` | a objeção (aparece entre aspas) ou, com `"simples": true`, o assunto |
 | `resposta` | a resposta curta |
 | `biblia`, `catecismo`, `tradicao` | listas de `{ "ref": "...", "texto": "..." }`; no Catecismo, use `"CIC 966"` ou `"CIC 75-79"` |
-| `conversa` | o conselho de como conversar |
+| `conversa` | o conselho de como conversar (guardado, mas não aparece no app por enquanto) |
 | `tituloResposta`, `rotuloConversa`, `rotuloTradicao` | opcionais, para trocar os títulos padrão |
 
 Para um bloco novo: crie o arquivo em `src/dados/blocos/`, importe em `src/dados.ts` e ponha em `src/dados/temas.json`.

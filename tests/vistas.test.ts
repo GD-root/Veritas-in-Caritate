@@ -2,15 +2,17 @@
 import { describe, expect, it } from "vitest";
 import { TEMAS } from "../src/dados";
 import { esc } from "../src/util";
-import { acharBloco, blocoHTML, buscaHTML, buscar, chave, fichaHTML, inicioHTML, salvasHTML, simbolo, temaHTML, temasHTML } from "../src/vistas";
+import { acharBloco, blocoHTML, buscaHTML, buscar, chave, fichaHTML, inicioHTML, salvasHTML, simbolo, temaHTML, temasHTML, zerarLidas } from "../src/vistas";
 
 const nada = new Set<string>();
 
 describe("ficha", () => {
-  it("mostra a resposta, todas as referências e o conselho de cada ficha", () => {
+  it("mostra a resposta e todas as referências de cada ficha, sem o \"Como conversar\"", () => {
     TEMAS.forEach((tm, t) => tm.blocos.forEach((bl, b) => bl.itens.forEach((d, i) => {
       const h = fichaHTML(t, b, i);
-      for (const txt of [d.resposta, d.conversa, ...[...d.biblia, ...d.catecismo, ...d.tradicao].flatMap((r) => [r.ref, r.texto])]) expect(h, d.pergunta).toContain(esc(txt));
+      for (const txt of [d.resposta, ...[...d.biblia, ...d.catecismo, ...d.tradicao].flatMap((r) => [r.ref, r.texto])]) expect(h, d.pergunta).toContain(esc(txt));
+      expect(h).not.toContain("Como conversar");
+      expect(h).not.toContain(esc(d.conversa));
     })));
   });
   it("anterior e próxima dentro do bloco", () => {
@@ -86,5 +88,20 @@ describe("salvas e vitrais", () => {
     const nomes = new Set([simbolo(), ...TEMAS.flatMap((tm, t) => [simbolo(t), ...tm.blocos.map((_, b) => simbolo(t, b))])]);
     expect(nomes.size).toBe(1 + TEMAS.length + TEMAS.reduce((s, t) => s + t.blocos.length, 0));
     for (const n of nomes) expect(fs.existsSync(`public/fundos/simbolos/${n}.svg`), n).toBe(true);
+  });
+});
+
+describe("zerar as lidas", () => {
+  it("o botão só aparece quando há lidas", () => {
+    expect(blocoHTML(0, 0, nada)).not.toContain("data-zerar");
+    expect(blocoHTML(0, 0, new Set([chave(0, 0, 1)]))).toContain('data-zerar="0/0"');
+    expect(temaHTML(0, new Set([chave(0, 0, 1)]))).toContain('data-zerar="0"');
+    expect(temasHTML(new Set([chave(0, 0, 1)]))).toContain('data-zerar="tudo"');
+  });
+  it("zera só o bloco, só o tema ou tudo", () => {
+    const l = () => new Set([chave(0, 0, 1), chave(0, 1, 0), chave(1, 0, 0)]);
+    const a = l(); zerarLidas(a, "0/0"); expect([...a]).toEqual([chave(0, 1, 0), chave(1, 0, 0)]);
+    const b = l(); zerarLidas(b, "0"); expect([...b]).toEqual([chave(1, 0, 0)]);
+    const c = l(); zerarLidas(c, "tudo"); expect(c.size).toBe(0);
   });
 });
