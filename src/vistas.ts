@@ -10,6 +10,14 @@ import { esc, norm } from "./util";
 export type Lidas = Set<string>;
 export const chave = (t: number, b: number, i: number) => `${t}-${b}-${i}`;
 
+/** Tira das lidas o que o botão de zerar alcança: "tudo", um tema ("2") ou um bloco ("2/1"). */
+export function zerarLidas(l: Lidas, alvo: string): void {
+  if (alvo === "tudo") { l.clear(); return; }
+  const [t, b] = alvo.split("/");
+  const prefixo = b === undefined ? `${t}-` : `${t}-${b}-`;
+  for (const k of [...l]) if (k.startsWith(prefixo)) l.delete(k);
+}
+
 /** Papel de parede de cada tema (public/fundos/<nome>-escuro.svg e -claro.svg). */
 export const FUNDO_TEMA = ["defesa", "reforma", "valores", "libertacao"];
 
@@ -62,6 +70,11 @@ function lidasNo(t: number, b: number, l: Lidas): number {
 function totalTema(t: number) { return TEMAS[t].blocos.reduce((s, b) => s + b.itens.length, 0); }
 function lidasTema(t: number, l: Lidas) { return TEMAS[t].blocos.reduce((s, _, b) => s + lidasNo(t, b, l), 0); }
 const barra = (f: number, n: number) => `<div class="barra" role="img" aria-label="${f} de ${n} lidas"><i style="width:${n ? Math.round((100 * f) / n) : 0}%"></i></div>`;
+/** Contagem de lidas com o botão redondo de zerar (só aparece quando há alguma lida). alvo: "tudo", "t" ou "t/b". */
+function contaLidas(f: number, n: number, alvo: string, onde: string): string {
+  const bt = f ? `<button class="zerar" data-zerar="${alvo}" aria-label="Zerar as fichas lidas ${onde}" title="Zerar as lidas"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.4-5.7"/><path d="M4 4v5h5"/></svg></button>` : "";
+  return `<div class="conta-lidas"><small class="conta">${f} de ${plural(n, "ficha lida", "fichas lidas")}</small>${bt}</div>`;
+}
 const plural = (n: number, um: string, varios: string) => n + " " + (n === 1 ? um : varios);
 
 function livros(l: Lidas): string {
@@ -100,7 +113,8 @@ export function inicioHTML(l: Lidas): string {
 
 /* ---------------- Temas (os quatro livros) ---------------- */
 export function temasHTML(l: Lidas): string {
-  return '<div class="espaco curto"></div><section class="painel centro"><h2>Os temas</h2><p class="sub">Escolha um livro da estante.</p></section>' + livros(l) +
+  const total = TEMAS.reduce((s, _, k) => s + totalTema(k), 0);
+  return `<div class="espaco curto"></div><section class="painel centro"><h2>Os temas</h2><p class="sub">Escolha um livro da estante.</p>${contaLidas(l.size, total, "tudo", "de todos os temas")}</section>` + livros(l) +
     '<div class="painel lista">' + TEMAS.map((t, k) =>
       `<a class="lin" href="#t/${k}"><span class="ic">${ICONE[t.nome] || ""}</span><span class="txt"><b>${esc(t.nome)}</b><small>${esc(SOBRE_TEMA[t.nome] || "")}</small>${barra(lidasTema(k, l), totalTema(k))}</span>${IC.chev}</a>`).join("") + "</div>";
 }
@@ -110,7 +124,7 @@ export function temaHTML(t: number, l: Lidas): string {
   const tm = TEMAS[t];
   const n = totalTema(t), f = lidasTema(t, l);
   return '<div class="espaco"></div>' +
-    `<section class="painel centro"><h2>${esc(tm.nome)}</h2><p class="sub">${esc(SOBRE_TEMA[tm.nome] || "")}</p>${barra(f, n)}<small class="conta">${f} de ${plural(n, "ficha lida", "fichas lidas")}</small></section>` +
+    `<section class="painel centro"><h2>${esc(tm.nome)}</h2><p class="sub">${esc(SOBRE_TEMA[tm.nome] || "")}</p>${barra(f, n)}${contaLidas(f, n, String(t), "deste tema")}</section>` +
     '<h3 class="rot">Os blocos <span>lidas</span></h3><div class="painel lista">' +
     tm.blocos.map((b, k) => {
       const lb = lidasNo(t, k, l);
@@ -123,7 +137,7 @@ export function blocoHTML(t: number, b: number, l: Lidas): string {
   const bl = TEMAS[t].blocos[b];
   const f = lidasNo(t, b, l);
   return '<div class="espaco"></div>' +
-    `<section class="painel centro ${bl.cor}"><p class="sobre-rot">${esc(TEMAS[t].nome)}</p><h2>${esc(bl.nome)}</h2>${barra(f, bl.itens.length)}<small class="conta">${f} de ${plural(bl.itens.length, "ficha lida", "fichas lidas")}</small></section>` +
+    `<section class="painel centro ${bl.cor}"><p class="sobre-rot">${esc(TEMAS[t].nome)}</p><h2>${esc(bl.nome)}</h2>${barra(f, bl.itens.length)}${contaLidas(f, bl.itens.length, t + "/" + b, "deste bloco")}</section>` +
     '<div class="painel lista">' + bl.itens.map((d, i) => linhaFicha(t, b, i, d, l)).join("") + "</div>";
 }
 
