@@ -5,6 +5,10 @@ import { ICONE } from "./icones";
 import { numeroCIC, textoParaCopiar, tituloFicha } from "./telas";
 import type { Ficha, Referencia } from "./tipos";
 import { esc, norm } from "./util";
+import { buscarConhecer, linhaConhecer, portaConhecerHTML } from "./conhecer";
+
+/** Endereço do Praesto Sum, o app irmão sobre a liturgia. */
+export const PRAESTO = "https://gd-root.github.io/praesto-summ/";
 
 /** Fichas lidas, guardadas como "tema-bloco-ficha". */
 export type Lidas = Set<string>;
@@ -106,17 +110,19 @@ export function inicioHTML(l: Lidas): string {
     `<nav class="atalhos" aria-label="Atalhos">${atalhos}</nav></section>` +
     `<h3 class="rot">Os temas <span>${plural(TEMAS.reduce((s, _, k) => s + totalTema(k), 0), "ficha", "fichas")}</span></h3>${livros(l)}` +
     `<h3 class="rot">Mais procuradas</h3><div class="painel lista">${proc}</div>` +
+    /* atalho para o app irmão, o Praesto Sum (o guia da liturgia) */
+    `<a class="ponte" href="${PRAESTO}" target="_blank" rel="noopener"><img src="praesto-sum.png" alt="" width="52" height="52"><span class="txt"><b>Quer saber mais sobre a Santa Liturgia?</b><small>Abrir o Praesto Sum</small></span>${IC.chev}</a>` +
     '<section class="painel centro sobre"><p>Para entender a fé, crescer nela e saber explicar com serenidade o que a Igreja crê e por quê: a passagem da Bíblia, o número do Catecismo e a voz dos primeiros cristãos.</p>' +
     "<p>As passagens bíblicas estão resumidas: abra a sua Bíblia na referência para ler o texto. Os números do Catecismo seguem o Catecismo da Igreja Católica. Conhecer a verdade para vivê-la e partilhá-la com caridade: quem pergunta merece respeito, mesmo quando discorda.</p>" +
     '<p class="verso">“Seguindo a verdade na caridade.”<small>Efésios 4,15</small></p></section>';
 }
 
 /* ---------------- Temas (os quatro livros) ---------------- */
-export function temasHTML(l: Lidas): string {
+export function temasHTML(l: Lidas, dicaIgreja = false): string {
   const total = TEMAS.reduce((s, _, k) => s + totalTema(k), 0);
   return `<div class="espaco curto"></div><section class="painel centro"><h2>Os temas</h2><p class="sub">Escolha um livro da estante.</p>${contaLidas(l.size, total, "tudo", "de todos os temas")}</section>` + livros(l) +
     '<div class="painel lista">' + TEMAS.map((t, k) =>
-      `<a class="lin" href="#t/${k}"><span class="ic">${ICONE[t.nome] || ""}</span><span class="txt"><b>${esc(t.nome)}</b><small>${esc(SOBRE_TEMA[t.nome] || "")}</small>${barra(lidasTema(k, l), totalTema(k))}</span>${IC.chev}</a>`).join("") + "</div>";
+      `<a class="lin" href="#t/${k}"><span class="ic">${ICONE[t.nome] || ""}</span><span class="txt"><b>${esc(t.nome)}</b><small>${esc(SOBRE_TEMA[t.nome] || "")}</small>${barra(lidasTema(k, l), totalTema(k))}</span>${IC.chev}</a>`).join("") + "</div>" + portaConhecerHTML(dicaIgreja);
 }
 
 /* ---------------- Um tema: os blocos ---------------- */
@@ -203,10 +209,11 @@ export function buscar(q: string): [number, number, number][] {
 
 /** Resultados da busca (a lista muda enquanto se digita, sem redesenhar o campo). */
 export function resultadosHTML(q: string, l: Lidas): string {
-  const r = buscar(q);
-  const conta = q.trim() ? `<small class="conta">${plural(r.length, "ficha encontrada", "fichas encontradas")}</small>` : "";
+  const r = buscar(q), rc = buscarConhecer(q), n = r.length + rc.length;
+  const conta = q.trim() ? `<small class="conta">${plural(n, "ficha encontrada", "fichas encontradas")}</small>` : "";
   return conta + (!q.trim() ? '<p class="vazio">Digite uma palavra, uma objeção, uma passagem (Lc 1) ou um número do Catecismo (495).</p>'
-    : r.length ? '<div class="painel lista">' + r.map(([t, b, i]) => linhaFicha(t, b, i, TEMAS[t].blocos[b].itens[i], l, true)).join("") + "</div>"
+    : n ? (r.length ? '<div class="painel lista">' + r.map(([t, b, i]) => linhaFicha(t, b, i, TEMAS[t].blocos[b].itens[i], l, true)).join("") + "</div>" : "") +
+      (rc.length ? '<h3 class="rot">Conhecer a Igreja</h3><div class="painel lista">' + rc.map(([k, i]) => linhaConhecer(k, i)).join("") + "</div>" : "")
       : '<p class="vazio">Nenhuma ficha contém esse termo. Tente outra palavra ou outra passagem.</p>');
 }
 
