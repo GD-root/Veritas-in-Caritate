@@ -2,6 +2,7 @@
 import "./estilos.css";
 import { TEMAS } from "./dados";
 import { janelaCatecismo, textoParaCopiar } from "./telas";
+import { CATEGORIAS, categoriaConhecerHTML, conhecerHTML, itemConhecerHTML } from "./conhecer";
 import { FUNDO_TEMA, blocoHTML, botaoSalvar, buscaHTML, chave, fichaHTML, inicioHTML, resultadosHTML, salvasHTML, simbolo, zerarLidas, temaHTML, temasHTML, type Lidas } from "./vistas";
 
 const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
@@ -83,9 +84,19 @@ function render() {
       topo(tm.nome, `${tm.blocos.length} ${tm.blocos.length === 1 ? "bloco" : "blocos"}`, "#temas");
       app.innerHTML = temaHTML(t, lidas);
     }
+  } else if (/^igreja(\/\d+){0,2}$/.test(h) && igrejaValida(h)) {
+    const [, k, i] = h.split("/").map(Number) as [unknown, number?, number?];
+    aba("temas");
+    const desenha = () => {
+      if (i !== undefined && !Number.isNaN(i)) { const c = CATEGORIAS[k!]; topo(c.nome, `Pergunta ${i + 1} de ${c.itens.length}`, `#igreja/${k}`); app.innerHTML = itemConhecerHTML(k!, i); }
+      else if (k !== undefined && !Number.isNaN(k)) { topo(CATEGORIAS[k].nome, "Conhecer a Igreja", "#igreja"); app.innerHTML = categoriaConhecerHTML(k); }
+      else { topo("Conhecer a Igreja", "Diante do altar", "#temas"); app.innerHTML = conhecerHTML(); }
+    };
+    try { localStorage.setItem(CHAVE_IGREJA, "1"); } catch { /* modo privado */ }
+    entrarNaIgreja(desenha);
   } else if (h === "temas") {
     fundo("veritas"); aba("temas"); topo("Os temas", "A estante do Veritas", "#");
-    app.innerHTML = temasHTML(lidas);
+    app.innerHTML = temasHTML(lidas, !igrejaVista());
   } else if (h === "salvas") {
     fundo("veritas"); aba("salvas"); topo("Salvas", "Suas fichas guardadas", "#");
     app.innerHTML = salvasHTML(salvas, lidas);
@@ -100,7 +111,30 @@ function render() {
   }
 }
 
-window.addEventListener("hashchange", () => { render(); window.scrollTo(0, 0); });
+/* "Conhecer a Igreja": a pessoa caminha pela nave até o altar (o fundo avança e dá lugar à vista do altar) */
+const CHAVE_IGREJA = "veritas-igreja-visto";
+const igrejaVista = () => { try { return localStorage.getItem(CHAVE_IGREJA) === "1"; } catch { return true; } };
+function igrejaValida(h: string): boolean {
+  const [, k, i] = h.split("/").map(Number);
+  if (k === undefined || Number.isNaN(k)) return true;
+  const c = CATEGORIAS[k]; if (!c) return false;
+  return i === undefined || Number.isNaN(i) || !!c.itens[i];
+}
+const MOVIMENTO_REDUZIDO = (() => { try { return matchMedia("(prefers-reduced-motion: reduce)").matches; } catch { return false; } })();
+let naIgreja = false;
+function entrarNaIgreja(desenha: () => void) {
+  const f = document.querySelector<HTMLElement>(".fundo")!;
+  if (naIgreja || MOVIMENTO_REDUZIDO) { fundo("altar", "igreja"); desenha(); naIgreja = true; return; }
+  naIgreja = true;
+  f.classList.add("entrando"); app.classList.add("some");
+  setTimeout(() => {
+    fundo("altar", "igreja"); desenha();
+    f.classList.remove("entrando"); f.classList.add("chegando"); app.classList.remove("some");
+    setTimeout(() => f.classList.remove("chegando"), 800);
+  }, 700);
+}
+
+window.addEventListener("hashchange", () => { if (!location.hash.startsWith("#igreja")) naIgreja = false; render(); window.scrollTo(0, 0); });
 
 /* Busca: no início leva para a tela de busca; na tela de busca a lista muda enquanto se digita */
 app.addEventListener("submit", (e) => {

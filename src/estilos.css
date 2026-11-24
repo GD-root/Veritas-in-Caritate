@@ -151,3 +151,35 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(-
 .monde li:nth-child(2){margin-left:10px}.monde li:nth-child(3){margin-left:18px}.monde li:nth-child(4){margin-left:26px}
 .monde li:nth-child(5){margin-left:34px}.monde li:nth-child(6){margin-left:42px}
 .monde small{opacity:.65;white-space:nowrap}
+
+/* ===== Conhecer a Igreja ===== */
+.porta-igreja{position:relative;display:flex;align-items:center;gap:14px;margin-top:4px;padding:14px 16px;border-radius:24px;text-decoration:none;color:var(--ink);background:linear-gradient(150deg,color-mix(in srgb,#7a1018 55%,var(--vidro)),var(--vidro));border:1px solid color-mix(in srgb,var(--ouro) 55%,transparent);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);box-shadow:0 10px 26px #0005}
+.porta-igreja .selo{flex:none;width:60px;height:60px;border-radius:50%;padding:3px;background:radial-gradient(circle,#f6ecd2,#c9a243);box-shadow:0 0 0 3px color-mix(in srgb,var(--ouro) 40%,transparent),0 0 18px #e6c66f55}
+.porta-igreja .selo img{width:100%;height:100%;display:block}
+.porta-igreja .txt{flex:1;min-width:0}
+.porta-igreja small{display:block;font:700 10.5px var(--body);letter-spacing:.18em;text-transform:uppercase;color:var(--ouro)}
+.porta-igreja b{display:block;font:600 19px/1.2 var(--display);margin:2px 0}
+.porta-igreja .txt span{display:block;font:600 12.5px/1.35 var(--body);color:var(--muted)}
+.porta-igreja>svg{flex:none;color:var(--ouro)}
+.balao-igreja{position:absolute;right:14px;bottom:calc(100% + 10px);max-width:230px;background:var(--ouro);color:#1a1405;font:700 13px/1.3 var(--body);padding:9px 12px;border-radius:12px;box-shadow:0 6px 18px #0006}
+.balao-igreja::after{content:"";position:absolute;right:26px;bottom:-7px;border:8px solid transparent;border-bottom:0;border-top-color:var(--ouro)}
+@media (prefers-reduced-motion:no-preference){.balao-igreja{animation:balanca 2.4s ease-in-out infinite}@keyframes balanca{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}}
+.caixas{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.caixa{display:flex;flex-direction:column;align-items:center;text-align:center;gap:6px;padding:16px 10px 14px;border-radius:22px;text-decoration:none;color:var(--ink);background:var(--vidro);border:1px solid color-mix(in srgb,var(--ouro) 28%,transparent);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px)}
+.caixa:last-child:nth-child(odd){grid-column:span 2}
+.caixa .ic,.ic-grande{width:48px;height:48px;border-radius:50%;display:grid;place-items:center;color:var(--ouro);border:1px solid color-mix(in srgb,var(--ouro) 50%,transparent);background:radial-gradient(circle,color-mix(in srgb,var(--ouro) 16%,transparent),transparent 70%)}
+.ic-grande{margin:0 auto 4px}
+.caixa b{font:700 14.5px/1.25 var(--body)}
+.caixa small{font:700 11px var(--body);letter-spacing:.08em;text-transform:uppercase;color:var(--ouro)}
+.caixa.breve{opacity:.62}.caixa.breve small{color:var(--muted)}
+.painel.texto p{font-size:15.5px;line-height:1.6}
+.painel h3{margin:0 0 6px;font:700 11px var(--body);letter-spacing:.18em;text-transform:uppercase;color:var(--ouro)}
+.fontes{display:flex;flex-wrap:wrap;gap:6px}
+/* a caminhada até o altar: o fundo avança em direção ao altar e a vista do altar aparece */
+.fundo{transform-origin:50% 36%}
+.fundo.entrando{animation:entra .7s ease-in forwards}
+.fundo.chegando{animation:chega .8s ease-out}
+@keyframes entra{to{transform:translateX(-50%) scale(2.1);opacity:0;filter:blur(2px)}}
+@keyframes chega{from{transform:translateX(-50%) scale(1.15);opacity:0}to{transform:translateX(-50%) scale(1);opacity:1}}
+#app{transition:opacity .3s}#app.some{opacity:0}
+.fontes .ref{font:700 13px var(--body);color:var(--ouro);border:1px solid color-mix(in srgb,var(--ouro) 50%,transparent);border-radius:999px;padding:4px 10px}

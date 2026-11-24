@@ -5,6 +5,7 @@ import { ICONE } from "./icones";
 import { numeroCIC, textoParaCopiar, tituloFicha } from "./telas";
 import type { Ficha, Referencia } from "./tipos";
 import { esc, norm } from "./util";
+import { portaConhecerHTML } from "./conhecer";
 
 /** Fichas lidas, guardadas como "tema-bloco-ficha". */
 export type Lidas = Set<string>;
@@ -112,11 +113,11 @@ export function inicioHTML(l: Lidas): string {
 }
 
 /* ---------------- Temas (os quatro livros) ---------------- */
-export function temasHTML(l: Lidas): string {
+export function temasHTML(l: Lidas, dicaIgreja = false): string {
   const total = TEMAS.reduce((s, _, k) => s + totalTema(k), 0);
   return `<div class="espaco curto"></div><section class="painel centro"><h2>Os temas</h2><p class="sub">Escolha um livro da estante.</p>${contaLidas(l.size, total, "tudo", "de todos os temas")}</section>` + livros(l) +
     '<div class="painel lista">' + TEMAS.map((t, k) =>
-      `<a class="lin" href="#t/${k}"><span class="ic">${ICONE[t.nome] || ""}</span><span class="txt"><b>${esc(t.nome)}</b><small>${esc(SOBRE_TEMA[t.nome] || "")}</small>${barra(lidasTema(k, l), totalTema(k))}</span>${IC.chev}</a>`).join("") + "</div>";
+      `<a class="lin" href="#t/${k}"><span class="ic">${ICONE[t.nome] || ""}</span><span class="txt"><b>${esc(t.nome)}</b><small>${esc(SOBRE_TEMA[t.nome] || "")}</small>${barra(lidasTema(k, l), totalTema(k))}</span>${IC.chev}</a>`).join("") + "</div>" + portaConhecerHTML(dicaIgreja);
 }
 
 /* ---------------- Um tema: os blocos ---------------- */

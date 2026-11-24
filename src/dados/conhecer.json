@@ -1,0 +1,71 @@
+{
+ "categorias": [
+  {
+   "id": "gestos",
+   "nome": "Gestos e sinais",
+   "sobre": "O que o corpo diz na oração: o sinal da cruz, a água benta, a genuflexão.",
+   "itens": [
+    {
+     "pergunta": "Por que fazemos o sinal da cruz?",
+     "resposta": "É a profissão de fé mais curta que existe: as palavras confessam a Santíssima Trindade e o desenho da cruz confessa que fomos salvos pela morte e ressurreição de Cristo.",
+     "entenda": "Ao traçar a cruz sobre o próprio corpo, o cristão se coloca sob a proteção de Cristo e recorda o Batismo, recebido \"em nome do Pai e do Filho e do Espírito Santo\". Por isso começamos com ele a oração, a Missa, as refeições e o dia. Da testa ao peito e de um ombro ao outro, a fé abraça a pessoa inteira: o que pensamos, o que amamos e o que fazemos.",
+     "origem": "Por volta do ano 200, Tertuliano conta que os cristãos marcavam a testa com o sinal da cruz ao sair e ao entrar, ao vestir-se, ao sentar à mesa e ao deitar. A forma grande, da testa ao peito e entre os ombros, espalhou-se na Idade Média. No Ocidente se toca o ombro esquerdo antes do direito; os cristãos do Oriente fazem o contrário.",
+     "fontes": ["CIC 2157", "CIC 1235", "Mt 28,19", "Tertuliano, A coroa, 3"]
+    },
+    {
+     "pergunta": "Por que três cruzes na testa, nos lábios e no peito antes do Evangelho?",
+     "resposta": "Pedimos que a Palavra de Deus esteja na nossa mente, na nossa boca e no nosso coração: que a entendamos, a anunciemos e a vivamos.",
+     "entenda": "Ao anunciar o Evangelho, o diácono ou o sacerdote faz com o polegar o sinal da cruz sobre o livro e depois sobre si, na fronte, na boca e no peito; o povo acompanha o gesto. Muitos rezam em silêncio: \"Senhor, esteja a vossa Palavra em minha mente, em meus lábios e em meu coração\". É o que diz a Escritura: \"a palavra está perto de ti, na tua boca e no teu coração\".",
+     "origem": "O gesto aparece nos livros litúrgicos medievais e foi mantido no Missal Romano até hoje. A pequena cruz traçada com o polegar é a mais antiga forma do sinal da cruz, a mesma de que falam os escritores dos primeiros séculos.",
+     "fontes": ["IGMR 134", "Dt 30,14", "Rm 10,8"]
+    },
+    {
+     "pergunta": "Por que nos benzemos com água benta ao entrar na igreja?",
+     "resposta": "Para lembrar o Batismo, a porta pela qual entramos na Igreja, e pedir a Deus um coração purificado antes de rezar.",
+     "entenda": "A água benta é um sacramental: um sinal sagrado, abençoado pela Igreja, que nos dispõe a receber a graça. Ao tocar a água e fazer o sinal da cruz na entrada, renovamos a lembrança de que fomos lavados do pecado e feitos filhos de Deus. Por isso a pia de água benta fica perto da porta, como o batistério das igrejas antigas.",
+     "origem": "Nas basílicas dos primeiros séculos havia, no pátio de entrada, uma fonte onde os fiéis lavavam as mãos e o rosto antes de entrar para rezar. Dessa tradição nasceram as pias de água benta junto às portas.",
+     "fontes": ["CIC 1667-1668", "CIC 1213", "Ez 36,25"]
+    }
+   ]
+  },
+  {
+   "id": "altar",
+   "nome": "O altar e a igreja",
+   "sobre": "Velas, crucifixo, sacrário, lâmpada, incenso: o que cada coisa significa.",
+   "itens": [
+    {
+     "pergunta": "Por que há velas acesas no altar?",
+     "resposta": "A luz das velas significa Cristo, a Luz do mundo, e expressa a veneração e a festa de cada celebração.",
+     "entenda": "O Missal pede que, sobre o altar ou perto dele, haja ao menos duas velas acesas, ou quatro, ou seis; quando o bispo da diocese celebra, sete. Elas não estão ali para iluminar a igreja, e sim para honrar o mistério celebrado. A cera que se consome lembra a vida que se entrega a Deus, como a de Cristo.",
+     "origem": "Nos primeiros séculos, lâmpadas e velas acompanhavam o bispo e o livro dos Evangelhos nas procissões, como sinal de honra. Com o tempo passaram a ficar junto do altar, durante toda a Missa.",
+     "fontes": ["IGMR 117", "IGMR 307", "Jo 8,12"]
+    }
+   ]
+  },
+  { "id": "vestes", "nome": "Vestes e cores", "sobre": "Por que o padre usa vestes próprias e o que diz cada cor do tempo litúrgico.", "itens": [] },
+  { "id": "canto", "nome": "Canto e língua", "sobre": "O canto gregoriano, o latim, o Kyrie em grego e o Aleluia.", "itens": [] },
+  { "id": "historia", "nome": "História e tradição", "sobre": "Por que \"Romana\", o Papa, os concílios e as Igrejas do Oriente.", "itens": [] },
+  { "id": "devocoes", "nome": "Devoções", "sobre": "O terço, as medalhas, o escapulário e as novenas.", "itens": [] },
+  {
+   "id": "comunidades",
+   "nome": "Novas comunidades e Renovação Carismática",
+   "sobre": "Como nasceram, o que as caracteriza e algumas das mais conhecidas.",
+   "itens": [
+    {
+     "pergunta": "O que é a Renovação Carismática Católica?",
+     "resposta": "É uma corrente de graça dentro da Igreja que valoriza a experiência pessoal do Espírito Santo, a oração de louvor e os carismas de que fala São Paulo, sempre em comunhão com o Papa e os bispos.",
+     "entenda": "Os grupos de oração, os seminários de vida no Espírito e o louvor espontâneo são as marcas mais conhecidas da Renovação. Ela insiste no que a Igreja sempre ensinou: o Espírito Santo distribui dons a cada um para o bem de todos (1Cor 12), e esses dons devem ser discernidos pelos pastores e vividos na caridade. Não é uma igreja à parte nem uma comunidade com regra de vida: é um modo de viver a fé católica.",
+     "origem": "Começou em fevereiro de 1967, num retiro de estudantes da Universidade Duquesne, nos Estados Unidos. Chegou ao Brasil por volta de 1969, em Campinas, com os padres jesuítas Haroldo Rahm e Eduardo Dougherty. Em 2019 o Papa Francisco criou o CHARIS, um serviço único para toda a Renovação Carismática no mundo.",
+     "fontes": ["CIC 799-801", "1Cor 12,4-11", "1Ts 5,19-21"]
+    },
+    {
+     "pergunta": "O que são as novas comunidades?",
+     "resposta": "São associações de fiéis, nascidas sobretudo a partir dos anos 1970, em que leigos, consagrados e às vezes sacerdotes vivem um carisma próprio em comunidade, com aprovação da Igreja.",
+     "entenda": "Muitas nasceram no ambiente da Renovação Carismática. Costumam ter duas formas de pertença: a comunidade de vida, de quem mora junto e se dedica inteiramente à missão, e a comunidade de aliança, de quem vive o carisma na própria casa e no trabalho. Cada uma tem estatutos aprovados pelo bispo ou pela Santa Sé. Entre as mais conhecidas no Brasil estão a Canção Nova, fundada em 1978 por Monsenhor Jonas Abib em Cachoeira Paulista, e a Comunidade Católica Shalom, fundada em 1982 por Moysés Azevedo em Fortaleza, ambas com reconhecimento pontifício.",
+     "origem": "O Concílio Vaticano II lembrou que todos os batizados são chamados à santidade e ao apostolado e que os fiéis têm o direito de se associar. O Código de Direito Canônico de 1983 regulou essas associações, e São João Paulo II as chamou de sinais de uma nova primavera da Igreja.",
+     "fontes": ["Lumen Gentium 40", "Apostolicam Actuositatem 18-19", "CDC cân. 298-329"]
+    }
+   ]
+  }
+ ]
+}
