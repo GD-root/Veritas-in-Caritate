@@ -1,7 +1,7 @@
 /* "Conhecer a Igreja": a área que se abre no altar, com perguntas curtas sobre gestos, objetos, vestes,
    canto, história, devoções e as novas comunidades. Funções puras que devolvem o HTML. */
 import dados from "./dados/conhecer.json";
-import { esc } from "./util";
+import { esc, norm } from "./util";
 
 export type ItemConhecer = { pergunta: string; resposta: string; entenda: string; origem: string; fontes: string[] };
 export type CategoriaConhecer = { id: string; nome: string; sobre: string; itens: ItemConhecer[] };
@@ -23,7 +23,7 @@ const CHEV = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke
 /** Botão da estante de temas que leva à área, com o balão de aviso nas primeiras vezes. */
 export function portaConhecerHTML(mostrarDica: boolean): string {
   return `<a class="porta-igreja" href="#igreja"><span class="selo"><img src="fundos/simbolos/igreja.svg" alt=""></span>` +
-    '<span class="txt"><small>Mais que respostas</small><b>Conhecer a Igreja</b><span>Gestos, altar, vestes, canto, história e as novas comunidades</span></span>' + CHEV +
+    '<span class="txt"><b>Conhecer a Igreja</b></span>' + CHEV +
     (mostrarDica ? '<span class="balao-igreja" aria-hidden="true">Quer conhecer a Igreja por dentro? Toque aqui</span>' : "") + "</a>";
 }
 
@@ -57,4 +57,19 @@ export function itemConhecerHTML(k: number, i: number): string {
     `<section class="painel texto"><h3>De onde vem</h3><p>${esc(it.origem)}</p></section>` +
     `<section class="painel"><h3>Fontes</h3><div class="fontes">${it.fontes.map((f) => `<span class="ref">${esc(f)}</span>`).join("")}</div></section>` +
     `<nav class="passos" aria-label="Outras perguntas">${ant}<small>${i + 1} de ${c.itens.length}</small>${prox}</nav>`;
+}
+
+/** Perguntas que contêm o termo (na pergunta, nas respostas ou nas fontes): [parte, pergunta]. */
+export function buscarConhecer(q: string): [number, number][] {
+  const t = norm(q.trim()), r: [number, number][] = [];
+  if (!t) return r;
+  CATEGORIAS.forEach((c, k) => c.itens.forEach((it, i) => {
+    if (norm([it.pergunta, it.resposta, it.entenda, it.origem, ...it.fontes].join(" ")).includes(t)) r.push([k, i]);
+  }));
+  return r;
+}
+/** Linha de uma pergunta nos resultados da busca. */
+export function linhaConhecer(k: number, i: number): string {
+  const c = CATEGORIAS[k];
+  return `<a class="lin" href="#igreja/${k}/${i}"><span class="obj">${esc(c.itens[i].pergunta)}<small>${esc(c.nome)}</small></span>${CHEV}</a>`;
 }

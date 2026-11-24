@@ -10,21 +10,78 @@
      "resposta": "É a profissão de fé mais curta que existe: as palavras confessam a Santíssima Trindade e o desenho da cruz confessa que fomos salvos pela morte e ressurreição de Cristo.",
      "entenda": "Ao traçar a cruz sobre o próprio corpo, o cristão se coloca sob a proteção de Cristo e recorda o Batismo, recebido \"em nome do Pai e do Filho e do Espírito Santo\". Por isso começamos com ele a oração, a Missa, as refeições e o dia. Da testa ao peito e de um ombro ao outro, a fé abraça a pessoa inteira: o que pensamos, o que amamos e o que fazemos.",
      "origem": "Por volta do ano 200, Tertuliano conta que os cristãos marcavam a testa com o sinal da cruz ao sair e ao entrar, ao vestir-se, ao sentar à mesa e ao deitar. A forma grande, da testa ao peito e entre os ombros, espalhou-se na Idade Média. No Ocidente se toca o ombro esquerdo antes do direito; os cristãos do Oriente fazem o contrário.",
-     "fontes": ["CIC 2157", "CIC 1235", "Mt 28,19", "Tertuliano, A coroa, 3"]
+     "fontes": [
+      "CIC 2157",
+      "CIC 1235",
+      "Mt 28,19",
+      "Tertuliano, A coroa, 3"
+     ]
     },
     {
      "pergunta": "Por que três cruzes na testa, nos lábios e no peito antes do Evangelho?",
      "resposta": "Pedimos que a Palavra de Deus esteja na nossa mente, na nossa boca e no nosso coração: que a entendamos, a anunciemos e a vivamos.",
      "entenda": "Ao anunciar o Evangelho, o diácono ou o sacerdote faz com o polegar o sinal da cruz sobre o livro e depois sobre si, na fronte, na boca e no peito; o povo acompanha o gesto. Muitos rezam em silêncio: \"Senhor, esteja a vossa Palavra em minha mente, em meus lábios e em meu coração\". É o que diz a Escritura: \"a palavra está perto de ti, na tua boca e no teu coração\".",
-     "origem": "O gesto aparece nos livros litúrgicos medievais e foi mantido no Missal Romano até hoje. A pequena cruz traçada com o polegar é a mais antiga forma do sinal da cruz, a mesma de que falam os escritores dos primeiros séculos.",
-     "fontes": ["IGMR 134", "Dt 30,14", "Rm 10,8"]
+     "origem": "O gesto aparece nos livros litúrgicos medievais e foi mantido no Missal Romano até hoje. A pequena cruz traçada com o polegar é a forma mais antiga do sinal da cruz, a mesma de que falam os escritores dos primeiros séculos.",
+     "fontes": [
+      "IGMR 134",
+      "Dt 30,14",
+      "Rm 10,8"
+     ]
     },
     {
      "pergunta": "Por que nos benzemos com água benta ao entrar na igreja?",
      "resposta": "Para lembrar o Batismo, a porta pela qual entramos na Igreja, e pedir a Deus um coração purificado antes de rezar.",
      "entenda": "A água benta é um sacramental: um sinal sagrado, abençoado pela Igreja, que nos dispõe a receber a graça. Ao tocar a água e fazer o sinal da cruz na entrada, renovamos a lembrança de que fomos lavados do pecado e feitos filhos de Deus. Por isso a pia de água benta fica perto da porta, como o batistério das igrejas antigas.",
      "origem": "Nas basílicas dos primeiros séculos havia, no pátio de entrada, uma fonte onde os fiéis lavavam as mãos e o rosto antes de entrar para rezar. Dessa tradição nasceram as pias de água benta junto às portas.",
-     "fontes": ["CIC 1667-1668", "CIC 1213", "Ez 36,25"]
+     "fontes": [
+      "CIC 1667-1668",
+      "CIC 1213",
+      "Ez 36,25"
+     ]
+    },
+    {
+     "pergunta": "Por que dobramos o joelho diante do sacrário?",
+     "resposta": "A genuflexão é um gesto de adoração: dobramos o joelho diante de Jesus Cristo, presente de verdade na Eucaristia guardada no sacrário.",
+     "entenda": "O Missal explica que a genuflexão, feita dobrando o joelho direito até o chão, significa adoração e por isso é reservada ao Santíssimo Sacramento e à Santa Cruz na Sexta-feira Santa. Diante das imagens e do altar, quando o Santíssimo não está ali, o gesto próprio é a inclinação. É o que diz São Paulo: \"ao nome de Jesus todo joelho se dobre\".",
+     "origem": "No mundo antigo, dobrar o joelho era a homenagem prestada aos reis. Os cristãos passaram a reservar o gesto a Deus. Na Idade Média, com o crescimento da devoção à Eucaristia e a festa de Corpus Christi, tornou-se o sinal próprio de adoração ao Santíssimo.",
+     "fontes": [
+      "IGMR 274",
+      "CIC 1378",
+      "Fl 2,10"
+     ]
+    },
+    {
+     "pergunta": "Por que batemos no peito ao dizer \"por minha culpa\"?",
+     "resposta": "É um sinal de arrependimento: reconhecemos diante de Deus e dos irmãos que pecamos e pedimos perdão de coração.",
+     "entenda": "No ato penitencial, ao rezar \"por minha culpa, minha tão grande culpa\", os fiéis batem no peito. O gesto imita o publicano do Evangelho, que \"batia no peito dizendo: meu Deus, tem piedade de mim, pecador\", e voltou para casa justificado. Bater no peito é como bater à porta do próprio coração, de onde vem o pecado e onde começa a conversão.",
+     "origem": "O gesto vem dos tempos bíblicos como expressão de dor e de luto, e os cristãos o adotaram desde cedo a partir da parábola do fariseu e do publicano.",
+     "fontes": [
+      "IGMR 51",
+      "Lc 18,13",
+      "CIC 1430-1431"
+     ]
+    },
+    {
+     "pergunta": "Por que ajoelhamos na consagração?",
+     "resposta": "Porque naquele momento o pão e o vinho se tornam o Corpo e o Sangue de Cristo, e ajoelhar é a forma mais clara de adorá-lo.",
+     "entenda": "O Missal pede que os fiéis se ajoelhem durante a consagração, a não ser que a saúde, a falta de espaço ou outro motivo razoável o impeça; quem não pode ajoelhar faz uma inclinação profunda quando o sacerdote genuflete. Cada conferência dos bispos pode ajustar esses gestos ao costume do país.",
+     "origem": "No século XIII começou a elevação da hóstia e do cálice depois da consagração, para que o povo pudesse ver e adorar. A partir daí, ajoelhar e tocar a sineta nesse momento tornaram-se costumes em toda a Igreja latina.",
+     "fontes": [
+      "IGMR 43",
+      "CIC 1376",
+      "CIC 1378"
+     ]
+    },
+    {
+     "pergunta": "Por que inclinamos a cabeça em alguns momentos da Missa?",
+     "resposta": "A inclinação expressa reverência: inclinamos a cabeça ao pronunciar o nome de Jesus, o da Virgem Maria e o da Santíssima Trindade, e o corpo inteiro ao dizer, no Creio, que o Filho de Deus se encarnou.",
+     "entenda": "O Missal distingue a inclinação da cabeça, feita ao nomear juntas as três Pessoas divinas, o nome de Jesus, o da Virgem Maria e o do santo do dia, e a inclinação profunda, feita ao altar e no Creio. Às palavras \"e se encarnou pelo Espírito Santo, no seio da Virgem Maria, e se fez homem\", todos se inclinam; no Natal e na Anunciação, ajoelham-se.",
+     "origem": "A inclinação diante do altar e do mistério da Encarnação é um costume muito antigo, já presente nas liturgias dos primeiros séculos do Oriente e do Ocidente.",
+     "fontes": [
+      "IGMR 275",
+      "IGMR 137",
+      "Jo 1,14"
+     ]
     }
    ]
   },
@@ -38,32 +95,446 @@
      "resposta": "A luz das velas significa Cristo, a Luz do mundo, e expressa a veneração e a festa de cada celebração.",
      "entenda": "O Missal pede que, sobre o altar ou perto dele, haja ao menos duas velas acesas, ou quatro, ou seis; quando o bispo da diocese celebra, sete. Elas não estão ali para iluminar a igreja, e sim para honrar o mistério celebrado. A cera que se consome lembra a vida que se entrega a Deus, como a de Cristo.",
      "origem": "Nos primeiros séculos, lâmpadas e velas acompanhavam o bispo e o livro dos Evangelhos nas procissões, como sinal de honra. Com o tempo passaram a ficar junto do altar, durante toda a Missa.",
-     "fontes": ["IGMR 117", "IGMR 307", "Jo 8,12"]
+     "fontes": [
+      "IGMR 117",
+      "IGMR 307",
+      "Jo 8,12"
+     ]
+    },
+    {
+     "pergunta": "Por que o crucifixo fica sobre o altar ou perto dele?",
+     "resposta": "Porque a Missa torna presente o sacrifício da cruz: o crucifixo lembra a todos que no altar se renova, de modo sacramental, a entrega de Cristo ao Pai por nós.",
+     "entenda": "O Missal pede uma cruz com a imagem de Cristo crucificado sobre o altar ou junto dele, bem visível ao povo, para recordar a paixão salvadora do Senhor. Não é uma cruz vazia: mostra o Cristo que se entregou. A Missa e o Calvário são o mesmo e único sacrifício; muda apenas o modo de oferecê-lo.",
+     "origem": "As primeiras igrejas mostravam a cruz gloriosa, coberta de pedras preciosas. Na Idade Média tornou-se comum a imagem de Cristo crucificado sobre o altar, e o Missal a mantém até hoje.",
+     "fontes": [
+      "IGMR 308",
+      "CIC 1366-1367",
+      "1Cor 11,26"
+     ]
+    },
+    {
+     "pergunta": "Por que há uma lâmpada sempre acesa perto do sacrário?",
+     "resposta": "Ela avisa e honra a presença de Jesus na Eucaristia guardada no sacrário: onde a lâmpada está acesa, o Senhor está ali.",
+     "entenda": "Depois da Missa, as hóstias consagradas que sobram são guardadas no sacrário, para levar a Comunhão aos doentes e para a adoração dos fiéis. O Missal pede que, diante do sacrário, brilhe continuamente uma lâmpada especial, alimentada por óleo ou cera, como sinal da presença de Cristo. Ao ver a luz, o fiel faz a genuflexão.",
+     "origem": "Desde os primeiros séculos os cristãos guardavam a Eucaristia para os doentes e os presos. A lâmpada diante do Santíssimo tornou-se costume na Idade Média e depois norma em toda a Igreja latina.",
+     "fontes": [
+      "IGMR 314-316",
+      "CIC 1379",
+      "Ex 27,20-21"
+     ]
+    },
+    {
+     "pergunta": "Por que o altar é tão venerado, e por que tem relíquias?",
+     "resposta": "O altar é sinal de Cristo: é a mesa do sacrifício e do banquete do Senhor. Por isso o sacerdote o beija, e por isso guarda relíquias de santos, como nas primeiras Missas sobre os túmulos dos mártires.",
+     "entenda": "No início e no fim da Missa o sacerdote beija o altar e, em dias festivos, o incensa. O Missal recomenda conservar o costume de depositar sob o altar relíquias de santos, mesmo que não sejam mártires: os que se uniram ao sacrifício de Cristo estão junto do seu altar. É a imagem do Apocalipse: as almas dos que morreram pela Palavra de Deus, debaixo do altar.",
+     "origem": "Nas catacumbas de Roma e nas basílicas construídas sobre os túmulos dos mártires, a Missa era celebrada sobre o lugar onde eles estavam sepultados. Daí vem o costume das relíquias no altar.",
+     "fontes": [
+      "IGMR 296",
+      "IGMR 302",
+      "Ap 6,9",
+      "CIC 1383"
+     ]
+    },
+    {
+     "pergunta": "Por que se usa incenso na Missa?",
+     "resposta": "A fumaça que sobe é imagem da oração que sobe a Deus, e o perfume expressa reverência ao altar, à cruz, ao Evangelho, às oferendas, ao sacerdote e ao povo.",
+     "entenda": "O incenso pode ser usado em qualquer forma de Missa: na procissão de entrada, para incensar a cruz e o altar, antes do Evangelho, na apresentação das oferendas e na elevação depois da consagração. O salmo diz: \"suba a minha oração como incenso em vossa presença\". No Apocalipse, os anjos oferecem incenso com as orações dos santos.",
+     "origem": "O incenso já era usado no culto do Templo de Jerusalém. Os Magos o ofereceram a Jesus. Na liturgia cristã ele aparece a partir do século IV, quando as celebrações passaram a acontecer em grandes basílicas.",
+     "fontes": [
+      "IGMR 276",
+      "Sl 141,2",
+      "Ap 8,3-4",
+      "Mt 2,11"
+     ]
+    },
+    {
+     "pergunta": "Por que muitas igrejas antigas são voltadas para o oriente?",
+     "resposta": "Porque o sol nasce no oriente, e os cristãos viam nele a imagem de Cristo ressuscitado, o \"sol nascente que vem do alto\", que voltará no fim dos tempos.",
+     "entenda": "Rezar voltado para o oriente expressa a esperança na volta do Senhor: \"como o relâmpago sai do oriente e brilha até o ocidente, assim será a vinda do Filho do Homem\". Por isso muitas igrejas antigas têm o altar e a abside a leste, e o povo e o sacerdote rezavam todos na mesma direção, para o Senhor que vem.",
+     "origem": "Os cristãos dos primeiros séculos já rezavam voltados para o oriente, costume citado por vários Padres da Igreja. A orientação das igrejas foi comum durante séculos, sobretudo na Idade Média.",
+     "fontes": [
+      "Lc 1,78",
+      "Mt 24,27",
+      "CIC 1186"
+     ]
     }
    ]
   },
-  { "id": "vestes", "nome": "Vestes e cores", "sobre": "Por que o padre usa vestes próprias e o que diz cada cor do tempo litúrgico.", "itens": [] },
-  { "id": "canto", "nome": "Canto e língua", "sobre": "O canto gregoriano, o latim, o Kyrie em grego e o Aleluia.", "itens": [] },
-  { "id": "historia", "nome": "História e tradição", "sobre": "Por que \"Romana\", o Papa, os concílios e as Igrejas do Oriente.", "itens": [] },
-  { "id": "devocoes", "nome": "Devoções", "sobre": "O terço, as medalhas, o escapulário e as novenas.", "itens": [] },
+  {
+   "id": "vestes",
+   "nome": "Vestes e cores",
+   "sobre": "Por que o padre usa vestes próprias e o que diz cada cor do tempo litúrgico.",
+   "itens": [
+    {
+     "pergunta": "Por que o padre usa vestes especiais na Missa?",
+     "resposta": "Porque na Missa ele não age em nome próprio, mas em nome de Cristo: a veste esconde a pessoa e mostra o ministério que ela exerce.",
+     "entenda": "O Missal explica que a diversidade de ministérios na celebração se manifesta pela diversidade das vestes, e que elas contribuem para a beleza da ação sagrada. O sacerdote age \"na pessoa de Cristo\", e a veste lembra a todos, a começar por ele, que a liturgia não é dele, mas do Senhor e da Igreja.",
+     "origem": "As vestes litúrgicas vêm da roupa de festa usada no Império Romano nos primeiros séculos: a túnica longa e o manto. Quando a moda mudou, a Igreja conservou essas vestes para o culto, e elas ganharam sentido simbólico.",
+     "fontes": [
+      "IGMR 335",
+      "CIC 1548",
+      "Ex 28,2"
+     ]
+    },
+    {
+     "pergunta": "O que significam a alva, a estola e a casula?",
+     "resposta": "A alva branca lembra o Batismo; a estola é o sinal do ministério ordenado; a casula, veste própria do sacerdote na Missa, lembra a caridade que cobre tudo.",
+     "entenda": "A alva é a túnica branca comum a todos os ministros. A estola é usada pelo sacerdote ao redor do pescoço, caindo sobre o peito, e pelo diácono atravessada do ombro esquerdo ao lado direito. Sobre a alva e a estola o sacerdote veste a casula, na cor do dia. O diácono usa a dalmática.",
+     "origem": "O nome casula vem do latim e quer dizer \"casinha\": era um manto romano fechado, como uma tenda, que cobria o corpo inteiro. Com o tempo ganhou as laterais abertas que conhecemos.",
+     "fontes": [
+      "IGMR 336-338",
+      "IGMR 340",
+      "Cl 3,14"
+     ]
+    },
+    {
+     "pergunta": "Por que as cores litúrgicas mudam?",
+     "resposta": "As cores mostram o caráter próprio de cada mistério celebrado e o caminho da vida cristã ao longo do ano: a espera, a penitência, a festa, o martírio, a esperança.",
+     "entenda": "O ano litúrgico percorre toda a vida de Cristo, do Advento à festa de Cristo Rei, e as cores ajudam a viver cada tempo. Ao entrar na igreja e ver a cor das vestes, o fiel já sabe se é tempo de preparação, de penitência, de festa ou de caminhada comum.",
+     "origem": "No início não havia regras fixas para as cores. Elas foram se definindo em Roma ao longo da Idade Média e foram fixadas no Missal de 1570; o Missal atual mantém o mesmo esquema, com pequenas adaptações.",
+     "fontes": [
+      "IGMR 345",
+      "CIC 1168-1171"
+     ]
+    },
+    {
+     "pergunta": "O que significa cada cor litúrgica?",
+     "resposta": "Branco é a festa e a luz; vermelho, o fogo do Espírito e o sangue dos mártires; verde, a esperança do Tempo Comum; roxo, a preparação e a penitência; rosa, a alegria no meio da espera; preto, o luto com esperança.",
+     "entenda": "O branco se usa no Natal e na Páscoa, nas festas do Senhor que não são da Paixão, nas da Virgem Maria, dos anjos e dos santos não mártires. O vermelho, no Domingo de Ramos, na Sexta-feira Santa, em Pentecostes e nas festas dos apóstolos, evangelistas e mártires. O verde, no Tempo Comum. O roxo, no Advento e na Quaresma, e pode ser usado nas Missas pelos falecidos. O rosa pode ser usado no 3º domingo do Advento e no 4º da Quaresma. O preto pode ser usado nas Missas pelos falecidos.",
+     "origem": "Esse quadro de cores vem da tradição romana fixada no Missal de São Pio V e foi mantido pelo Missal atual. As conferências dos bispos podem fazer adaptações conforme a cultura de cada povo.",
+     "fontes": [
+      "IGMR 346"
+     ]
+    },
+    {
+     "pergunta": "Por que às vezes o padre usa dourado?",
+     "resposta": "Porque nos dias mais solenes podem-se usar as vestes mais nobres e festivas, mesmo que não sejam da cor do dia; o dourado expressa a máxima alegria da festa.",
+     "entenda": "O Missal permite que, nos dias de maior solenidade, se usem vestes festivas mais nobres no lugar da cor própria. Por isso em muitas igrejas se vê o dourado no Natal, na Páscoa ou na festa do padroeiro. A beleza das vestes é uma forma de honrar a Deus com o melhor que se tem.",
+     "origem": "Desde a Antiguidade, o ouro foi usado para o que há de mais precioso e para as coisas de Deus, como no Templo de Jerusalém. A Igreja herdou esse sentido para os dias de grande festa.",
+     "fontes": [
+      "IGMR 346",
+      "Sl 45,14"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "canto",
+   "nome": "Canto e língua",
+   "sobre": "O canto gregoriano, o latim, o Kyrie em grego, o Aleluia e o Amém.",
+   "itens": [
+    {
+     "pergunta": "Por que o canto gregoriano?",
+     "resposta": "Porque a Igreja o reconhece como o canto próprio da liturgia romana: ele nasceu da oração da Igreja, serve à Palavra e ocupa o primeiro lugar entre os cantos da Missa.",
+     "entenda": "O Concílio Vaticano II ensina que, em igualdade de condições, o canto gregoriano deve ter o primeiro lugar nas celebrações; outros gêneros, sobretudo a polifonia, também são acolhidos, desde que correspondam ao espírito da liturgia. O gregoriano canta a própria Palavra de Deus, em geral os salmos, sem buscar o espetáculo: a melodia está a serviço do texto e da oração.",
+     "origem": "O nome vem de São Gregório Magno, papa de 590 a 604, a quem a tradição atribui a organização do canto romano. O repertório que conhecemos formou-se nos séculos seguintes, sobretudo nos séculos VIII e IX, da união do canto de Roma com o da Gália.",
+     "fontes": [
+      "SC 116",
+      "IGMR 41",
+      "Cl 3,16"
+     ]
+    },
+    {
+     "pergunta": "Por que a Igreja usa o latim?",
+     "resposta": "O latim é a língua própria do rito romano: guarda a unidade da Igreja no tempo e no espaço, e o Concílio pediu que fosse conservado, mesmo permitindo as línguas de cada povo.",
+     "entenda": "O texto oficial do Missal Romano é publicado em latim, e dele vêm as traduções para cada língua. O Concílio Vaticano II pediu que o uso do latim fosse conservado nos ritos latinos, deu espaço maior às línguas de cada povo e pediu que os fiéis soubessem rezar ou cantar em latim as partes que lhes cabem, como o Glória, o Creio e o Pai-nosso.",
+     "origem": "Nos primeiros séculos, a liturgia em Roma era celebrada em grego, a língua comum do Império. Entre os séculos III e IV passou-se ao latim, que era então a língua do povo de Roma. O latim ficou como língua da Igreja do Ocidente por muitos séculos.",
+     "fontes": [
+      "SC 36",
+      "SC 54",
+      "IGMR 41"
+     ]
+    },
+    {
+     "pergunta": "Por que o Kyrie eleison é em grego?",
+     "resposta": "Kyrie eleison quer dizer \"Senhor, tende piedade\". Foi conservado em grego como lembrança das orações das Igrejas do Oriente e da língua dos primeiros cristãos.",
+     "entenda": "Depois do ato penitencial, o povo aclama o Senhor e implora a sua misericórdia. Pode-se rezar em português ou na forma grega original. É uma súplica a Cristo, o Senhor ressuscitado, como a dos cegos e doentes do Evangelho: \"Senhor, tem piedade de nós\".",
+     "origem": "O Kyrie vem das grandes ladainhas das Igrejas do Oriente e entrou na Missa romana por volta do século V, permanecendo em grego mesmo depois que a liturgia de Roma passou ao latim.",
+     "fontes": [
+      "IGMR 52",
+      "Mt 20,30-31"
+     ]
+    },
+    {
+     "pergunta": "O que significa Aleluia, e por que não se canta na Quaresma?",
+     "resposta": "Aleluia é uma palavra hebraica que quer dizer \"louvai o Senhor\". É o canto da alegria pascal, e por isso a Igreja o guarda durante a Quaresma, para cantá-lo de novo na Vigília da Páscoa.",
+     "entenda": "O Aleluia acolhe o Evangelho: o povo, de pé, aclama o Senhor que vai falar. Na Quaresma, em vez dele, canta-se outra aclamação antes do Evangelho. Na Vigília Pascal, o Aleluia volta solene, cantado três vezes, como explosão da alegria da Ressurreição.",
+     "origem": "O Aleluia vem dos salmos de louvor de Israel e aparece no Apocalipse como o canto dos que estão no céu. Os cristãos o usam desde os primeiros séculos, especialmente no tempo pascal.",
+     "fontes": [
+      "IGMR 62",
+      "Sl 150",
+      "Ap 19,1-6"
+     ]
+    },
+    {
+     "pergunta": "O que quer dizer Amém?",
+     "resposta": "Amém é uma palavra hebraica que quer dizer \"assim é\" ou \"assim seja\": com ela o povo assume como sua a oração e confirma a fé.",
+     "entenda": "O Amém mais importante da Missa é o que encerra a Oração Eucarística, depois de \"por Cristo, com Cristo e em Cristo\": é o grande sim de todo o povo ao sacrifício oferecido. Ao receber a Comunhão também dizemos Amém, reconhecendo o Corpo de Cristo. O Catecismo termina com o Amém do Creio.",
+     "origem": "A palavra vem da raiz hebraica que significa firmeza, fidelidade. Jesus a usava no começo das frases (\"Em verdade vos digo\") e São Paulo chama o próprio Cristo de \"o Amém\" das promessas de Deus.",
+     "fontes": [
+      "CIC 1061-1065",
+      "IGMR 79",
+      "2Cor 1,20",
+      "Ap 3,14"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "historia",
+   "nome": "História e tradição",
+   "sobre": "Por que \"Romana\", o Papa, os concílios, o domingo e as Igrejas do Oriente.",
+   "itens": [
+    {
+     "pergunta": "Por que a Igreja é chamada \"Romana\"?",
+     "resposta": "Porque São Pedro e São Paulo deram a vida pela fé em Roma, e o bispo de Roma, o Papa, é o sucessor de Pedro: estar em comunhão com ele é o sinal da unidade da Igreja Católica.",
+     "entenda": "A Igreja de Cristo é una, santa, católica e apostólica. Ela subsiste na Igreja Católica, governada pelo sucessor de Pedro e pelos bispos em comunhão com ele. \"Romana\" indica essa comunhão com a sé de Pedro; e também o rito romano, que é o da maioria das dioceses do Ocidente. Os católicos dos ritos orientais também estão em plena comunhão com Roma.",
+     "origem": "Por volta do ano 107, Santo Inácio de Antioquia, a caminho do martírio, escreveu à Igreja de Roma chamando-a de \"a que preside na caridade\". Santo Ireneu, por volta de 180, lista os bispos de Roma desde Pedro.",
+     "fontes": [
+      "CIC 816",
+      "CIC 834",
+      "Inácio de Antioquia, Carta aos Romanos",
+      "Ireneu, Contra as heresias III,3"
+     ]
+    },
+    {
+     "pergunta": "Por que existe a Igreja Ortodoxa?",
+     "resposta": "Por causa do grande cisma entre o Oriente e o Ocidente, que costuma ser datado em 1054. Os ortodoxos conservam a sucessão apostólica e os sacramentos, mas não estão em plena comunhão com o Papa.",
+     "entenda": "O afastamento foi lento: diferenças de língua, de cultura e de liturgia, a disputa sobre a autoridade do bispo de Roma e a inclusão do \"e do Filho\" (Filioque) no Creio. Em 1054, o legado do Papa e o patriarca de Constantinopla se excomungaram mutuamente. A Igreja ensina que os ortodoxos estão unidos a nós por laços muito estreitos: verdadeiros sacramentos, sobretudo o sacerdócio e a Eucaristia.",
+     "origem": "Em 1965, o Papa São Paulo VI e o patriarca Atenágoras retiraram as excomunhões de 1054. Desde então os papas e os patriarcas se encontram e rezam juntos pela plena unidade.",
+     "fontes": [
+      "CIC 838",
+      "Unitatis Redintegratio 14-15",
+      "Jo 17,21"
+     ]
+    },
+    {
+     "pergunta": "O que são as Igrejas orientais católicas?",
+     "resposta": "São Igrejas com ritos, línguas e tradições do Oriente, como a ucraniana, a maronita e a melquita, que estão em plena comunhão com o Papa. São tão católicas quanto a Igreja latina.",
+     "entenda": "A Igreja Católica é formada pela Igreja latina e por 23 Igrejas orientais, cada uma com sua liturgia, seu direito e sua espiritualidade. No Brasil há fiéis e dioceses de várias delas, como a ucraniana, com sede em Prudentópolis, no Paraná, a maronita e a melquita. Um católico latino pode participar da Missa nesses ritos e cumprir o preceito dominical.",
+     "origem": "Essas Igrejas vêm das grandes tradições cristãs do Oriente: Antioquia, Alexandria, Constantinopla, Armênia e Caldeia. Ao longo da história, várias delas restabeleceram a plena comunhão com Roma, conservando seus ritos.",
+     "fontes": [
+      "CIC 1203",
+      "Orientalium Ecclesiarum 2-3",
+      "CIC 835"
+     ]
+    },
+    {
+     "pergunta": "O que é um concílio?",
+     "resposta": "É a reunião solene dos bispos do mundo inteiro com o Papa para ensinar e decidir sobre a fé e a vida da Igreja. Houve 21 concílios ecumênicos, de Niceia, em 325, ao Vaticano II, de 1962 a 1965.",
+     "entenda": "O colégio dos bispos, unido ao Papa e nunca sem ele, exerce de modo solene a autoridade sobre toda a Igreja no concílio ecumênico. Os concílios definiram verdades centrais da fé, como a divindade de Cristo (Niceia) e a maternidade divina de Maria (Éfeso), e reformaram a vida da Igreja (Trento, Vaticano II).",
+     "origem": "O modelo de todos os concílios é a reunião dos apóstolos em Jerusalém, contada nos Atos, para decidir sobre os cristãos vindos do paganismo: \"pareceu bem ao Espírito Santo e a nós\".",
+     "fontes": [
+      "CIC 884",
+      "CIC 891",
+      "At 15,6-29"
+     ]
+    },
+    {
+     "pergunta": "Por que os cristãos guardam o domingo e não o sábado?",
+     "resposta": "Porque Jesus ressuscitou no domingo, o primeiro dia da semana. Desde o início os cristãos se reúnem nesse dia para a Eucaristia, o \"Dia do Senhor\".",
+     "entenda": "O sábado lembrava o descanso de Deus depois da criação; o domingo celebra a nova criação, inaugurada pela Ressurreição. Por isso a Igreja manda participar da Missa aos domingos e nos dias santos. O domingo cumpre e ultrapassa o sentido do sábado.",
+     "origem": "Os Atos dos Apóstolos já falam da reunião no primeiro dia da semana para partir o pão, e o Apocalipse fala do \"dia do Senhor\". Por volta do ano 155, São Justino descreve a Missa dos cristãos de Roma, celebrada no \"dia do Sol\", o domingo.",
+     "fontes": [
+      "CIC 2174-2176",
+      "CIC 2180",
+      "At 20,7",
+      "Ap 1,10",
+      "Justino, I Apologia 67"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "devocoes",
+   "nome": "Devoções",
+   "sobre": "O terço, o escapulário, a Medalha Milagrosa, as novenas e o Ângelus.",
+   "itens": [
+    {
+     "pergunta": "De onde vem o terço?",
+     "resposta": "O Rosário é a meditação dos mistérios da vida de Jesus junto com Maria, rezando Ave-Marias como quem conta pérolas. O terço é uma parte do Rosário.",
+     "entenda": "Em cada mistério se contempla um momento da vida de Cristo: a infância, a vida pública, a Paixão, a Ressurreição. É uma oração simples, que todos podem rezar, e ao mesmo tempo profunda: um \"compêndio do Evangelho\". A Igreja o recomenda muitas vezes, sobretudo em outubro, mês do Rosário.",
+     "origem": "A tradição liga o Rosário a São Domingos, no século XIII. A forma que conhecemos foi fixada por São Pio V em 1569. Em 2002, São João Paulo II acrescentou os mistérios luminosos, da vida pública de Jesus.",
+     "fontes": [
+      "CIC 971",
+      "CIC 2678",
+      "CIC 2708",
+      "Lc 1,28.42"
+     ]
+    },
+    {
+     "pergunta": "O que é o escapulário?",
+     "resposta": "O escapulário de Nossa Senhora do Carmo é um sacramental: dois pequenos pedaços de tecido usados sobre o peito e as costas, sinal de consagração a Maria e do desejo de viver como cristão. Não é amuleto.",
+     "entenda": "Ele reduz o hábito dos frades carmelitas, e quem o usa se une espiritualmente à família do Carmo, compromete-se a imitar Maria e a viver a fé. Como todo sacramental, não age por si: dispõe a receber a graça, e só tem sentido com a oração e a vida cristã. Tratá-lo como objeto mágico seria superstição.",
+     "origem": "Segundo a tradição carmelita, em 1251 Nossa Senhora apareceu a São Simão Stock, na Inglaterra, e lhe entregou o escapulário como sinal de proteção. A devoção se espalhou pelo mundo inteiro.",
+     "fontes": [
+      "CIC 1667-1670",
+      "CIC 2111",
+      "CIC 971"
+     ]
+    },
+    {
+     "pergunta": "O que é a Medalha Milagrosa?",
+     "resposta": "É a medalha de Nossa Senhora das Graças, revelada a Santa Catarina Labouré em Paris, em 1830. Lembra que Maria intercede por nós e que a graça vem de Cristo.",
+     "entenda": "Na frente aparece Maria com os raios de luz que saem das mãos, e a oração \"Ó Maria concebida sem pecado, rogai por nós que recorremos a vós\". No verso, o M com a cruz e os dois corações, de Jesus e de Maria, com as doze estrelas. Ela se chama milagrosa pelas muitas graças atribuídas à intercessão de Nossa Senhora.",
+     "origem": "Em 1830, na capela da Rue du Bac, em Paris, Santa Catarina Labouré, religiosa das Filhas da Caridade, recebeu de Nossa Senhora o pedido de cunhar a medalha. A oração da medalha antecipou em 24 anos o dogma da Imaculada Conceição, proclamado em 1854.",
+     "fontes": [
+      "CIC 491",
+      "CIC 1674",
+      "Ap 12,1"
+     ]
+    },
+    {
+     "pergunta": "O que é uma novena?",
+     "resposta": "É uma oração feita durante nove dias seguidos, pedindo uma graça ou preparando uma festa. O modelo é a oração dos apóstolos com Maria entre a Ascensão e Pentecostes.",
+     "entenda": "Depois que Jesus subiu ao céu, os apóstolos voltaram a Jerusalém e \"perseveravam unânimes na oração, com Maria, a mãe de Jesus\", à espera do Espírito Santo, que veio no Pentecostes. Fazer uma novena é perseverar na oração com confiança, como eles.",
+     "origem": "A novena de Pentecostes é a mais antiga. Depois se espalharam as novenas de preparação para as festas de Nossa Senhora e dos santos, muito vivas na piedade popular do Brasil.",
+     "fontes": [
+      "At 1,14",
+      "CIC 2674",
+      "CIC 1674"
+     ]
+    },
+    {
+     "pergunta": "Por que se reza o Ângelus?",
+     "resposta": "O Ângelus lembra três vezes por dia, de manhã, ao meio-dia e às seis da tarde, o momento em que o Filho de Deus se fez homem no seio de Maria.",
+     "entenda": "A oração recorda o anúncio do anjo, o sim de Maria e a Encarnação: \"E o Verbo se fez carne e habitou entre nós\", com três Ave-Marias. No tempo pascal, é substituído pela Rainha do Céu (Regina Caeli). Ao meio-dia de domingo, o Papa reza o Ângelus com os fiéis na Praça de São Pedro.",
+     "origem": "O costume de rezar ao toque do sino das igrejas formou-se aos poucos entre os séculos XIII e XVI, primeiro à tarde, depois de manhã e ao meio-dia.",
+     "fontes": [
+      "Lc 1,26-38",
+      "Jo 1,14",
+      "CIC 2678"
+     ]
+    }
+   ]
+  },
   {
    "id": "comunidades",
-   "nome": "Novas comunidades e Renovação Carismática",
-   "sobre": "Como nasceram, o que as caracteriza e algumas das mais conhecidas.",
+   "nome": "Comunidades e movimentos",
+   "sobre": "A Renovação Carismática, as novas comunidades, a Opus Dei, os movimentos e as comunidades tradicionais, com seus fundadores.",
    "itens": [
+    {
+     "pergunta": "Qual a diferença entre ordem religiosa, movimento, nova comunidade e prelazia?",
+     "resposta": "Ordens e congregações reúnem consagrados com votos; movimentos reúnem fiéis em torno de um carisma, sem morar juntos; novas comunidades têm membros que moram juntos (de vida) e outros que vivem o carisma em casa (de aliança); a prelazia pessoal, como a Opus Dei, é uma estrutura com prelado, sacerdotes e leigos.",
+     "entenda": "Todas nascem de um carisma, um dom do Espírito Santo dado a um fundador para o bem da Igreja, e todas precisam da aprovação dos pastores. As ordens e congregações (franciscanos, beneditinos, salesianos) são institutos de vida consagrada, com votos de pobreza, castidade e obediência. Os movimentos e as novas comunidades são, em geral, associações de fiéis, aprovadas pelo bispo ou pela Santa Sé.",
+     "origem": "O Concílio Vaticano II lembrou que todos os batizados são chamados à santidade e ao apostolado e que os fiéis têm o direito de se associar. O Código de Direito Canônico de 1983 regulou essas formas, e São João Paulo II chamou os movimentos e as novas comunidades de sinais de uma nova primavera da Igreja.",
+     "fontes": [
+      "Lumen Gentium 40",
+      "CIC 914-916",
+      "CDC cân. 298-329",
+      "CDC cân. 294-297"
+     ]
+    },
     {
      "pergunta": "O que é a Renovação Carismática Católica?",
      "resposta": "É uma corrente de graça dentro da Igreja que valoriza a experiência pessoal do Espírito Santo, a oração de louvor e os carismas de que fala São Paulo, sempre em comunhão com o Papa e os bispos.",
-     "entenda": "Os grupos de oração, os seminários de vida no Espírito e o louvor espontâneo são as marcas mais conhecidas da Renovação. Ela insiste no que a Igreja sempre ensinou: o Espírito Santo distribui dons a cada um para o bem de todos (1Cor 12), e esses dons devem ser discernidos pelos pastores e vividos na caridade. Não é uma igreja à parte nem uma comunidade com regra de vida: é um modo de viver a fé católica.",
+     "entenda": "Os grupos de oração, os seminários de vida no Espírito e o louvor espontâneo são as marcas mais conhecidas da Renovação. Ela insiste no que a Igreja sempre ensinou: o Espírito Santo distribui dons a cada um para o bem de todos, e esses dons devem ser discernidos pelos pastores e vividos na caridade. Não é uma igreja à parte nem uma comunidade com regra de vida: é um modo de viver a fé católica.",
      "origem": "Começou em fevereiro de 1967, num retiro de estudantes da Universidade Duquesne, nos Estados Unidos. Chegou ao Brasil por volta de 1969, em Campinas, com os padres jesuítas Haroldo Rahm e Eduardo Dougherty. Em 2019 o Papa Francisco criou o CHARIS, um serviço único para toda a Renovação Carismática no mundo.",
-     "fontes": ["CIC 799-801", "1Cor 12,4-11", "1Ts 5,19-21"]
+     "fontes": [
+      "CIC 799-801",
+      "1Cor 12,4-11",
+      "1Ts 5,19-21"
+     ]
     },
     {
      "pergunta": "O que são as novas comunidades?",
      "resposta": "São associações de fiéis, nascidas sobretudo a partir dos anos 1970, em que leigos, consagrados e às vezes sacerdotes vivem um carisma próprio em comunidade, com aprovação da Igreja.",
-     "entenda": "Muitas nasceram no ambiente da Renovação Carismática. Costumam ter duas formas de pertença: a comunidade de vida, de quem mora junto e se dedica inteiramente à missão, e a comunidade de aliança, de quem vive o carisma na própria casa e no trabalho. Cada uma tem estatutos aprovados pelo bispo ou pela Santa Sé. Entre as mais conhecidas no Brasil estão a Canção Nova, fundada em 1978 por Monsenhor Jonas Abib em Cachoeira Paulista, e a Comunidade Católica Shalom, fundada em 1982 por Moysés Azevedo em Fortaleza, ambas com reconhecimento pontifício.",
-     "origem": "O Concílio Vaticano II lembrou que todos os batizados são chamados à santidade e ao apostolado e que os fiéis têm o direito de se associar. O Código de Direito Canônico de 1983 regulou essas associações, e São João Paulo II as chamou de sinais de uma nova primavera da Igreja.",
-     "fontes": ["Lumen Gentium 40", "Apostolicam Actuositatem 18-19", "CDC cân. 298-329"]
+     "entenda": "Muitas nasceram no ambiente da Renovação Carismática. Costumam ter duas formas de pertença: a comunidade de vida, de quem mora junto e se dedica inteiramente à missão, e a comunidade de aliança, de quem vive o carisma na própria casa e no trabalho. Cada uma tem estatutos aprovados pelo bispo ou pela Santa Sé, e as maiores têm reconhecimento pontifício.",
+     "origem": "No Brasil, algumas das mais conhecidas são a Canção Nova e a Comunidade Católica Shalom, que têm fichas próprias aqui. O florescimento dessas comunidades é um dos frutos do Concílio Vaticano II, que valorizou a vocação e a missão dos leigos.",
+     "fontes": [
+      "Apostolicam Actuositatem 18-19",
+      "CDC cân. 298-329"
+     ]
+    },
+    {
+     "pergunta": "O que é a Canção Nova?",
+     "resposta": "É uma comunidade católica de vida e de aliança, fundada em 1978 por Monsenhor Jonas Abib em Cachoeira Paulista (SP), dedicada à evangelização pelos meios de comunicação.",
+     "entenda": "A Canção Nova é conhecida pela TV, pela rádio, pelos portais e pelos grandes encontros de oração em Cachoeira Paulista. Seus membros vivem o carisma de evangelizar \"formando homens novos para um mundo novo\", na espiritualidade da Renovação Carismática. É reconhecida pela Santa Sé como associação internacional de fiéis.",
+     "origem": "Monsenhor Jonas Abib (1936-2022) era padre salesiano. Em 1978, inspirado pela exortação Evangelii Nuntiandi, de São Paulo VI, sobre a evangelização pelos meios de comunicação, reuniu os primeiros jovens que formaram a comunidade.",
+     "fontes": [
+      "Inter Mirifica 3",
+      "Evangelii Nuntiandi 45"
+     ]
+    },
+    {
+     "pergunta": "O que é a Comunidade Católica Shalom?",
+     "resposta": "É uma comunidade de vida e de aliança fundada em 1982 por Moysés Azevedo em Fortaleza (CE), com o carisma de evangelizar, sobretudo os jovens, a partir da contemplação, da unidade e da missão.",
+     "entenda": "A Shalom tem missões em vários países, com centros de evangelização, encontros de jovens, música e obras sociais. Seus membros vivem a espiritualidade da Renovação Carismática unida à vida contemplativa. É reconhecida pela Santa Sé como associação internacional de fiéis.",
+     "origem": "Em 1980, durante a visita de São João Paulo II a Fortaleza, o jovem Moysés Azevedo ofereceu ao Papa o projeto de uma lanchonete para evangelizar jovens. O projeto se tornou, em 1982, o primeiro centro de evangelização da comunidade.",
+     "fontes": [
+      "Apostolicam Actuositatem 12"
+     ]
+    },
+    {
+     "pergunta": "O que é a Opus Dei?",
+     "resposta": "É uma prelazia pessoal da Igreja Católica, fundada em 1928 por São Josemaria Escrivá, que ensina a buscar a santidade no trabalho e na vida comum de cada dia.",
+     "entenda": "A Opus Dei (\"Obra de Deus\") tem um prelado, sacerdotes e leigos. A maioria dos membros são leigos casados, os supernumerários; há também numerários e agregados, que vivem o celibato. Todos procuram santificar o trabalho, a família e as relações, como Jesus em Nazaré. Os sacerdotes ligados à Obra formam a Sociedade Sacerdotal da Santa Cruz.",
+     "origem": "São Josemaria Escrivá (1902-1975) fundou a Opus Dei em Madri, em 2 de outubro de 1928. São João Paulo II a erigiu como prelazia pessoal em 1982 e canonizou o fundador em 2002. Em 2022 o Papa Francisco atualizou suas normas, ligando-a ao Dicastério para o Clero.",
+     "fontes": [
+      "Lumen Gentium 31",
+      "Lumen Gentium 40",
+      "CDC cân. 294-297"
+     ]
+    },
+    {
+     "pergunta": "O que é o Caminho Neocatecumenal?",
+     "resposta": "É um itinerário de formação católica, vivido em pequenas comunidades dentro das paróquias, para redescobrir a riqueza do Batismo, como um catecumenato depois do Batismo.",
+     "entenda": "As comunidades se reúnem para celebrar a Palavra e a Eucaristia e para a convivência fraterna, num caminho de anos dividido em etapas. O Caminho tem seminários missionários próprios e famílias que partem em missão. Seus estatutos foram aprovados definitivamente pela Santa Sé em 2008.",
+     "origem": "Nasceu em 1964 entre os pobres dos barracos de Palomeras Altas, em Madri, com o pintor Kiko Argüello e Carmen Hernández, que foram morar entre eles e começaram a anunciar o Evangelho.",
+     "fontes": [
+      "CIC 1231",
+      "CIC 1229-1233"
+     ]
+    },
+    {
+     "pergunta": "O que é o Movimento dos Focolares?",
+     "resposta": "É um movimento fundado por Chiara Lubich em 1943, em Trento, na Itália, com o carisma da unidade: viver o pedido de Jesus \"que todos sejam um\".",
+     "entenda": "O nome vem de \"focolare\", lareira em italiano: o lugar de calor e de família. O movimento reúne leigos, consagrados, sacerdotes e famílias, e é conhecido pelo diálogo com outros cristãos e outras religiões e pela Economia de Comunhão. Seu nome oficial é Obra de Maria.",
+     "origem": "Durante os bombardeios da Segunda Guerra Mundial, Chiara Lubich e algumas amigas, vendo tudo desabar, decidiram pôr Deus como único ideal da vida e viver o Evangelho ao pé da letra. Daí nasceu o movimento.",
+     "fontes": [
+      "Jo 17,21",
+      "Unitatis Redintegratio 4"
+     ]
+    },
+    {
+     "pergunta": "O que é Comunhão e Libertação?",
+     "resposta": "É um movimento fundado pelo padre Luigi Giussani em Milão, em 1954, que propõe a educação da fé como experiência de encontro com Cristo dentro da vida real.",
+     "entenda": "Os membros se reúnem semanalmente na \"Escola de Comunidade\" para ler e confrontar com a vida os textos de formação. O movimento insiste que o cristianismo é um acontecimento, o encontro com uma Pessoa, e não apenas uma ética ou um conjunto de regras.",
+     "origem": "O padre Luigi Giussani (1922-2005) começou com estudantes do ensino médio em Milão, no grupo Juventude Estudantil. O nome Comunhão e Libertação surgiu em 1969. São João Paulo II reconheceu a Fraternidade de CL em 1982.",
+     "fontes": [
+      "CIC 425",
+      "Deus Caritas Est 1"
+     ]
+    },
+    {
+     "pergunta": "O que é o Movimento de Schoenstatt?",
+     "resposta": "É um movimento mariano fundado pelo padre José Kentenich em 1914, em Schoenstatt, na Alemanha, centrado na Aliança de Amor com Maria e no seu pequeno santuário.",
+     "entenda": "Os membros selam uma aliança com Nossa Senhora, a Mãe Três Vezes Admirável, para que ela os eduque como cristãos. No Brasil é muito conhecida a Campanha da Mãe Peregrina, em que uma imagem de Maria visita as casas, iniciada por João Luiz Pozzobon em Santa Maria (RS).",
+     "origem": "Em 18 de outubro de 1914, o padre José Kentenich (1885-1968) e um grupo de jovens seminaristas selaram a primeira Aliança de Amor numa pequena capela em Vallendar. Hoje há réplicas desse santuário no mundo inteiro.",
+     "fontes": [
+      "CIC 971",
+      "Jo 19,27"
+     ]
+    },
+    {
+     "pergunta": "O que é a Legião de Maria?",
+     "resposta": "É uma associação de leigos fundada em Dublin, na Irlanda, em 1921, por Frank Duff, que une a oração com Maria ao apostolado de visitar casas, doentes e afastados da Igreja.",
+     "entenda": "Os membros se reúnem toda semana em grupos chamados praesidia, rezam juntos e recebem tarefas de apostolado. A organização se inspira na legião romana. É presente em quase todas as dioceses do Brasil.",
+     "origem": "Em 7 de setembro de 1921, Frank Duff (1889-1980), funcionário público em Dublin, reuniu um grupo de mulheres para rezar e servir os pobres. O movimento se espalhou pelo mundo inteiro.",
+     "fontes": [
+      "Lumen Gentium 33",
+      "CIC 971"
+     ]
+    },
+    {
+     "pergunta": "O que são as comunidades tradicionais?",
+     "resposta": "São comunidades e institutos católicos, em plena comunhão com o Papa, que celebram com a forma antiga do rito romano, o Missal de 1962, a chamada Missa tridentina, com aprovação da Igreja.",
+     "entenda": "No Brasil há a Administração Apostólica Pessoal São João Maria Vianney, com sede em Campos dos Goytacazes (RJ), criada por São João Paulo II em 2002 para os fiéis ligados à liturgia antiga. No mundo, há institutos como a Fraternidade Sacerdotal São Pedro, de 1988. O uso do Missal de 1962 é regulado pela Santa Sé e pelos bispos. Não se devem confundir com grupos que não estão em plena comunhão com Roma.",
+     "origem": "Depois da reforma litúrgica do Concílio Vaticano II, alguns fiéis e sacerdotes quiseram manter a forma anterior da Missa. A Santa Sé criou estruturas para acolhê-los dentro da Igreja, em plena comunhão com o Papa.",
+     "fontes": [
+      "SC 4",
+      "CIC 1200-1203"
+     ]
     }
    ]
   }
